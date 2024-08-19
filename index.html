@@ -146,7 +146,7 @@
             <h3>Gel</h3>
             <ul class="service-list">
               <li class="service-item">
-                <span class="service-name">Buff & repaint With gel polish</span>
+                <span class="service-name">Buff & repaint with gel polish</span>
                 <span class="service-price">$25</span>
               </li>
               <li class="service-item">
@@ -388,53 +388,7 @@
                     required
                   >
                     <option value="">- Select -</option>
-                    <option value="Sculpture Nail Gel Polish Included">
-                      Sculpture Nail Gel Polish Included
-                    </option>
-                    <option value="Extension with (Tip) Gel Polish Included">
-                      Extension with (Tip) Gel Polish Included
-                    </option>
-                    <option value="Overlay Dipping Powder">
-                      Overlay Dipping Powder
-                    </option>
-                    <option value="Acrylic Infill Gel Polish included">
-                      Acrylic Infill Gel Polish included
-                    </option>
-                    <option value="Infill Hard Gel or Poly Gel">
-                      Infill Hard Gel or Poly Gel
-                    </option>
-                    <option value="Overlay with Gel Polish Included">
-                      Overlay with Gel Polish Included
-                    </option>
-                    <option value="Extension removal">Extension removal</option>
-                    <option value="Express Manicure with Gel Polish">
-                      Express Manicure with Gel Polish
-                    </option>
-                    <option value="Deluxe Manicure with Gel Polish">
-                      Deluxe Manicure with Gel Polish
-                    </option>
-                    <option value="Deluxe Manicure with Soft Gel">
-                      Deluxe Manicure with Soft Gel
-                    </option>
-                    <option value="Buff & Repaint Nails & Toes with Gel Polish">
-                      Buff & Repaint Nails & Toes with Gel Polish
-                    </option>
-                    <option value="Overlay (Hard gel, Soft Gel, Poly Gel)">
-                      Overlay (Hard gel, Soft Gel, Poly Gel)
-                    </option>
-                    <option value="Hard gel, Soft Gel, Poly Gel Removal">
-                      Hard gel, Soft Gel, Poly Gel Removal
-                    </option>
-                    <option value="Manicure before extension">
-                      Manicure before extension
-                    </option>
-                    <option value="French">French</option>
-                    <option value="Nail Art / Design Ombré or Chrome">
-                      Nail Art / Design Ombré or Chrome
-                    </option>
-                    <option value="Nail Art / Design-Feature nails">
-                      Nail Art / Design-Feature nails
-                    </option>
+                    <!-- Options will be dynamically populated by JavaScript -->
                   </select>
                 </div>
               </div>
@@ -507,6 +461,47 @@
           mobileMenuToggle.classList.remove("active");
         }
       });
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+      // Function to populate the service dropdown
+      function populateServiceDropdown() {
+        // Select the dropdown element
+        const serviceDropdown = document.getElementById("service");
+
+        // Select all service items from the services section
+        const serviceItems = document.querySelectorAll(
+          "#services .service-item .service-name"
+        );
+
+        // Clear existing options (except the first one)
+        serviceDropdown.innerHTML = '<option value="">- Select -</option>';
+
+        // Create a Set to store unique service names
+        const uniqueServices = new Set();
+
+        // Add each service as an option in the dropdown
+        serviceItems.forEach((item) => {
+          const serviceName = item.textContent.trim();
+          if (!uniqueServices.has(serviceName)) {
+            uniqueServices.add(serviceName);
+            const option = document.createElement("option");
+            option.value = serviceName;
+            option.textContent = serviceName;
+            serviceDropdown.appendChild(option);
+          }
+        });
+
+        // Sort the options alphabetically (excluding the first "Select" option)
+        const options = Array.from(serviceDropdown.options).slice(1);
+        options.sort((a, b) => a.text.localeCompare(b.text));
+        serviceDropdown.innerHTML =
+          '<option value="">- Select -</option>' +
+          options.map((option) => option.outerHTML).join("");
+      }
+
+      // Call the function to populate the dropdown
+      populateServiceDropdown();
     });
   </script>
 </html>

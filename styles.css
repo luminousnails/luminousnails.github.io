@@ -315,9 +315,15 @@ h2 {
   gap: 30px;
 }
 
-.contact-info {
+.contact-info-and-map {
   flex: 1;
   min-width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info {
+  margin-bottom: 20px;
 }
 
 .contact-info ul {
@@ -351,34 +357,52 @@ h2 {
 
 .map-container {
   flex: 1;
-  min-width: 300px;
-  height: auto; /* Remove fixed height */
+  min-height: 300px;
 }
 
 .map-container iframe {
   width: 100%;
   height: 100%;
-  min-height: 300px; /* Ensure a minimum height */
   border: none;
   border-radius: 10px;
 }
 
-@media (min-width: 769px) {
-  .contact-container {
-    align-items: stretch; /* Stretch both columns to equal height */
-  }
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+}
 
-  .map-container {
-    display: flex; /* Use flexbox for vertical centering */
-    align-items: center;
-  }
+.ff-el-group {
+  margin-bottom: 20px;
+}
 
-  .map-container iframe {
-    flex: 1; /* Allow iframe to grow and shrink */
-    height: auto; /* Let height be determined by aspect ratio */
-    min-height: 250px; /* Ensure a minimum height on larger screens */
-    max-height: 400px; /* Limit maximum height */
-  }
+.ff-el-input--label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.ff-el-form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.ff-btn-submit {
+  background-color: var(--accent-color);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.ff-btn-submit:hover {
+  background-color: var(--primary-color);
 }
 
 @media (max-width: 768px) {
@@ -386,13 +410,13 @@ h2 {
     flex-direction: column;
   }
 
-  .contact-info,
-  .map-container {
+  .contact-info-and-map,
+  .contact-form {
     width: 100%;
   }
 
-  .map-container iframe {
-    height: 300px; /* Fixed height for mobile */
+  .map-container {
+    height: 300px;
   }
 }
 
