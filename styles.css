@@ -1,0 +1,189 @@
+:root {
+  --primary-color: #FF69B4; /* Hot Pink */
+  --secondary-color: #FFC0CB; /* Light Pink */
+  --accent-color: #FF1493; /* Deep Pink */
+  --text-color: #333;
+  --background-color: #FFF0F5; /* Lavender Blush */
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  background-color: white;
+  padding: 1rem 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  margin: 0;
+  color: var(--primary-color);
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: var(--accent-color);
+}
+
+.hero-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+#hero {
+  text-align: center;
+  padding: 50px 0;
+  background-color: var(--secondary-color);
+}
+
+#hero h2 {
+  color: white;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background: var(--accent-color);
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: var(--primary-color);
+}
+
+section {
+  padding: 50px 0;
+}
+
+h2 {
+  color: var(--primary-color);
+}
+
+.degree-image {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+  border: 5px solid white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.service-category {
+  margin-bottom: 30px;
+}
+
+.service-category h3 {
+  color: var(--accent-color);
+  border-bottom: 2px solid var(--secondary-color);
+  padding-bottom: 10px;
+}
+
+.service-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.service-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.service-item:hover {
+  background-color: var(--secondary-color);
+}
+
+.service-name {
+  flex-grow: 1;
+}
+
+.service-price {
+  font-weight: bold;
+  color: var(--accent-color);
+}
+
+.reviews {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.review {
+  flex-basis: calc(33% - 20px);
+  margin-bottom: 30px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.review-author {
+  font-weight: bold;
+  color: var(--accent-color);
+}
+
+.review-content {
+  margin-top: 10px;
+}
+
+.review-rating {
+  color: gold;
+  font-size: 1.2em;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;
+}
+
+.social-links a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}

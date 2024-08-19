@@ -1,5 +1,1 @@
 User-agent: *
-Disallow: /wp-admin/
-Allow: /wp-admin/admin-ajax.php
-
-Sitemap: http://www.luminous-nails.com.au/wp-sitemap.xml
