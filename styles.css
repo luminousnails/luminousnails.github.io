@@ -20,7 +20,7 @@ body {
 
 .container {
   width: 90%;
-  max-width: 1000px;
+  max-width: 900px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -47,7 +47,7 @@ header {
 
 @media (max-width: 480px) {
   .logo-image {
-      max-height: 50px;
+    max-height: 50px;
   }
 }
 
@@ -83,7 +83,7 @@ nav {
 }
 
 .mobile-menu-toggle {
-  display: none;  /* Hide by default */
+  display: none;
   background: none;
   border: none;
   cursor: pointer;
@@ -106,46 +106,35 @@ nav {
   margin: 5px 0;
 }
 
-.nav-menu {
-  display: flex;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.nav-menu li {
-  margin-left: 20px;
-}
-
 @media (max-width: 768px) {
   .mobile-menu-toggle {
-      display: flex;  /* Show only on smaller screens */
+    display: flex;
   }
 
   .nav-menu {
-      display: none;
-      position: absolute;
-      top: 100%;
-      left: 0;
-      right: 0;
-      background-color: var(--white);
-      flex-direction: column;
-      padding: 20px;
-      box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: var(--white);
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
   }
 
   .nav-menu.active {
-      display: flex;
+    display: flex;
   }
 
   .nav-menu li {
-      margin: 10px 0;
+    margin: 10px 0;
   }
 }
 
 @media (min-width: 769px) {
   .nav-menu {
-      display: flex !important;  /* Always show on larger screens */
+    display: flex !important;
   }
 }
 
@@ -169,8 +158,6 @@ nav {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* ... (previous CSS rules remain unchanged) ... */
-
 .btn, .ff-btn-submit {
   display: inline-block;
   background-color: var(--accent-color);
@@ -192,18 +179,13 @@ nav {
 .ff-btn-submit {
   padding: 12px 24px;
   font-size: 1em;
-  width: 200px; /* Set a fixed width for the submit button */
+  width: 200px;
 }
 
 .btn:hover, .ff-btn-submit:hover {
   background-color: var(--primary-color);
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Center the submit button */
-.ff_submit_btn_wrapper {
-  text-align: center;
 }
 
 section {
@@ -342,11 +324,6 @@ h2 {
   flex-direction: column;
 }
 
-.contact-form {
-  flex: 1;
-  min-width: 300px;
-}
-
 .contact-info {
   margin-bottom: 20px;
 }
@@ -407,6 +384,15 @@ h2 {
   font-weight: bold;
 }
 
+.required {
+  color: var(--required-color);
+  margin-left: 3px;
+}
+
+.ff-el-input--content {
+  position: relative;
+}
+
 .ff-el-form-control {
   width: 100%;
   padding: 10px;
@@ -416,13 +402,30 @@ h2 {
   box-sizing: border-box;
 }
 
-.required {
-  color: var(--required-color);
-  margin-left: 3px;
+.ff-el-form-control:required,
+select.ff-el-form-control[required] {
+  border-color: var(--required-color);
 }
 
-.ff-el-form-control:required {
-  border-left: 3px solid var(--required-color);
+.ff-el-input--content::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: var(--required-color);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.ff-el-input--content:has(>.ff-el-form-control:not(:required))::after {
+  display: none;
+}
+
+.ff-el-form-control:required,
+select.ff-el-form-control[required] {
+  padding-left: 13px;
 }
 
 textarea.ff-el-form-control {
@@ -430,19 +433,8 @@ textarea.ff-el-form-control {
   min-height: 60px;
 }
 
-.ff-btn-submit {
-  background-color: var(--accent-color);
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  transition: background-color 0.3s ease;
-}
-
-.ff-btn-submit:hover {
-  background-color: var(--primary-color);
+.ff_submit_btn_wrapper {
+  text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -474,30 +466,6 @@ textarea.ff-el-form-control {
   }
 }
 
-#service {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  font-size: 16px;
-  background-color: white;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E');
-  background-repeat: no-repeat;
-  background-position: right 10px top 50%;
-  background-size: 12px auto;
-}
-
-#service option:disabled {
-  color: #999;
-}
-
-#service option:not(:disabled) {
-  color: #333;
-}
-
 footer {
   background-color: var(--primary-color);
   color: var(--white);
@@ -515,31 +483,4 @@ footer {
 
 .social-links a:hover {
   color: var(--secondary-color);
-}
-
-@media (max-width: 768px) {
-  nav {
-    float: none;
-    text-align: center;
-    margin-top: 10px;
-  }
-
-  nav li {
-    display: block;
-    margin: 10px 0;
-  }
-
-  .hero-image {
-    max-height: 300px;
-  }
-
-  #hero h1 {
-    font-size: 2em;
-  }
-
-  .service-grid,
-  .reviews,
-  .contact-info {
-    grid-template-columns: 1fr;
-  }
 }
