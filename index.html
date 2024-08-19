@@ -315,7 +315,13 @@
                 >Select a service</label
               >
               <div class="ff-el-input--content">
-                <select id="service" name="service" class="ff-el-form-control">
+                <select
+                  id="service"
+                  name="service"
+                  class="ff-el-form-control"
+                  required
+                  aria-required="true"
+                >
                   <option value="">- Select -</option>
                   <!-- Service options will be populated by JavaScript -->
                 </select>
@@ -331,6 +337,7 @@
                   name="fullName"
                   class="ff-el-form-control"
                   required
+                  aria-required="true"
                 />
               </div>
             </div>
@@ -344,6 +351,7 @@
                   name="email"
                   class="ff-el-form-control"
                   required
+                  aria-required="true"
                 />
               </div>
             </div>
@@ -357,6 +365,7 @@
                   name="phone"
                   class="ff-el-form-control"
                   required
+                  aria-required="true"
                 />
               </div>
             </div>
@@ -371,7 +380,6 @@
                   id="preferredTime"
                   name="preferredTime"
                   class="ff-el-form-control"
-                  required
                 />
               </div>
             </div>
@@ -386,7 +394,6 @@
                   id="preferredDate"
                   name="preferredDate"
                   class="ff-el-form-control"
-                  required
                 />
               </div>
             </div>

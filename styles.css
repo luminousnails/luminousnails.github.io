@@ -6,6 +6,7 @@
   --background-color: #f5f7fa;  /* Off-White */
   --white: #ffffff;
   --black: #000000;
+  --required-color: #e74c3c;    /* Red for required fields */
 }
 
 body {
@@ -19,8 +20,8 @@ body {
 
 .container {
   width: 90%;
-  max-width: 1200px;
-  margin: auto;
+  max-width: 1000px;
+  margin: 0 auto;
   overflow: hidden;
 }
 
@@ -168,22 +169,41 @@ nav {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.btn {
+/* ... (previous CSS rules remain unchanged) ... */
+
+.btn, .ff-btn-submit {
   display: inline-block;
-  background: var(--accent-color);
+  background-color: var(--accent-color);
   color: var(--white);
-  background: var(--accent-color);
-  padding: 12px 24px;
   text-decoration: none;
+  border: none;
   border-radius: 25px;
   transition: all 0.3s ease;
   font-weight: bold;
+  cursor: pointer;
+  text-align: center;
 }
 
-.btn:hover {
+.btn {
+  padding: 15px 30px;
+  font-size: 1.2em;
+}
+
+.ff-btn-submit {
+  padding: 12px 24px;
+  font-size: 1em;
+  width: 200px; /* Set a fixed width for the submit button */
+}
+
+.btn:hover, .ff-btn-submit:hover {
   background-color: var(--primary-color);
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Center the submit button */
+.ff_submit_btn_wrapper {
+  text-align: center;
 }
 
 section {
@@ -377,7 +397,7 @@ h2 {
   min-width: 300px;
 }
 
-..ff-el-group {
+.ff-el-group {
   margin-bottom: 20px;
 }
 
@@ -394,6 +414,15 @@ h2 {
   border-radius: 5px;
   font-size: 16px;
   box-sizing: border-box;
+}
+
+.required {
+  color: var(--required-color);
+  margin-left: 3px;
+}
+
+.ff-el-form-control:required {
+  border-left: 3px solid var(--required-color);
 }
 
 textarea.ff-el-form-control {
