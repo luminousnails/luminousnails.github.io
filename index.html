@@ -3,30 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Luminous Nails</title>
+    <title>Luminous Nails - Professional Nail Care</title>
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
   </head>
   <body>
     <header>
       <div class="container">
-        <a href="#" class="logo">
-          <img
-            src="images/luminous-nails-logo.png"
-            alt="Luminous Nails"
-            class="logo-image"
-          />
-        </a>
-        <nav>
-          <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#reviews">Reviews</a></li>
-            <li><a href="#contact">Contact Us</a></li>
-          </ul>
-        </nav>
+        <div class="header-content">
+          <a href="#" class="logo">
+            <img
+              src="images/luminous-nails-logo.png"
+              alt="Luminous Nails"
+              class="logo-image"
+            />
+          </a>
+          <nav>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <ul class="nav-menu">
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#reviews">Reviews</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
-
     <section id="hero">
       <div class="container">
         <img
@@ -34,7 +44,7 @@
           alt="Luminous Nails"
           class="hero-image"
         />
-        <h2>Add a Flavour to Being a Girl</h2>
+        <h1>Add a Flavour to Being a Girl</h1>
         <a href="#contact" class="btn">Book Now</a>
       </div>
     </section>
@@ -44,27 +54,25 @@
         <h2>About Us</h2>
         <p>
           I am a highly skilled artist, backed by industry qualifications and
-          years of experience.
+          years of experience. Trained with a degree from the OZA Art School in
+          Russia, I bring a unique artistic perspective to nail care.
         </p>
-        <p>I am trained with a degree from the OZA Art School in Russia.</p>
         <img
           src="images/degree.jpg"
           alt="OZA Art School Degree"
           class="degree-image"
         />
         <p>
-          Luminous Nails is on the Sunshine Coast, providing all nail services
-          including acrylic, dipping/SNS powder, hard gel/ soft gel, polygel,
-          manicure and Shellac/gel colour.
+          Luminous Nails, located on the Sunshine Coast, provides all nail
+          services including acrylic, dipping/SNS powder, hard gel/ soft gel,
+          polygel, manicure, and Shellac/gel colour.
         </p>
         <p>
-          As a managing director, I have ensured that Luminous Nails has become
-          one of the best nail salons located in South Queensland.
-        </p>
-        <p>
-          There is no rushing at Luminous Nails. I take my time and get the job
-          done properly and safely. I provide the highest quality service with
-          the best long-lasting result.
+          As the managing director, I have ensured that Luminous Nails has
+          become one of the best nail salons in South Queensland. We pride
+          ourselves on taking our time to get the job done properly and safely,
+          providing the highest quality service with the best long-lasting
+          results.
         </p>
       </div>
     </section>
@@ -72,97 +80,98 @@
     <section id="services">
       <div class="container">
         <h2>Our Services</h2>
-
-        <div class="service-category">
-          <h3>Acrylic</h3>
-          <ul class="service-list">
-            <li class="service-item">
-              <span class="service-name">Full set gel polish included</span>
-              <span class="service-price">$55</span>
-            </li>
-            <li class="service-item">
-              <span class="service-name">Infill gel polish included</span>
-              <span class="service-price">$45</span>
-            </li>
-            <li class="service-item">
-              <span class="service-name"
-                >Full set overlay gel polish included</span
-              >
-              <span class="service-price">$50</span>
-            </li>
-          </ul>
-        </div>
-
-        <div class="service-category">
-          <h3>Builder Organic Gel</h3>
-          <ul class="service-list">
-            <li class="service-item">
-              <span class="service-name"
-                >Full set on natural length nails gel polish included</span
-              >
-              <span class="service-price">$55</span>
-            </li>
-            <li class="service-item">
-              <span class="service-name"
-                >Full set extension gel polish included</span
-              >
-              <span class="service-price">$70</span>
-            </li>
-            <li class="service-item">
-              <span class="service-name">Infil gel polish included</span>
-              <span class="service-price">$55</span>
-            </li>
-          </ul>
-        </div>
-
-        <div class="service-category">
-          <h3>Manicure</h3>
-          <ul class="service-list">
-            <li class="service-item">
-              <span class="service-name">Express manicure with gel polish</span>
-              <span class="service-price">$35</span>
-            </li>
-            <li class="service-item">
-              <span class="service-name">Deluxe manicure with gel polish</span>
-              <span class="service-price">$49</span>
-            </li>
-            <li class="service-item">
-              <span class="service-name">Deluxe manicure with soft gel</span>
-              <span class="service-price">$70</span>
-            </li>
-          </ul>
-        </div>
-
-        <div class="service-category">
-          <h3>Gel</h3>
-          <ul class="service-list">
-            <li class="service-item">
-              <span class="service-name">Buff & repaint With gel polish</span>
-              <span class="service-price">$25</span>
-            </li>
-            <li class="service-item">
-              <span class="service-name"
-                >Overlay (hard gel, soft gel, poly gel)</span
-              >
-              <span class="service-price">$55</span>
-            </li>
-          </ul>
-        </div>
-
-        <div class="service-category">
-          <h3>Other Services</h3>
-          <ul class="service-list">
-            <li class="service-item">
-              <span class="service-name">French</span>
-              <span class="service-price">$10</span>
-            </li>
-            <li class="service-item">
-              <span class="service-name"
-                >Nail art / design ombré or chrome</span
-              >
-              <span class="service-price">$10</span>
-            </li>
-          </ul>
+        <div class="service-grid">
+          <div class="service-category">
+            <h3>Acrylic</h3>
+            <ul class="service-list">
+              <li class="service-item">
+                <span class="service-name">Full set gel polish included</span>
+                <span class="service-price">$55</span>
+              </li>
+              <li class="service-item">
+                <span class="service-name">Infill gel polish included</span>
+                <span class="service-price">$45</span>
+              </li>
+              <li class="service-item">
+                <span class="service-name"
+                  >Full set overlay gel polish included</span
+                >
+                <span class="service-price">$50</span>
+              </li>
+            </ul>
+          </div>
+          <div class="service-category">
+            <h3>Builder Organic Gel</h3>
+            <ul class="service-list">
+              <li class="service-item">
+                <span class="service-name"
+                  >Full set on natural length nails gel polish included</span
+                >
+                <span class="service-price">$55</span>
+              </li>
+              <li class="service-item">
+                <span class="service-name"
+                  >Full set extension gel polish included</span
+                >
+                <span class="service-price">$70</span>
+              </li>
+              <li class="service-item">
+                <span class="service-name">Infil gel polish included</span>
+                <span class="service-price">$55</span>
+              </li>
+            </ul>
+          </div>
+          <div class="service-category">
+            <h3>Manicure</h3>
+            <ul class="service-list">
+              <li class="service-item">
+                <span class="service-name"
+                  >Express manicure with gel polish</span
+                >
+                <span class="service-price">$35</span>
+              </li>
+              <li class="service-item">
+                <span class="service-name"
+                  >Deluxe manicure with gel polish</span
+                >
+                <span class="service-price">$49</span>
+              </li>
+              <li class="service-item">
+                <span class="service-name">Deluxe manicure with soft gel</span>
+                <span class="service-price">$70</span>
+              </li>
+            </ul>
+          </div>
+          <div class="service-category">
+            <h3>Gel</h3>
+            <ul class="service-list">
+              <li class="service-item">
+                <span class="service-name">Buff & repaint With gel polish</span>
+                <span class="service-price">$25</span>
+              </li>
+              <li class="service-item">
+                <span class="service-name"
+                  >Overlay (hard gel, soft gel, poly gel)</span
+                >
+                <span class="service-price">$55</span>
+              </li>
+            </ul>
+          </div>
+          <div class="service-category">
+            <h3>Other Services</h3>
+            <ul class="service-list">
+              <li class="service-item">
+                <span class="service-name">French</span>
+                <span class="service-price">$10</span>
+              </li>
+              <li class="service-item">
+                <span class="service-name"
+                  >Nail art / design ombré or chrome</span
+                >
+                <span class="service-price">$10</span>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
@@ -179,16 +188,16 @@
                 class="review-avatar"
               />
               <div>
-                <div class="review-author">Shamim Rezaee</div>
+                <span class="review-author">Shamim Rezaee</span>
                 <div class="review-rating">★★★★★</div>
               </div>
             </div>
-            <div class="review-content">
+            <p class="review-content">
               For a nail service that combines expertise, cleanliness, and
               personalized care, Luminous nail service is a top choice... Hoda
               is looking after my nails more than a year and I am pretty happy
               with her service. Would recommend her to anyone.
-            </div>
+            </p>
             <a
               href="https://www.facebook.com/example-profile"
               class="review-link"
@@ -204,17 +213,17 @@
                 class="review-avatar"
               />
               <div>
-                <div class="review-author">Heather Rogers</div>
+                <span class="review-author">Heather Rogers</span>
                 <div class="review-rating">★★★★★</div>
               </div>
             </div>
-            <div class="review-content">
+            <p class="review-content">
               I am so glad I have found Hoda as she has restored my nail health
               using soft gel overlay after many many years of acrylic. I now
               have my own nails super long with a beautiful overlay of soft gel.
               They finally look natural and thin but super strong. Highly
               recommend. Thank you Hoda.
-            </div>
+            </p>
             <a
               href="https://www.instagram.com/example-profile"
               class="review-link"
@@ -230,16 +239,16 @@
                 class="review-avatar"
               />
               <div>
-                <div class="review-author">Gulya Munnings</div>
+                <span class="review-author">Gulya Munnings</span>
                 <div class="review-rating">★★★★★</div>
               </div>
             </div>
-            <div class="review-content">
+            <p class="review-content">
               Hoda has been looking after my nails for a while. I am so glad I
               found her. She is very passionate and professional even though I
               am a very difficult and picky client. She always makes sure I am
               happy with my nails. Recommend Hoda's service 100%.
-            </div>
+            </p>
             <a
               href="https://www.facebook.com/example-profile"
               class="review-link"
@@ -254,16 +263,27 @@
     <section id="contact">
       <div class="container">
         <h2>Contact Us</h2>
-        <p>Phone: <a href="tel:+61439929210">0439929210</a></p>
-        <p>
-          Email:
-          <a href="mailto:info@luminous-nails.com.au?subject=Booking%20request"
-            >info@luminous-nails.com.au</a
-          >
-        </p>
-        <p>Address: 85 Palmview Forest Drive, Palmview, QLD, 4553</p>
-        <p>Additional Location: Turbot Street, Spring Hill, QLD, 4000</p>
-        <!-- Add a simple contact form here -->
+        <div class="contact-info">
+          <p>
+            <i class="fas fa-phone"></i>
+            <a href="tel:+61439929210">0439 929 210</a>
+          </p>
+          <p>
+            <i class="fas fa-envelope"></i>
+            <a
+              href="mailto:info@luminous-nails.com.au?subject=Booking%20request"
+              >info@luminous-nails.com.au</a
+            >
+          </p>
+          <p>
+            <i class="fas fa-map-marker-alt"></i> 85 Palmview Forest Drive,
+            Palmview, QLD, 4553
+          </p>
+          <p>
+            <i class="fas fa-map-marker-alt"></i> Turbot Street, Spring Hill,
+            QLD, 4000
+          </p>
+        </div>
       </div>
     </section>
 
@@ -272,15 +292,55 @@
         <p>&copy; 2024 Luminous Nails. All rights reserved.</p>
         <div class="social-links">
           <a href="https://www.instagram.com/luminous.nails/" target="_blank"
-            >Instagram</a
-          >
+            ><i class="fab fa-instagram"></i
+          ></a>
           <a
             href="https://www.facebook.com/Luminous-Nails-1047621128675893/"
             target="_blank"
-            >Facebook</a
-          >
+            ><i class="fab fa-facebook"></i
+          ></a>
         </div>
       </div>
     </footer>
   </body>
-</html>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+        const navLinks = document.querySelectorAll('.nav-menu a');
+    
+        function toggleMenu() {
+            navMenu.classList.toggle('active');
+            mobileMenuToggle.classList.toggle('active');
+        }
+    
+        mobileMenuToggle.addEventListener('click', toggleMenu);
+    
+        navLinks.forEach(link => {
+            link.addEventListener('click', function(e) {
+                if (window.innerWidth <= 768) {
+                    toggleMenu();
+                }
+            });
+        });
+    
+        // Close menu when clicking outside
+        document.addEventListener('click', function(e) {
+            const isClickInsideMenu = navMenu.contains(e.target);
+            const isClickOnToggle = mobileMenuToggle.contains(e.target);
+            
+            if (!isClickInsideMenu && !isClickOnToggle && navMenu.classList.contains('active')) {
+                toggleMenu();
+            }
+        });
+    
+        // Reset menu state on window resize
+        window.addEventListener('resize', function() {
+            if (window.innerWidth > 768) {
+                navMenu.classList.remove('active');
+                mobileMenuToggle.classList.remove('active');
+            }
+        });
+    });
+    </script>
+  </html>
