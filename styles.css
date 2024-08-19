@@ -1,18 +1,22 @@
 :root {
-  --primary-color: #000000;     /* Black */
-  --secondary-color: #ffffff;   /* White */
-  --accent-color: #b8860b;      /* Dark Gold */
-  --text-color: #000000;        /* Black */
-  --background-color: #ffffff;  /* White */
-  --footer-bg-color: #000000;   /* Black */
+  --primary-color: #000000; /* Black */
+  --secondary-color: #ffffff; /* White */
+  --accent-color: #b8860b; /* Dark Gold */
+  --text-color: #000000; /* Black */
+  --background-color: #ffffff; /* White */
+  --footer-bg-color: #000000; /* Black */
   --footer-text-color: #ffffff; /* White */
-  --required-color: #dd5555;    /* Red for required fields */
-  --valid-color: #b8860b;      /* Gold for filled fields */
-  --heading-font: 'Alata', sans-serif;
-  --hero-font: 'Allura', cursive;
+  --required-color: #dd5555; /* Red for required fields */
+  --valid-color: #b8860b; /* Gold for filled fields */
+  --heading-font: "Alata", sans-serif;
+  --hero-font: "Allura", cursive;
   --hero-text-color: #333333;
-  --box-shadow-color: rgba(184, 134, 11, 0.2);    /* Subtle gold shadow */
-  --box-shadow: 0 0 0 2px var(--box-shadow-color);  /* New variable for box shadow */
+  --box-shadow-color: rgba(184, 134, 11, 0.2); /* Subtle gold shadow */
+  --box-shadow-light: 0 2px 5px var(--box-shadow-color);
+  --box-shadow-medium: 0 4px 10px var(--box-shadow-color);
+  --box-shadow-heavy: 0 6px 15px var(--box-shadow-color);
+  --box-shadow: 0 0 0 2px var(--box-shadow-color); /* New variable for box shadow */
+  --animation-speed: 0.15s;
 }
 
 body {
@@ -24,12 +28,22 @@ body {
   background-color: var(--background-color);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--heading-font);
   transition: color 0.3s ease;
 }
 
-h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover,
+h5:hover,
+h6:hover {
   color: var(--accent-color);
 }
 
@@ -43,7 +57,7 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
 header {
   background-color: var(--background-color);
   color: var(--text-color);
-  box-shadow: 0 2px 5px var(--box-shadow-color);
+  box-shadow: var(--box-shadow-light);
 }
 
 .header-content {
@@ -73,7 +87,7 @@ nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  transition: all 0.3s ease;
+  transition: all var(--animation-speed) ease;
 }
 
 .nav-menu li {
@@ -84,7 +98,7 @@ nav {
   color: var(--text-color);
   text-decoration: none;
   font-weight: bold;
-  transition: color 0.3s ease;
+  transition: color var(--animation-speed) ease, background-color var(--animation-speed) ease;
   padding: 5px 10px;
   border-radius: 5px;
 }
@@ -101,9 +115,11 @@ nav {
   cursor: pointer;
   padding: 10px;
   height: 44px;
+  width: 44px; /* Added width to make it square */
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center; /* Changed to center */
   align-items: center;
+  position: relative; /* Added position relative */
 }
 
 .mobile-menu-toggle span {
@@ -111,42 +127,94 @@ nav {
   width: 25px;
   height: 2px;
   background-color: var(--text-color);
-  transition: all 0.3s ease;
+  transition: all var(--animation-speed) ease;
+  position: absolute; /* Changed to absolute positioning */
 }
 
-.mobile-menu-toggle span:nth-child(2) {
-  margin: 5px 0;
+.mobile-menu-toggle span:nth-child(1) {
+  transform: translateY(-8px);
+}
+
+.mobile-menu-toggle span:nth-child(3) {
+  transform: translateY(8px);
+}
+
+/* Updated styles for the "X" animation */
+.mobile-menu-toggle.active span:nth-child(1) {
+  transform: rotate(45deg);
+}
+
+.mobile-menu-toggle.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.mobile-menu-toggle.active span:nth-child(3) {
+  transform: rotate(-45deg);
 }
 
 @media (max-width: 768px) {
   .mobile-menu-toggle {
     display: flex;
+    z-index: 1001; /* Ensure the toggle is above the menu */
   }
 
   .nav-menu {
-    display: none;
-    position: absolute;
-    top: 100%;
+    display: flex; /* Always use flex layout */
+    position: fixed; /* Change to fixed positioning */
+    top: 0;
     left: 0;
     right: 0;
-    background-color: var(--white);
+    bottom: 0; /* Full-screen menu */
+    background-color: var(--background-color);
     flex-direction: column;
+    justify-content: center; /* Center menu items vertically */
+    align-items: center; /* Center menu items horizontally */
     padding: 20px;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    box-shadow: var(--box-shadow-medium);
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity var(--animation-speed) ease, visibility var(--animation-speed) ease;
+    overflow-y: auto; /* Allow scrolling if needed */
   }
 
   .nav-menu.active {
-    display: flex;
+    opacity: 1;
+    visibility: visible;
   }
 
   .nav-menu li {
-    margin: 10px 0;
+    margin: 20px 0; /* Increase vertical spacing between items */
+    width: 100%; /* Full width for touch targets */
+    text-align: center;
+  }
+
+  .nav-menu a {
+    display: block;
+    padding: 15px; /* Larger touch target */
+    font-size: 1.2em; /* Slightly larger font for better readability */
   }
 }
 
 @media (min-width: 769px) {
   .nav-menu {
     display: flex !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    position: static; /* Reset position for desktop */
+    flex-direction: row; /* Horizontal layout for desktop */
+    justify-content: flex-end; /* Align to the right for desktop */
+    padding: 0;
+  }
+
+  .nav-menu li {
+    margin: 0 0 0 20px; /* Reset margin for desktop */
+    width: auto; /* Auto width for desktop */
+  }
+
+  .nav-menu a {
+    padding: 5px 10px; /* Reset padding for desktop */
+    font-size: 1em; /* Reset font size for desktop */
   }
 }
 
@@ -170,7 +238,7 @@ nav {
   font-weight: 400;
   margin: 20px 0;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
-  transition: color 0.3s ease;
+  transition: color var(--animation-speed) ease;
   letter-spacing: 1px;
   line-height: 1.2;
 }
@@ -179,14 +247,15 @@ nav {
   color: var(--accent-color);
 }
 
-.btn, .ff-btn-submit {
+.btn,
+.ff-btn-submit {
   display: inline-block;
   background-color: var(--text-color);
   color: var(--background-color);
   text-decoration: none;
   border: none;
   border-radius: 25px;
-  transition: all 0.3s ease;
+  transition: all var(--animation-speed) ease;
   font-weight: bold;
   cursor: pointer;
   text-align: center;
@@ -203,7 +272,8 @@ nav {
   width: 200px;
 }
 
-.btn:hover, .ff-btn-submit:hover {
+.btn:hover,
+.ff-btn-submit:hover {
   background-color: var(--accent-color);
   transform: translateY(-2px);
   box-shadow: var(--box-shadow);
@@ -224,8 +294,12 @@ h2 {
   height: auto;
   margin: 20px 0;
   border: 5px solid white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--box-shadow-medium);
   border-radius: 10px;
+}
+
+#services, #reviews {
+  padding: 50px 10px; /* Reduced horizontal padding */
 }
 
 .service-grid {
@@ -234,6 +308,21 @@ h2 {
   gap: 30px;
   max-width: 900px;
   margin: 0 auto;
+  padding-bottom: 10px; /* Reduced bottom padding */
+}
+
+.service-category {
+  background-color: var(--background-color);
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow-medium);
+  transition: box-shadow var(--animation-speed) ease;
+  border: 1px solid var(--accent-color);
+  margin-bottom: 5px; /* Reduced bottom margin */
+}
+
+.service-category:hover {
+  box-shadow: var(--box-shadow-heavy);
 }
 
 @media (min-width: 768px) {
@@ -244,34 +333,37 @@ h2 {
 
 .service-category {
   background-color: var(--background-color);
-  padding: 15px 20px; /* Reduced top padding */
+  padding: 15px 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  box-shadow: var(--box-shadow-medium);
+  transition: box-shadow var(--animation-speed) ease;
   border: 1px solid var(--accent-color);
 }
 
 .service-category:hover {
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
-  transform: translateY(-5px);
+  box-shadow: var(--box-shadow-heavy);
 }
 
 .service-category h3 {
   font-family: var(--hero-font);
   color: var(--text-color);
-  font-size: 2.2em; /* Slightly reduced font size */
+  font-size: 2.2em;
   font-weight: 400;
-  margin-top: 0; /* Removed top margin */
+  margin-top: 0;
   margin-bottom: 15px;
   padding-bottom: 10px;
-  border-bottom: 2px solid var(--accent-color);
+  border-bottom: 1px solid var(--accent-color);
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
-  transition: color 0.3s ease;
+  transition: color var(--animation-speed) ease;
   letter-spacing: 1px;
   line-height: 1.2;
 }
 
 .service-category h3:hover {
+  color: var(--accent-color);
+}
+
+.service-category:hover h3 {
   color: var(--accent-color);
 }
 
@@ -287,7 +379,7 @@ h2 {
   padding: 10px;
   background-color: var(--secondary-color);
   border-radius: 5px;
-  transition: background-color 0.3s ease;
+  transition: background-color var(--animation-speed) ease;
 }
 
 .service-item:hover {
@@ -307,20 +399,22 @@ h2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
+  padding: 5px; /* Reduced padding around the grid */
+  padding-bottom: 10px; /* Reduced extra padding at the bottom */
 }
 
 .review {
   background-color: var(--background-color);
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  box-shadow: var(--box-shadow-medium);
+  transition: box-shadow var(--animation-speed) ease;
   border: 1px solid var(--accent-color);
+  margin-bottom: 5px; /* Reduced margin at the bottom */
 }
 
 .review:hover {
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
-  transform: translateY(-5px);
+  box-shadow: var(--box-shadow-heavy);
 }
 
 .review-header {
@@ -405,7 +499,7 @@ h2 {
 .contact-info a {
   color: var(--text-color);
   text-decoration: none;
-  transition: color 0.3s ease;
+  transition: color var(--animation-speed) ease;
 }
 
 .contact-info a:hover {
@@ -459,7 +553,7 @@ h2 {
   height: 44px;
   background-color: var(--background-color);
   color: var(--text-color);
-  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  transition: border-color var(--animation-speed) ease, box-shadow var(--animation-speed) ease;
 }
 
 select.ff-el-form-control {
@@ -484,7 +578,7 @@ select.ff-el-form-control[required] {
   border-left: 4px solid var(--required-color);
   border-right: 4px solid var(--required-color);
   padding-left: 13px;
-  transition: border-left-color 0.3s ease;
+  transition: border-left-color var(--animation-speed) ease;
 }
 
 .ff-el-form-control:required:valid,
@@ -544,7 +638,7 @@ footer {
   color: var(--footer-text-color);
   margin: 0 10px;
   font-size: 1.5em;
-  transition: color 0.3s ease;
+  transition: color var(--animation-speed) ease;
 }
 
 .social-links a:hover {

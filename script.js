@@ -5,12 +5,27 @@ document.addEventListener("DOMContentLoaded", function () {
     const navMenu = document.querySelector(".nav-menu");
     const navLinks = document.querySelectorAll(".nav-menu a");
 
+    if (!mobileMenuToggle || !navMenu) {
+      console.error("Mobile menu elements not found");
+      return;
+    }
+
     function toggleMenu() {
       navMenu.classList.toggle("active");
       mobileMenuToggle.classList.toggle("active");
+
+      // Toggle aria-expanded attribute
+      const isExpanded = mobileMenuToggle.getAttribute("aria-expanded") === "true" || false;
+      mobileMenuToggle.setAttribute("aria-expanded", !isExpanded);
+
+      // Toggle body scroll
+      document.body.style.overflow = isExpanded ? "auto" : "hidden";
     }
 
-    mobileMenuToggle.addEventListener("click", toggleMenu);
+    mobileMenuToggle.addEventListener("click", function (event) {
+      event.stopPropagation();
+      toggleMenu();
+    });
 
     navLinks.forEach((link) => {
       link.addEventListener("click", function () {
@@ -39,6 +54,8 @@ document.addEventListener("DOMContentLoaded", function () {
       if (window.innerWidth > 768) {
         navMenu.classList.remove("active");
         mobileMenuToggle.classList.remove("active");
+        mobileMenuToggle.setAttribute("aria-expanded", "false");
+        document.body.style.overflow = "auto";
       }
     });
   }
@@ -80,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Handle required fields
   function handleRequiredFields() {
     const requiredFields = document.querySelectorAll('.ff-el-form-control:required');
-    
+
     requiredFields.forEach(field => {
       function checkField() {
         if (field.value.trim() !== '') {
