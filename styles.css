@@ -238,7 +238,15 @@ h2 {
   background-color: var(--background-color);
   padding: 20px;
   border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 6px var(--box-shadow-color);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  border: 1px solid var(--accent-color);
+}
+
+.service-category:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
 }
 
 .service-category h3 {
@@ -301,10 +309,16 @@ h2 {
 
 .review {
   background-color: var(--background-color);
-  border: 1px solid var(--text-color);
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 6px var(--box-shadow-color);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  border: 1px solid var(--accent-color);
+}
+
+.review:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
 }
 
 .review-header {
