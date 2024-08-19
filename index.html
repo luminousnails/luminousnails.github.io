@@ -260,32 +260,194 @@
       </div>
     </section>
 
-    <section id="contact">
+    <div id="contact" class="section">
       <div class="container">
         <h2>Contact Us</h2>
-        <div class="contact-info">
-          <p>
-            <i class="fas fa-phone"></i>
-            <a href="tel:+61439929210">0439 929 210</a>
-          </p>
-          <p>
-            <i class="fas fa-envelope"></i>
-            <a
-              href="mailto:info@luminous-nails.com.au?subject=Booking%20request"
-              >info@luminous-nails.com.au</a
+        <div class="contact-container">
+          <div class="contact-info-and-map">
+            <div class="contact-info">
+              <ul>
+                <li>
+                  <i class="fas fa-phone"></i>
+                  <a href="tel:+61439929210">0439 929 210</a>
+                </li>
+                <li>
+                  <i class="fas fa-envelope"></i>
+                  <a
+                    href="mailto:info@luminous-nails.com.au?subject=Booking request"
+                    >info@luminous-nails.com.au</a
+                  >
+                </li>
+                <li>
+                  <i class="fas fa-map-marker-alt"></i>
+                  <a
+                    class="map-link"
+                    data-address="85 Palmview Forest Drive, Palmview, QLD, 4553"
+                    href="#"
+                    >85 Palmview Forest Drive, Palmview, QLD, 4553</a
+                  >
+                </li>
+                <li>
+                  <i class="fas fa-map-marker-alt"></i>
+                  <a
+                    class="map-link"
+                    data-address="Turbot Street, Spring Hill, QLD, 4000"
+                    href="#"
+                    >Turbot Street, Spring Hill, QLD, 4000</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="map-container">
+              <iframe
+                src="https://maps.google.com/maps?q=-26.751086823161135%2C%20153.03775572872482&amp;t=m&amp;z=16&amp;output=embed&amp;iwloc=near"
+                title="Luminous Nails Location"
+                aria-label="Luminous Nails Location Map"
+              ></iframe>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form
+              class="ff-el-form-top"
+              action="https://formspree.io/f/xkndaeya"
+              method="POST"
             >
-          </p>
-          <p>
-            <i class="fas fa-map-marker-alt"></i> 85 Palmview Forest Drive,
-            Palmview, QLD, 4553
-          </p>
-          <p>
-            <i class="fas fa-map-marker-alt"></i> Turbot Street, Spring Hill,
-            QLD, 4000
-          </p>
+              <div class="ff-el-group">
+                <label for="full_name" class="ff-el-input--label"
+                  >Full Name</label
+                >
+                <div class="ff-el-input--content">
+                  <input
+                    type="text"
+                    name="Full Name"
+                    id="full_name"
+                    class="ff-el-form-control"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="ff-el-group">
+                <label for="email" class="ff-el-input--label">Email</label>
+                <div class="ff-el-input--content">
+                  <input
+                    type="email"
+                    name="Email"
+                    id="email"
+                    class="ff-el-form-control"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="ff-el-group">
+                <label for="phone" class="ff-el-input--label">Phone</label>
+                <div class="ff-el-input--content">
+                  <input
+                    type="tel"
+                    name="Phone"
+                    id="phone"
+                    class="ff-el-form-control"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="ff-el-group">
+                <label for="preferred_time" class="ff-el-input--label"
+                  >Preferred Time</label
+                >
+                <div class="ff-el-input--content">
+                  <input
+                    type="time"
+                    name="Preferred Time"
+                    id="preferred_time"
+                    class="ff-el-form-control"
+                  />
+                </div>
+              </div>
+              <div class="ff-el-group">
+                <label for="preferred_date" class="ff-el-input--label"
+                  >Preferred Date</label
+                >
+                <div class="ff-el-input--content">
+                  <input
+                    type="date"
+                    name="Preferred Date"
+                    id="preferred_date"
+                    class="ff-el-form-control"
+                  />
+                </div>
+              </div>
+              <div class="ff-el-group">
+                <label for="service" class="ff-el-input--label"
+                  >Select a service</label
+                >
+                <div class="ff-el-input--content">
+                  <select
+                    name="Service"
+                    id="service"
+                    class="ff-el-form-control"
+                    required
+                  >
+                    <option value="">- Select -</option>
+                    <option value="Sculpture Nail Gel Polish Included">
+                      Sculpture Nail Gel Polish Included
+                    </option>
+                    <option value="Extension with (Tip) Gel Polish Included">
+                      Extension with (Tip) Gel Polish Included
+                    </option>
+                    <option value="Overlay Dipping Powder">
+                      Overlay Dipping Powder
+                    </option>
+                    <option value="Acrylic Infill Gel Polish included">
+                      Acrylic Infill Gel Polish included
+                    </option>
+                    <option value="Infill Hard Gel or Poly Gel">
+                      Infill Hard Gel or Poly Gel
+                    </option>
+                    <option value="Overlay with Gel Polish Included">
+                      Overlay with Gel Polish Included
+                    </option>
+                    <option value="Extension removal">Extension removal</option>
+                    <option value="Express Manicure with Gel Polish">
+                      Express Manicure with Gel Polish
+                    </option>
+                    <option value="Deluxe Manicure with Gel Polish">
+                      Deluxe Manicure with Gel Polish
+                    </option>
+                    <option value="Deluxe Manicure with Soft Gel">
+                      Deluxe Manicure with Soft Gel
+                    </option>
+                    <option value="Buff & Repaint Nails & Toes with Gel Polish">
+                      Buff & Repaint Nails & Toes with Gel Polish
+                    </option>
+                    <option value="Overlay (Hard gel, Soft Gel, Poly Gel)">
+                      Overlay (Hard gel, Soft Gel, Poly Gel)
+                    </option>
+                    <option value="Hard gel, Soft Gel, Poly Gel Removal">
+                      Hard gel, Soft Gel, Poly Gel Removal
+                    </option>
+                    <option value="Manicure before extension">
+                      Manicure before extension
+                    </option>
+                    <option value="French">French</option>
+                    <option value="Nail Art / Design Ombré or Chrome">
+                      Nail Art / Design Ombré or Chrome
+                    </option>
+                    <option value="Nail Art / Design-Feature nails">
+                      Nail Art / Design-Feature nails
+                    </option>
+                  </select>
+                </div>
+              </div>
+              <div class="ff-el-group ff-text-left ff_submit_btn_wrapper">
+                <button type="submit" class="ff-btn ff-btn-submit ff-btn-md">
+                  Send
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
-    </section>
+    </div>
 
     <footer>
       <div class="container">
@@ -304,43 +466,47 @@
     </footer>
   </body>
   <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
-        const navMenu = document.querySelector('.nav-menu');
-        const navLinks = document.querySelectorAll('.nav-menu a');
-    
-        function toggleMenu() {
-            navMenu.classList.toggle('active');
-            mobileMenuToggle.classList.toggle('active');
+    document.addEventListener("DOMContentLoaded", function () {
+      const mobileMenuToggle = document.querySelector(".mobile-menu-toggle");
+      const navMenu = document.querySelector(".nav-menu");
+      const navLinks = document.querySelectorAll(".nav-menu a");
+
+      function toggleMenu() {
+        navMenu.classList.toggle("active");
+        mobileMenuToggle.classList.toggle("active");
+      }
+
+      mobileMenuToggle.addEventListener("click", toggleMenu);
+
+      navLinks.forEach((link) => {
+        link.addEventListener("click", function (e) {
+          if (window.innerWidth <= 768) {
+            toggleMenu();
+          }
+        });
+      });
+
+      // Close menu when clicking outside
+      document.addEventListener("click", function (e) {
+        const isClickInsideMenu = navMenu.contains(e.target);
+        const isClickOnToggle = mobileMenuToggle.contains(e.target);
+
+        if (
+          !isClickInsideMenu &&
+          !isClickOnToggle &&
+          navMenu.classList.contains("active")
+        ) {
+          toggleMenu();
         }
-    
-        mobileMenuToggle.addEventListener('click', toggleMenu);
-    
-        navLinks.forEach(link => {
-            link.addEventListener('click', function(e) {
-                if (window.innerWidth <= 768) {
-                    toggleMenu();
-                }
-            });
-        });
-    
-        // Close menu when clicking outside
-        document.addEventListener('click', function(e) {
-            const isClickInsideMenu = navMenu.contains(e.target);
-            const isClickOnToggle = mobileMenuToggle.contains(e.target);
-            
-            if (!isClickInsideMenu && !isClickOnToggle && navMenu.classList.contains('active')) {
-                toggleMenu();
-            }
-        });
-    
-        // Reset menu state on window resize
-        window.addEventListener('resize', function() {
-            if (window.innerWidth > 768) {
-                navMenu.classList.remove('active');
-                mobileMenuToggle.classList.remove('active');
-            }
-        });
+      });
+
+      // Reset menu state on window resize
+      window.addEventListener("resize", function () {
+        if (window.innerWidth > 768) {
+          navMenu.classList.remove("active");
+          mobileMenuToggle.classList.remove("active");
+        }
+      });
     });
-    </script>
-  </html>
+  </script>
+</html>
