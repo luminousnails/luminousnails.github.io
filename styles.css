@@ -6,7 +6,9 @@
   --background-color: #f5f7fa;  /* Off-White */
   --white: #ffffff;
   --black: #000000;
-  --required-color: #e74c3c;    /* Red for required fields */
+  --required-color: #e67e22;    /* required field missing highlight */
+  --filled-color: #2ecc71;      /* required field filled highlight */
+  
 }
 
 body {
@@ -404,28 +406,14 @@ h2 {
 
 .ff-el-form-control:required,
 select.ff-el-form-control[required] {
-  border-color: var(--required-color);
-}
-
-.ff-el-input--content::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 3px;
-  background-color: var(--required-color);
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-}
-
-.ff-el-input--content:has(>.ff-el-form-control:not(:required))::after {
-  display: none;
-}
-
-.ff-el-form-control:required,
-select.ff-el-form-control[required] {
+  border-left: 3px solid var(--required-color);
   padding-left: 13px;
+  transition: border-left-color 0.3s ease;
+}
+
+.ff-el-form-control:required:valid,
+select.ff-el-form-control[required]:valid {
+  border-left-color: var(--filled-color);
 }
 
 textarea.ff-el-form-control {
