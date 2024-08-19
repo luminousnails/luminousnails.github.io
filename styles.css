@@ -322,6 +322,11 @@ h2 {
   flex-direction: column;
 }
 
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+}
+
 .contact-info {
   margin-bottom: 20px;
 }
@@ -372,7 +377,7 @@ h2 {
   min-width: 300px;
 }
 
-.ff-el-group {
+..ff-el-group {
   margin-bottom: 20px;
 }
 
@@ -388,6 +393,12 @@ h2 {
   border: 1px solid #ddd;
   border-radius: 5px;
   font-size: 16px;
+  box-sizing: border-box;
+}
+
+textarea.ff-el-form-control {
+  resize: vertical;
+  min-height: 60px;
 }
 
 .ff-btn-submit {
@@ -415,8 +426,22 @@ h2 {
     width: 100%;
   }
 
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-form {
+    order: -1;
+  }
+
   .map-container {
     height: 300px;
+  }
+
+  .ff-el-form-control,
+  #service {
+    max-width: 100%;
   }
 }
 
