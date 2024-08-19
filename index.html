@@ -377,16 +377,9 @@
                 </div>
               </div>
               <div class="ff-el-group">
-                <label for="service" class="ff-el-input--label"
-                  >Select a service</label
-                >
+                <label for="service" class="ff-el-input--label">Select a service</label>
                 <div class="ff-el-input--content">
-                  <select
-                    name="Service"
-                    id="service"
-                    class="ff-el-form-control"
-                    required
-                  >
+                  <select name="Service" id="service" class="ff-el-form-control" required>
                     <option value="">- Select -</option>
                     <!-- Options will be dynamically populated by JavaScript -->
                   </select>
@@ -464,43 +457,39 @@
     });
 
     document.addEventListener("DOMContentLoaded", function () {
-      // Function to populate the service dropdown
       function populateServiceDropdown() {
-        // Select the dropdown element
         const serviceDropdown = document.getElementById("service");
-
-        // Select all service items from the services section
-        const serviceItems = document.querySelectorAll(
-          "#services .service-item .service-name"
+        const serviceCategories = document.querySelectorAll(
+          "#services .service-category"
         );
 
-        // Clear existing options (except the first one)
+        // Clear existing options
         serviceDropdown.innerHTML = '<option value="">- Select -</option>';
 
-        // Create a Set to store unique service names
-        const uniqueServices = new Set();
+        serviceCategories.forEach((category) => {
+          const categoryName = category.querySelector("h3").textContent.trim();
 
-        // Add each service as an option in the dropdown
-        serviceItems.forEach((item) => {
-          const serviceName = item.textContent.trim();
-          if (!uniqueServices.has(serviceName)) {
-            uniqueServices.add(serviceName);
+          // Add non-selectable category header
+          const groupHeader = document.createElement("option");
+          groupHeader.textContent = categoryName;
+          groupHeader.disabled = true;
+          groupHeader.style.fontWeight = "bold";
+          groupHeader.style.backgroundColor = "#f0f0f0";
+          serviceDropdown.appendChild(groupHeader);
+
+          // Add services under this category
+          const services = category.querySelectorAll(
+            ".service-item .service-name"
+          );
+          services.forEach((service) => {
             const option = document.createElement("option");
-            option.value = serviceName;
-            option.textContent = serviceName;
+            option.value = service.textContent.trim();
+            option.textContent = "  " + service.textContent.trim(); // Add indentation
             serviceDropdown.appendChild(option);
-          }
+          });
         });
-
-        // Sort the options alphabetically (excluding the first "Select" option)
-        const options = Array.from(serviceDropdown.options).slice(1);
-        options.sort((a, b) => a.text.localeCompare(b.text));
-        serviceDropdown.innerHTML =
-          '<option value="">- Select -</option>' +
-          options.map((option) => option.outerHTML).join("");
       }
 
-      // Call the function to populate the dropdown
       populateServiceDropdown();
     });
   </script>
