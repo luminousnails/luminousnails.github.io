@@ -231,111 +231,115 @@
               ></iframe>
             </div>
           </div>
-          <div class="contact-form">
-            <div class="ff-el-group">
-              <label for="service" class="ff-el-input--label"
-                >Select a service</label
-              >
-              <div class="ff-el-input--content">
-                <select
-                  id="service"
-                  name="service"
-                  class="ff-el-form-control"
-                  required
-                  aria-required="true"
+          <form action="https://formspree.io/f/xkndaeya" method="POST">
+            <div class="contact-form">
+              <div class="ff-el-group">
+                <label for="service" class="ff-el-input--label"
+                  >Select a service</label
                 >
-                  <option value="">- Select -</option>
-                  <!-- Service options will be populated by JavaScript -->
-                </select>
+                <div class="ff-el-input--content">
+                  <select
+                    id="service"
+                    name="service"
+                    class="ff-el-form-control"
+                    required
+                    aria-required="true"
+                  >
+                    <option value="">- Select -</option>
+                    <!-- Service options will be populated by JavaScript -->
+                  </select>
+                </div>
+              </div>
+
+              <div class="ff-el-group">
+                <label for="fullName" class="ff-el-input--label"
+                  >Full Name</label
+                >
+                <div class="ff-el-input--content">
+                  <input
+                    type="text"
+                    id="fullName"
+                    name="fullName"
+                    class="ff-el-form-control"
+                    required
+                    aria-required="true"
+                  />
+                </div>
+              </div>
+
+              <div class="ff-el-group">
+                <label for="email" class="ff-el-input--label">Email</label>
+                <div class="ff-el-input--content">
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="ff-el-form-control"
+                    required
+                    aria-required="true"
+                  />
+                </div>
+              </div>
+
+              <div class="ff-el-group">
+                <label for="phone" class="ff-el-input--label">Phone</label>
+                <div class="ff-el-input--content">
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    class="ff-el-form-control"
+                    required
+                    aria-required="true"
+                  />
+                </div>
+              </div>
+
+              <div class="ff-el-group">
+                <label for="preferredTime" class="ff-el-input--label">
+                  Preferred Time
+                </label>
+                <div class="ff-el-input--content">
+                  <input
+                    type="time"
+                    id="preferredTime"
+                    name="preferredTime"
+                    class="ff-el-form-control"
+                  />
+                </div>
+              </div>
+
+              <div class="ff-el-group">
+                <label for="preferredDate" class="ff-el-input--label">
+                  Preferred Date
+                </label>
+                <div class="ff-el-input--content">
+                  <input
+                    type="date"
+                    id="preferredDate"
+                    name="preferredDate"
+                    class="ff-el-form-control"
+                  />
+                </div>
+              </div>
+
+              <div class="ff-el-group">
+                <label for="notes" class="ff-el-input--label">Notes</label>
+                <div class="ff-el-input--content">
+                  <textarea
+                    id="notes"
+                    name="notes"
+                    class="ff-el-form-control"
+                    rows="3"
+                  ></textarea>
+                </div>
+              </div>
+
+              <div class="ff-el-group ff-text-left ff_submit_btn_wrapper">
+                <button type="submit" class="ff-btn-submit">Send</button>
               </div>
             </div>
-
-            <div class="ff-el-group">
-              <label for="fullName" class="ff-el-input--label">Full Name</label>
-              <div class="ff-el-input--content">
-                <input
-                  type="text"
-                  id="fullName"
-                  name="fullName"
-                  class="ff-el-form-control"
-                  required
-                  aria-required="true"
-                />
-              </div>
-            </div>
-
-            <div class="ff-el-group">
-              <label for="email" class="ff-el-input--label">Email</label>
-              <div class="ff-el-input--content">
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  class="ff-el-form-control"
-                  required
-                  aria-required="true"
-                />
-              </div>
-            </div>
-
-            <div class="ff-el-group">
-              <label for="phone" class="ff-el-input--label">Phone</label>
-              <div class="ff-el-input--content">
-                <input
-                  type="tel"
-                  id="phone"
-                  name="phone"
-                  class="ff-el-form-control"
-                  required
-                  aria-required="true"
-                />
-              </div>
-            </div>
-
-            <div class="ff-el-group">
-              <label for="preferredTime" class="ff-el-input--label"
-                >Preferred Time</label
-              >
-              <div class="ff-el-input--content">
-                <input
-                  type="time"
-                  id="preferredTime"
-                  name="preferredTime"
-                  class="ff-el-form-control"
-                />
-              </div>
-            </div>
-
-            <div class="ff-el-group">
-              <label for="preferredDate" class="ff-el-input--label"
-                >Preferred Date</label
-              >
-              <div class="ff-el-input--content">
-                <input
-                  type="date"
-                  id="preferredDate"
-                  name="preferredDate"
-                  class="ff-el-form-control"
-                />
-              </div>
-            </div>
-
-            <div class="ff-el-group">
-              <label for="notes" class="ff-el-input--label">Notes</label>
-              <div class="ff-el-input--content">
-                <textarea
-                  id="notes"
-                  name="notes"
-                  class="ff-el-form-control"
-                  rows="3"
-                ></textarea>
-              </div>
-            </div>
-
-            <div class="ff-el-group ff-text-left ff_submit_btn_wrapper">
-              <button type="submit" class="ff-btn-submit">Send</button>
-            </div>
-          </div>
+          </form>
         </div>
       </div>
     </div>
