@@ -298,17 +298,17 @@ h2 {
   border-radius: 10px;
 }
 
-#services, #reviews {
-  padding: 50px 10px; /* Reduced horizontal padding */
+#services {
+  padding: 50px 0; /* Remove horizontal padding */
 }
 
 .service-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
-  max-width: 900px;
+  max-width: 920px; /* Increased from 900px to allow for shadows */
   margin: 0 auto;
-  padding-bottom: 10px; /* Reduced bottom padding */
+  padding: 10px; /* Add padding to the grid instead of the section */
 }
 
 .service-category {
@@ -318,7 +318,6 @@ h2 {
   box-shadow: var(--box-shadow-medium);
   transition: box-shadow var(--animation-speed) ease;
   border: 1px solid var(--accent-color);
-  margin-bottom: 5px; /* Reduced bottom margin */
 }
 
 .service-category:hover {
@@ -393,6 +392,10 @@ h2 {
 .service-price {
   font-weight: bold;
   color: var(--text-color);
+}
+
+#reviews {
+  padding: 50px 10px; /* Reduced horizontal padding */
 }
 
 .reviews {
