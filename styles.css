@@ -526,27 +526,28 @@ h2 {
   min-width: 300px;
 }
 
-.ff-el-group {
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form .form-group {
   margin-bottom: 20px;
 }
 
-.ff-el-input--label {
+.contact-form label {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
 }
 
-.required {
+.contact-form .required {
   color: var(--required-color);
   margin-left: 4px;
   margin-right: 4px;
 }
 
-.ff-el-input--content {
-  position: relative;
-}
-
-.ff-el-form-control {
+.contact-form .form-control {
   width: 100%;
   padding: 10px;
   border: 1px solid var(--text-color);
@@ -559,7 +560,7 @@ h2 {
   transition: border-color var(--animation-speed) ease, box-shadow var(--animation-speed) ease;
 }
 
-select.ff-el-form-control {
+.contact-form select.form-control {
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -569,62 +570,76 @@ select.ff-el-form-control {
   padding-right: 30px;
 }
 
-.ff-el-form-control:hover,
-.ff-el-form-control:focus {
+.contact-form select.form-control option {
+  padding: 5px;
+}
+
+.contact-form select.form-control option:disabled {
+  font-weight: bold;
+  background-color: #f0f0f0;
+  color: var(--text-color);
+}
+
+.contact-form select.form-control option:not(:disabled) {
+  padding-left: 20px; /* Add indentation for service options */
+}
+
+.contact-form .form-control:hover,
+.contact-form .form-control:focus {
   border-color: var(--accent-color);
   outline: none;
   box-shadow: var(--box-shadow);
 }
 
-.ff-el-form-control:required,
-select.ff-el-form-control[required] {
+.contact-form .form-control:required,
+.contact-form select.form-control[required] {
   border-left: 4px solid var(--required-color);
   border-right: 4px solid var(--required-color);
   padding-left: 13px;
   transition: border-left-color var(--animation-speed) ease;
 }
 
-.ff-el-form-control:required:valid,
-select.ff-el-form-control[required]:valid {
+.contact-form .form-control:required:valid,
+.contact-form select.form-control[required]:valid {
   border-left-color: var(--valid-color);
   border-right-color: var(--valid-color);
 }
 
-textarea.ff-el-form-control {
+.contact-form textarea.form-control {
   height: auto;
   min-height: 100px;
   resize: vertical;
 }
 
-.ff_submit_btn_wrapper {
+.contact-form .submit-wrapper {
   text-align: center;
 }
 
+.contact-form .submit-btn {
+  display: inline-block;
+  background-color: var(--text-color);
+  color: var(--background-color);
+  text-decoration: none;
+  border: none;
+  border-radius: 25px;
+  transition: all var(--animation-speed) ease;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  padding: 12px 24px;
+  font-size: 1em;
+  width: 200px;
+}
+
+.contact-form .submit-btn:hover {
+  background-color: var(--accent-color);
+  transform: translateY(-2px);
+  box-shadow: var(--box-shadow);
+}
+
 @media (max-width: 768px) {
-  .contact-container {
-    flex-direction: column;
-  }
-
-  .contact-info-and-map,
-  .contact-form {
-    width: 100%;
-  }
-
-  .contact-container {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .contact-form {
-    order: -1;
-  }
-
-  .map-container {
-    height: 300px;
-  }
-
-  .ff-el-form-control,
-  #service {
+  .contact-form .form-control,
+  .contact-form select.form-control {
     max-width: 100%;
   }
 }

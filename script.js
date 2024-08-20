@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Handle required fields
   function handleRequiredFields() {
-    const requiredFields = document.querySelectorAll('.ff-el-form-control:required');
+    const requiredFields = document.querySelectorAll('.form-control:required');
 
     requiredFields.forEach(field => {
       function checkField() {
@@ -114,8 +114,33 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
+  // Validate preferred date
+  function setupDateValidation() {
+    const dateInput = document.getElementById('preferredDate');
+    if (!dateInput) return;
+
+    // Set min attribute to today's date
+    const today = new Date();
+    const yyyy = today.getFullYear();
+    const mm = String(today.getMonth() + 1).padStart(2, '0');
+    const dd = String(today.getDate()).padStart(2, '0');
+    const todayString = `${yyyy}-${mm}-${dd}`;
+    dateInput.min = todayString;
+
+    dateInput.addEventListener('change', function() {
+      const selectedDate = new Date(this.value);
+      const todayDate = new Date(todayString);
+
+      if (selectedDate < todayDate) {
+        alert('Please select today or a future date.');
+        this.value = ''; // Clear the invalid date
+      }
+    });
+  }
+
   // Call all setup functions
   setupMobileMenu();
   populateServiceDropdown();
   handleRequiredFields();
+  setupDateValidation();
 });
