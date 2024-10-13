@@ -642,7 +642,6 @@ h2 {
 
 .submit-btn:hover {
   background-color: var(--accent-color);
-  transform: translateY(-2px);
   box-shadow: var(--box-shadow);
 }
 
