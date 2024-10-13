@@ -608,14 +608,12 @@ h2 {
   transition: border-left-color var(--animation-speed) ease;
 }
 
-.contact-form .form-control:required:valid,
-.contact-form select.form-control[required]:valid {
+.contact-form .form-control:required:valid {
   border-left-color: var(--valid-color);
   border-right-color: var(--valid-color);
 }
 
 .contact-form textarea.form-control {
-  height: auto;
   min-height: 100px;
   resize: vertical;
 }
@@ -624,7 +622,7 @@ h2 {
   text-align: center;
 }
 
-.submit-btn {
+.btn {
   display: inline-block;
   background-color: var(--text-color);
   color: var(--background-color);
@@ -640,7 +638,7 @@ h2 {
   width: 200px;
 }
 
-.submit-btn:hover {
+.btn:hover {
   background-color: var(--accent-color);
   box-shadow: var(--box-shadow);
 }
