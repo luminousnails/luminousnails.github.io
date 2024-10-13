@@ -17,8 +17,10 @@
   --box-shadow-heavy: 0 6px 15px var(--box-shadow-color);
   --box-shadow: 0 0 0 2px var(--box-shadow-color); /* New variable for box shadow */
   --animation-speed: 0.15s;
-  --logo-image: url("images/logo-light.png");
-  --logo-image-2x: url("images/logo-light@2x.png");
+  --logo-image: url("images/logo-light.webp");
+  --logo-image-2x: url("images/logo-light@2x.webp");
+  --degree-thumbnail: url("images/degree-thumbnail.webp");
+  --degree-thumbnail-2x: url("images/degree-thumbnail@2x.webp");
 }
 
 @media (prefers-color-scheme: dark) {
@@ -35,8 +37,8 @@
     --hero-text-color: #cccccc; /* Light Gray */
     --service-background-color: #000000;
     --box-shadow-color: rgba(184, 134, 11, 0.2); /* Subtle dark gold shadow */
-    --logo-image: url("images/logo-dark.png");
-    --logo-image-2x: url("images/logo-dark@2x.png");
+    --logo-image: url("images/logo-dark.webp");
+    --logo-image-2x: url("images/logo-dark@2x.webp");
   }
 }
 
@@ -120,7 +122,8 @@ nav {
   color: var(--text-color);
   text-decoration: none;
   font-weight: bold;
-  transition: color var(--animation-speed) ease, background-color var(--animation-speed) ease;
+  transition: color var(--animation-speed) ease,
+    background-color var(--animation-speed) ease;
   padding: 5px 10px;
   border-radius: 5px;
 }
@@ -196,7 +199,8 @@ nav {
     z-index: 1000;
     opacity: 0;
     visibility: hidden;
-    transition: opacity var(--animation-speed) ease, visibility var(--animation-speed) ease;
+    transition: opacity var(--animation-speed) ease,
+      visibility var(--animation-speed) ease;
     overflow-y: auto; /* Allow scrolling if needed */
   }
 
@@ -566,7 +570,8 @@ h2 {
   height: 44px;
   background-color: var(--background-color);
   color: var(--text-color);
-  transition: border-color var(--animation-speed) ease, box-shadow var(--animation-speed) ease;
+  transition: border-color var(--animation-speed) ease,
+    box-shadow var(--animation-speed) ease;
 }
 
 .contact-form select.form-control {
@@ -674,6 +679,13 @@ footer {
   float: right;
   margin: 10px;
   cursor: zoom-in;
+  content: var(--degree-thumbnail);
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .thumbnail-image {
+    content: var(--degree-thumbnail-2x);
+  }
 }
 
 .full-screen-image {
