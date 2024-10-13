@@ -17,6 +17,8 @@
   --box-shadow-heavy: 0 6px 15px var(--box-shadow-color);
   --box-shadow: 0 0 0 2px var(--box-shadow-color); /* New variable for box shadow */
   --animation-speed: 0.15s;
+  --logo-image: url("images/logo-light.png");
+  --logo-image-2x: url("images/logo-light@2x.png");
 }
 
 @media (prefers-color-scheme: dark) {
@@ -33,6 +35,8 @@
     --hero-text-color: #cccccc; /* Light Gray */
     --service-background-color: #000000;
     --box-shadow-color: rgba(184, 134, 11, 0.2); /* Subtle dark gold shadow */
+    --logo-image: url("images/logo-dark.png");
+    --logo-image-2x: url("images/logo-dark@2x.png");
   }
 }
 
@@ -86,11 +90,12 @@ header {
 .logo-image {
   max-height: 70px;
   width: auto;
+  content: var(--logo-image);
 }
 
-@media (max-width: 480px) {
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .logo-image {
-    max-height: 50px;
+    content: var(--logo-image-2x);
   }
 }
 
@@ -619,7 +624,7 @@ h2 {
   text-align: center;
 }
 
-.contact-form .submit-btn, .submit-btn {
+.submit-btn {
   display: inline-block;
   background-color: var(--text-color);
   color: var(--background-color);
@@ -635,7 +640,7 @@ h2 {
   width: 200px;
 }
 
-.contact-form .submit-btn:hover {
+.submit-btn:hover {
   background-color: var(--accent-color);
   transform: translateY(-2px);
   box-shadow: var(--box-shadow);
