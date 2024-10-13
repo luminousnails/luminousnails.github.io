@@ -19,6 +19,22 @@
   --animation-speed: 0.15s;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: #ffffff; /* White */
+    --secondary-color: #000000; /* Black */
+    --accent-color: #b8860b; /* Dark Gold */
+    --text-color: #ffffff; /* White */
+    --background-color: #1a1a1a; /* Dark Grey */
+    --footer-bg-color: #000000; /* Black */
+    --footer-text-color: #ffffff; /* White */
+    --required-color: #ff5555; /* Bright Red for required fields */
+    --valid-color: #b8860b; /* Dark Gold for filled fields */
+    --hero-text-color: #cccccc; /* Light Gray */
+    --box-shadow-color: rgba(184, 134, 11, 0.2); /* Subtle dark gold shadow */
+  }
+}
+
 body {
   font-family: "Arial", sans-serif;
   line-height: 1.6;
@@ -299,16 +315,16 @@ h2 {
 }
 
 #services {
-  padding: 50px 0; /* Remove horizontal padding */
+  padding: 50px 0;
 }
 
 .service-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
-  max-width: 920px; /* Increased from 900px to allow for shadows */
+  max-width: 920px;
   margin: 0 auto;
-  padding: 10px; /* Add padding to the grid instead of the section */
+  padding: 10px;
 }
 
 .service-category {
@@ -581,7 +597,7 @@ h2 {
 }
 
 .contact-form select.form-control option:not(:disabled) {
-  padding-left: 20px; /* Add indentation for service options */
+  padding-left: 20px;
 }
 
 .contact-form .form-control:hover,
