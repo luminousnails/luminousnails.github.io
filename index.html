@@ -38,8 +38,8 @@
             <ul class="nav-menu">
               <li><a href="#about">About</a></li>
               <li><a href="#services">Services</a></li>
+              <li><a href="#book">Book</a></li>
               <li><a href="#contact">Contact</a></li>
-              <li><a href="#reviews">Reviews</a></li>
             </ul>
           </nav>
         </div>
@@ -48,28 +48,29 @@
     <section id="hero">
       <div class="container">
         <img
-          src="images/luminous_nails.jpg"
+          src="images/luminous_nails_4x.jpg"
           alt="Luminous Nails"
           class="hero-image"
         />
         <h1>Add a Flavour to Being a Girl</h1>
-        <a href="#contact" class="btn">Book Now</a>
+        <a target="_top" class="submit-btn" href="https://squareup.com/appointments/book/7pratybxrow1ej/L1W666PMBKDXA/start" rel="nofollow">Book Now</a>
       </div>
     </section>
 
     <section id="about">
       <div class="container">
         <h2>About Us</h2>
+        <img
+          src="images/degree.jpg"
+          alt="OZA Art School Degree"
+          class="thumbnail-image"
+          data-full="images/degree.jpg"
+        />
         <p>
           I am a highly skilled artist, backed by industry qualifications and
           years of experience. Trained with a degree from the OZA Art School in
           Russia, I bring a unique artistic perspective to nail care.
         </p>
-        <img
-          src="images/degree.jpg"
-          alt="OZA Art School Degree"
-          class="degree-image"
-        />
         <p>
           Luminous Nails, located on the Sunshine Coast, provides all nail
           services including acrylic, dipping/SNS powder, hard gel/ soft gel,
@@ -182,6 +183,12 @@
       </div>
     </section>
 
+    <div id="book" class="hero">
+      <div class="container centered">
+        <a target="_top" class="submit-btn" href="https://squareup.com/appointments/book/7pratybxrow1ej/L1W666PMBKDXA/start" rel="nofollow">Book Now</a>
+      </div>
+    </div>
+
     <div id="contact" class="section">
       <div class="container">
         <h2>Contact Us</h2>
@@ -237,9 +244,7 @@
             class="contact-form"
           >
             <div class="form-group">
-              <label for="service"
-                >Select a service</label
-              >
+              <label for="service">Select a service</label>
               <select id="service" name="Service" class="form-control" required>
                 <option value="">- Select -</option>
                 <!-- Options will be populated by JavaScript -->
@@ -247,30 +252,60 @@
             </div>
 
             <div class="form-group">
-              <label for="fullName"
-                >Full Name</label
-              >
-              <input type="text" id="fullName" name="Full Name" class="form-control" required />
+              <label for="fullName">Full Name</label>
+              <input
+                type="text"
+                id="fullName"
+                name="Full Name"
+                class="form-control"
+                required
+              />
             </div>
 
             <div class="form-group">
               <label for="email">Email</label>
-              <input type="email" id="email" name="Email" class="form-control" required />
+              <input
+                type="email"
+                id="email"
+                name="Email"
+                class="form-control"
+                required
+              />
             </div>
 
             <div class="form-group">
               <label for="phone">Phone</label>
-              <input type="tel" id="phone" name="Phone" class="form-control" required />
-            </div>
-
-            <div class="form-group">
-              <label for="preferredTime">Preferred Time</label>
-              <input type="time" id="preferredTime" name="Preferred Time" class="form-control" required />
+              <input
+                type="tel"
+                id="phone"
+                name="Phone"
+                class="form-control"
+                required
+              />
             </div>
 
             <div class="form-group">
               <label for="preferredDate">Preferred Date</label>
-              <input type="date" id="preferredDate" name="Preferred Date" class="form-control" required />
+              <input
+                type="date"
+                id="preferredDate"
+                name="Preferred Date"
+                class="form-control"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="preferredTime">Preferred Time</label>
+              <input
+                type="time"
+                id="preferredTime"
+                name="Preferred Time"
+                class="form-control"
+                required
+                min="07:00"
+                max="18:00"
+              />
             </div>
 
             <div class="form-group">
@@ -286,89 +321,9 @@
       </div>
     </div>
 
-    <section id="reviews">
-      <div class="container">
-        <h2>Customer Reviews</h2>
-        <div class="reviews">
-          <div class="review">
-            <div class="review-header">
-              <img
-                src="/api/placeholder/50/50"
-                alt="Shamim Rezaee"
-                class="review-avatar"
-              />
-              <div>
-                <span class="review-author">Shamim Rezaee</span>
-                <div class="review-rating">★★★★★</div>
-              </div>
-            </div>
-            <p class="review-content">
-              For a nail service that combines expertise, cleanliness, and
-              personalized care, Luminous nail service is a top choice... Hoda
-              is looking after my nails more than a year and I am pretty happy
-              with her service. Would recommend her to anyone.
-            </p>
-            <a
-              href="https://www.facebook.com/example-profile"
-              class="review-link"
-              target="_blank"
-              >View Profile</a
-            >
-          </div>
-          <div class="review">
-            <div class="review-header">
-              <img
-                src="/api/placeholder/50/50"
-                alt="Heather Rogers"
-                class="review-avatar"
-              />
-              <div>
-                <span class="review-author">Heather Rogers</span>
-                <div class="review-rating">★★★★★</div>
-              </div>
-            </div>
-            <p class="review-content">
-              I am so glad I have found Hoda as she has restored my nail health
-              using soft gel overlay after many many years of acrylic. I now
-              have my own nails super long with a beautiful overlay of soft gel.
-              They finally look natural and thin but super strong. Highly
-              recommend. Thank you Hoda.
-            </p>
-            <a
-              href="https://www.instagram.com/example-profile"
-              class="review-link"
-              target="_blank"
-              >View Profile</a
-            >
-          </div>
-          <div class="review">
-            <div class="review-header">
-              <img
-                src="/api/placeholder/50/50"
-                alt="Gulya Munnings"
-                class="review-avatar"
-              />
-              <div>
-                <span class="review-author">Gulya Munnings</span>
-                <div class="review-rating">★★★★★</div>
-              </div>
-            </div>
-            <p class="review-content">
-              Hoda has been looking after my nails for a while. I am so glad I
-              found her. She is very passionate and professional even though I
-              am a very difficult and picky client. She always makes sure I am
-              happy with my nails. Recommend Hoda's service 100%.
-            </p>
-            <a
-              href="https://www.facebook.com/example-profile"
-              class="review-link"
-              target="_blank"
-              >View Profile</a
-            >
-          </div>
-        </div>
-      </div>
-    </section>
+    <div id="fullScreenImage" class="full-screen-image">
+      <img src="" alt="Full Screen Image" />
+    </div>
 
     <footer>
       <div class="container">

@@ -127,7 +127,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const todayString = `${yyyy}-${mm}-${dd}`;
     dateInput.min = todayString;
 
-    dateInput.addEventListener('change', function() {
+    dateInput.addEventListener('change', function () {
       const selectedDate = new Date(this.value);
       const todayDate = new Date(todayString);
 
@@ -138,9 +138,25 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
+  function setupFullScreenImage() {
+    document.querySelectorAll('.thumbnail-image').forEach(thumbnail => {
+      thumbnail.addEventListener('click', function () {
+        const fullScreenImage = document.getElementById('fullScreenImage');
+        const fullScreenImgTag = fullScreenImage.querySelector('img');
+        fullScreenImgTag.src = this.getAttribute('data-full');
+        fullScreenImage.style.display = 'flex';
+      });
+    });
+
+    document.getElementById('fullScreenImage').addEventListener('click', function () {
+      this.style.display = 'none';
+    });
+  }
+
   // Call all setup functions
   setupMobileMenu();
   populateServiceDropdown();
   handleRequiredFields();
   setupDateValidation();
+  setupFullScreenImage();
 });
