@@ -31,6 +31,7 @@
     --required-color: #ff5555; /* Bright Red for required fields */
     --valid-color: #b8860b; /* Dark Gold for filled fields */
     --hero-text-color: #cccccc; /* Light Gray */
+    --service-background-color: #000000;
     --box-shadow-color: rgba(184, 134, 11, 0.2); /* Subtle dark gold shadow */
   }
 }
@@ -327,19 +328,6 @@ h2 {
   padding: 10px;
 }
 
-.service-category {
-  background-color: var(--background-color);
-  padding: 15px 20px;
-  border-radius: 10px;
-  box-shadow: var(--box-shadow-medium);
-  transition: box-shadow var(--animation-speed) ease;
-  border: 1px solid var(--accent-color);
-}
-
-.service-category:hover {
-  box-shadow: var(--box-shadow-heavy);
-}
-
 @media (min-width: 768px) {
   .service-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -347,7 +335,7 @@ h2 {
 }
 
 .service-category {
-  background-color: var(--background-color);
+  background-color: var(--service-background-color);
   padding: 15px 20px;
   border-radius: 10px;
   box-shadow: var(--box-shadow-medium);
