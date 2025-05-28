@@ -190,9 +190,12 @@ document.addEventListener("DOMContentLoaded", function () {
         targetLink.classList.add('active');
       }
 
-      // Update dropdown selection
-      if (locationDropdown && locationDropdown.value !== locationKey) {
-        locationDropdown.value = locationKey;
+      // Update dropdown selection using data-location attribute
+      if (locationDropdown) {
+        const targetOption = locationDropdown.querySelector(`[data-location="${locationKey}"]`);
+        if (targetOption && locationDropdown.value !== targetOption.value) {
+          locationDropdown.value = targetOption.value;
+        }
       }
     }
 
@@ -204,9 +207,10 @@ document.addEventListener("DOMContentLoaded", function () {
     // Add change event listener to location dropdown
     if (locationDropdown) {
       locationDropdown.addEventListener('change', function() {
-        const selectedLocation = this.value;
-        if (selectedLocation && mapUrls[selectedLocation]) {
-          updateMapAndState(selectedLocation);
+        const selectedOption = this.options[this.selectedIndex];
+        const locationKey = selectedOption.getAttribute('data-location');
+        if (locationKey && mapUrls[locationKey]) {
+          updateMapAndState(locationKey);
         }
       });
     }
