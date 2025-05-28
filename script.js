@@ -159,15 +159,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const mapLinks = document.querySelectorAll('.map-link');
     const locationDropdown = document.getElementById('location');
 
-    // Debug logging
-    console.log('Setting up interactive map...');
-    console.log('Map container found:', !!mapContainer);
-    console.log('Map links found:', mapLinks.length);
-    console.log('Location dropdown found:', !!locationDropdown);
-
     // If essential elements are missing, exit early
     if (!mapContainer) {
-      console.error('Map container not found');
       return;
     }
 
@@ -185,59 +178,43 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Function to update map and visual state
     function updateMapAndState(locationKey) {
-      console.log('Updating map to:', locationKey);
-      
       // Update embedded map
       if (mapContainer && mapUrls[locationKey]) {
-        const newSrc = mapUrls[locationKey];
-        console.log('Setting map src to:', newSrc);
-        mapContainer.src = newSrc;
+        mapContainer.src = mapUrls[locationKey];
       }
 
       // Update address link highlighting
       mapLinks.forEach(l => l.classList.remove('active'));
       const targetLink = document.querySelector(`[data-address*="${locationKey === 'palmview' ? 'Palmview Forest Drive' : 'Halo Ct'}"]`);
-      console.log('Target link found:', !!targetLink);
       if (targetLink) {
         targetLink.classList.add('active');
       }
 
       // Update dropdown selection
       if (locationDropdown && locationDropdown.value !== locationKey) {
-        console.log('Updating dropdown to:', locationKey);
         locationDropdown.value = locationKey;
-        // Trigger change event for form handling
-        locationDropdown.dispatchEvent(new Event('change'));
       }
     }
 
     // Set default map to show Palmview location
-    console.log('Setting default map...');
     if (mapContainer) {
       mapContainer.src = mapUrls.palmview;
     }
 
     // Add change event listener to location dropdown
     if (locationDropdown) {
-      console.log('Adding dropdown event listener...');
       locationDropdown.addEventListener('change', function() {
         const selectedLocation = this.value;
-        console.log('Dropdown changed to:', selectedLocation);
         if (selectedLocation && mapUrls[selectedLocation]) {
           updateMapAndState(selectedLocation);
         }
       });
-    } else {
-      console.warn('Location dropdown not found');
     }
 
     // Add click event listeners to map links
-    console.log('Adding click event listeners to', mapLinks.length, 'map links...');
     mapLinks.forEach((link, index) => {
-      console.log('Setting up link', index, ':', link.getAttribute('data-address'));
       link.addEventListener('click', function(e) {
         e.preventDefault();
-        console.log('Map link clicked:', this.getAttribute('data-address'));
         
         const address = this.getAttribute('data-address');
         let mapKey = 'palmview'; // default
@@ -248,29 +225,20 @@ document.addEventListener("DOMContentLoaded", function () {
           mapKey = 'halo';
         }
         
-        console.log('Determined mapKey:', mapKey);
-        
         // Check if this location is already active (showing in the map)
         const isAlreadyActive = this.classList.contains('active');
-        console.log('Is already active:', isAlreadyActive);
         
         if (isAlreadyActive) {
           // Second click - open in new tab
-          console.log('Second click - opening in new tab');
           if (directMapUrls[mapKey]) {
             window.open(directMapUrls[mapKey], '_blank');
           }
         } else {
           // First click - update map and sync with dropdown
-          console.log('First click - updating map');
           updateMapAndState(mapKey);
         }
       });
     });
-
-    if (mapLinks.length === 0) {
-      console.warn('No map links found with class "map-link"');
-    }
   }
 
   // Call all setup functions
@@ -280,19 +248,4 @@ document.addEventListener("DOMContentLoaded", function () {
   setupDateValidation();
   setupFullScreenImage();
   setupInteractiveMap();
-  
-  // Fallback initialization for map functionality
-  setTimeout(() => {
-    const mapContainer = document.querySelector('.map-container iframe');
-    const mapLinks = document.querySelectorAll('.map-link');
-    const locationDropdown = document.getElementById('location');
-    
-    if (!mapContainer || mapLinks.length === 0 || !locationDropdown) {
-      console.warn('Retrying map setup due to missing elements...');
-      console.log('Map container:', !!mapContainer);
-      console.log('Map links:', mapLinks.length);
-      console.log('Location dropdown:', !!locationDropdown);
-      setupInteractiveMap();
-    }
-  }, 1000);
 });
