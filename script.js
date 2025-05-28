@@ -153,10 +153,90 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
+  // Setup interactive map functionality
+  function setupInteractiveMap() {
+    const mapContainer = document.querySelector('.map-container iframe');
+    const mapLinks = document.querySelectorAll('.map-link');
+    const locationDropdown = document.getElementById('location');
+
+    // Map URLs for different locations (no API key required)
+    const mapUrls = {
+      'palmview': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10769.234833108465!2d153.03785045974269!3d-26.750823725913754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b9377f4cbe999a7%3A0x8746d9fa8e02533!2sLuminous%20Nails%20Sunshine%20Coast!5e0!3m2!1sen!2sau!4v1724069961704!5m2!1sen!2sau',
+      'halo': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3540.5!2d152.9785!3d-27.3017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b93ef123456789a%3A0x123456789abcdef0!2s11%20Halo%20Ct%2C%20Bray%20Park%20QLD%204500!5e0!3m2!1sen!2sau!4v1624069961704!5m2!1sen!2sau'
+    };
+
+    // Direct Google Maps URLs for opening in new tab
+    const directMapUrls = {
+      'palmview': 'https://www.google.com/maps/place/85+Palmview+Forest+Drive,+Palmview+QLD+4553',
+      'halo': 'https://www.google.com/maps/place/11+Halo+Ct,+Bray+Park+QLD+4500'
+    };
+
+    // Function to update map and visual state
+    function updateMapAndState(locationKey) {
+      // Update embedded map
+      if (mapContainer && mapUrls[locationKey]) {
+        mapContainer.src = mapUrls[locationKey];
+      }
+
+      // Update address link highlighting
+      mapLinks.forEach(l => l.classList.remove('active'));
+      const targetLink = document.querySelector(`[data-address*="${locationKey === 'palmview' ? 'Palmview Forest Drive' : 'Halo Ct'}"]`);
+      if (targetLink) {
+        targetLink.classList.add('active');
+      }
+
+      // Update dropdown selection
+      if (locationDropdown && locationDropdown.value !== locationKey) {
+        locationDropdown.value = locationKey;
+      }
+    }
+
+    // Set default map to show Palmview location
+    if (mapContainer) {
+      mapContainer.src = mapUrls.palmview;
+    }
+
+    // Add change event listener to location dropdown
+    if (locationDropdown) {
+      locationDropdown.addEventListener('change', function() {
+        const selectedLocation = this.value;
+        if (selectedLocation && mapUrls[selectedLocation]) {
+          updateMapAndState(selectedLocation);
+        }
+      });
+    }
+
+    // Add click event listeners to map links
+    mapLinks.forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        
+        const address = this.getAttribute('data-address');
+        let mapKey = 'palmview'; // default
+        
+        if (address.includes('Palmview Forest Drive')) {
+          mapKey = 'palmview';
+        } else if (address.includes('Halo Ct')) {
+          mapKey = 'halo';
+        }
+        
+        // Update map and sync with dropdown
+        updateMapAndState(mapKey);
+        
+        // Open in new tab as well
+        if (directMapUrls[mapKey]) {
+          window.open(directMapUrls[mapKey], '_blank');
+        }
+      });
+    });
+  }
+
   // Call all setup functions
   setupMobileMenu();
   populateServiceDropdown();
   handleRequiredFields();
   setupDateValidation();
   setupFullScreenImage();
+  setupInteractiveMap();
+  setupInteractiveMap();
 });

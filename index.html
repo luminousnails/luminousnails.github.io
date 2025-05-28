@@ -210,6 +210,15 @@
                     >85 Palmview Forest Drive, Palmview, QLD, 4553</a
                   >
                 </li>
+                <li>
+                  <i class="fas fa-map-marker-alt"></i>
+                  <a
+                    class="map-link"
+                    data-address="11 Halo Ct, Bray Park, QLD, 4500"
+                    href="#"
+                    >11 Halo Ct, Bray Park, QLD, 4500</a
+                  >
+                </li>
               </ul>
             </div>
             <div class="map-container">
@@ -229,7 +238,16 @@
             class="contact-form"
           >
             <div class="form-group">
-              <label for="service">Select a service</label>
+              <label for="location">Location</label>
+              <select id="location" name="Location" class="form-control" required>
+                <option value="">- Select -</option>
+                <option value="palmview">Palmview</option>
+                <option value="halo">Bray Park</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="service">Service</label>
               <select id="service" name="Service" class="form-control" required>
                 <option value="">- Select -</option>
                 <!-- Options will be populated by JavaScript -->

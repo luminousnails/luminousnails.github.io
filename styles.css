@@ -713,3 +713,26 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
+/* Map link styling */
+.map-link {
+  cursor: pointer;
+  transition: all var(--animation-speed) ease;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+.map-link:hover {
+  background-color: rgba(218, 165, 32, 0.1);
+}
+
+.map-link.active {
+  background-color: var(--accent-color);
+  color: var(--bg-color) !important;
+  font-weight: 600;
+}
+
+.show-both-btn {
+  font-weight: 500;
+  font-style: italic;
+}
