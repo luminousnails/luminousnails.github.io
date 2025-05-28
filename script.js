@@ -220,12 +220,17 @@ document.addEventListener("DOMContentLoaded", function () {
           mapKey = 'halo';
         }
         
-        // Update map and sync with dropdown
-        updateMapAndState(mapKey);
+        // Check if this location is already active (showing in the map)
+        const isAlreadyActive = this.classList.contains('active');
         
-        // Open in new tab as well
-        if (directMapUrls[mapKey]) {
-          window.open(directMapUrls[mapKey], '_blank');
+        if (isAlreadyActive) {
+          // Second click - open in new tab
+          if (directMapUrls[mapKey]) {
+            window.open(directMapUrls[mapKey], '_blank');
+          }
+        } else {
+          // First click - update map and sync with dropdown
+          updateMapAndState(mapKey);
         }
       });
     });
@@ -237,6 +242,5 @@ document.addEventListener("DOMContentLoaded", function () {
   handleRequiredFields();
   setupDateValidation();
   setupFullScreenImage();
-  setupInteractiveMap();
   setupInteractiveMap();
 });
