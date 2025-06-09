@@ -37,8 +37,8 @@
     --hero-text-color: #cccccc; /* Light Gray */
     --service-background-color: #000000;
     --box-shadow-color: rgba(184, 134, 11, 0.2); /* Subtle dark gold shadow */
-    --logo-image: url("images/logo-dark.webp");
-    --logo-image-2x: url("images/logo-dark@2x.webp");
+    --logo-image: url("images/logo-light.webp");
+    --logo-image-2x: url("images/logo-light@2x.webp");
   }
 }
 
