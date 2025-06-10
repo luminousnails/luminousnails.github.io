@@ -331,7 +331,7 @@ document.addEventListener("DOMContentLoaded", function () {
           ${renderStars(review.starRating)}
         </div>
         <div class="review-content">${reviewContent}</div>
-        ${review.createTime ? `<div class="review-date" style="font-size:0.9em;color:#888;margin-top:8px;">${formatReviewDate(review.createTime)}</div>` : ''}
+        ${review.createTime ? `<div class="review-date" style="font-size:0.9em;color:var(--review-date-color);margin-top:8px;">${formatReviewDate(review.createTime)}</div>` : ''}
       </div>
     `;
   }

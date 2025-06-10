@@ -12,6 +12,8 @@
   --hero-font: "Allura", cursive;
   --hero-text-color: #333333;
   --service-background-color: #ffffff; /* White for light mode */
+  --review-date-color: #888888; /* Gray for review dates */
+  --option-disabled-bg: #f0f0f0; /* Light gray for disabled options */
   --box-shadow-color: rgba(184, 134, 11, 0.2); /* Subtle gold shadow */
   --box-shadow-light: 0 2px 5px var(--box-shadow-color);
   --box-shadow-medium: 0 4px 10px var(--box-shadow-color);
@@ -37,6 +39,8 @@
     --valid-color: #b8860b; /* Dark Gold for filled fields */
     --hero-text-color: #cccccc; /* Light Gray */
     --service-background-color: #000000;
+    --review-date-color: #aaaaaa; /* Lighter gray for dark mode */
+    --option-disabled-bg: #333333; /* Dark gray for disabled options */
     --box-shadow-color: rgba(184, 134, 11, 0.2); /* Subtle dark gold shadow */
     --logo-image: url("images/logo-light.webp");
     --logo-image-2x: url("images/logo-light@2x.webp");
@@ -468,8 +472,8 @@ h2 {
   letter-spacing: 1px;
   text-shadow:
     0 2px 6px var(--box-shadow-color),
-    0 0 3px #b8860b,
-    0 0 6px #b8860b;
+    0 0 3px var(--accent-color),
+    0 0 6px var(--accent-color);
 }
 
 .review-link {
@@ -633,13 +637,19 @@ h2 {
   padding-right: 30px;
 }
 
+@media (prefers-color-scheme: dark) {
+  .contact-form select.form-control {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%23ffffff' viewBox='0 0 16 16'%3E%3Cpath d='M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/%3E%3C/svg%3E");
+  }
+}
+
 .contact-form select.form-control option {
   padding: 5px;
 }
 
 .contact-form select.form-control option:disabled {
   font-weight: bold;
-  background-color: #f0f0f0;
+  background-color: var(--option-disabled-bg);
   color: var(--text-color);
 }
 
