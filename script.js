@@ -250,15 +250,10 @@ document.addEventListener("DOMContentLoaded", function () {
   let allReviews = [];
   let currentPage = 0;
 
-  function renderStars(starRating) {
-    if (!starRating) return '';
+  function renderStars(rating) {
+    if (!rating || rating < 1 || rating > 5) return '';
     let stars = '';
-    let count = 0;
-    if (starRating === 'FIVE') count = 5;
-    else if (starRating === 'FOUR') count = 4;
-    else if (starRating === 'THREE') count = 3;
-    else if (starRating === 'TWO') count = 2;
-    else if (starRating === 'ONE') count = 1;
+    const count = Math.floor(rating);
     for (let i = 0; i < count; i++) stars += '★';
     for (let i = count; i < 5; i++) stars += '☆';
     return `<span class="review-rating">${stars}</span>`;
@@ -276,11 +271,11 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function renderReview(review) {
-    let reviewContent = review.comment ? review.comment.replace(/\n/g, '<br>') : '';
+    let reviewContent = review.text ? review.text.replace(/\n/g, '<br>') : '';
     let reviewId = `review-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
     
     // Check if review is long enough to warrant the expand/collapse functionality
-    const isLongReview = review.comment && review.comment.length > 350;
+    const isLongReview = review.text && review.text.length > 350;
     
     if (isLongReview) {
       reviewContent = `
@@ -295,15 +290,25 @@ document.addEventListener("DOMContentLoaded", function () {
         </div>
       `;
     }
+
+    // Format date with source
+    let dateWithSource = '';
+    if (review.date) {
+      dateWithSource = formatReviewDate(review.date);
+      if (review.source) {
+        const sourceName = review.source === 'google' ? 'Google' : 'Facebook';
+        dateWithSource += `, via ${sourceName}`;
+      }
+    }
     
     return `
       <div class="review" data-review-id="${reviewId}">
         <div class="review-header">
-          <div class="review-author">${review.reviewer?.displayName || 'Anonymous'}</div>
-          ${renderStars(review.starRating)}
+          <div class="review-author">${review.name || 'Anonymous'}</div>
+          ${renderStars(review.rating)}
         </div>
         <div class="review-content">${reviewContent}</div>
-        ${review.createTime ? `<div class="review-date" style="font-size:0.9em;color:var(--review-date-color);margin-top:8px;">${formatReviewDate(review.createTime)}</div>` : ''}
+        ${dateWithSource ? `<div class="review-date" style="font-size:0.9em;color:var(--review-date-color);margin-top:8px;">${dateWithSource}</div>` : ''}
       </div>
     `;
   }
@@ -368,8 +373,16 @@ document.addEventListener("DOMContentLoaded", function () {
     fetch('reviews.json')
       .then(res => res.json())
       .then(data => {
-        allReviews = (data.reviews || []).filter(r => r.comment && r.starRating);
+        allReviews = (data.reviews || []).filter(r => r.text && r.rating >= 4);
         showReviews();
+      })
+      .catch(error => {
+        console.error('Error loading reviews:', error);
+        // Show a fallback message if reviews fail to load
+        const reviewsList = document.getElementById('reviews-list');
+        if (reviewsList) {
+          reviewsList.innerHTML = '<p class="reviews-error">Unable to load reviews at this time.</p>';
+        }
       });
   }
 
