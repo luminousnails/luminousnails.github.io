@@ -1,350 +1,2207 @@
 {
   "reviews": [
     {
-      "name": "Shamim Rezaee",
-      "date": "2023-10-18T12:58:43+0000",
-      "rating": 5,
-      "text": "For a nail service that combines expertise, cleanliness, and personalized care, Luminous nail service is a top choice... for anyone seeking a remarkable nail care experience. Hoda is looking after my nails more than a year and I am pretty happy with her service. would recommend her to anyone",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXFvniKp_kNgQjiVInuKNdXzVgmF_0qgivonFfvQXd9iMltTbXAUDHHZ0rGHr6OjzZ3mznPxkY2J1g&psid=6716940198395987&height=120&width=120&ext=1719381446&hash=Abbeti5AsIWuH_N7C154GCBI"
+      "reviewer": {
+        "displayName": "Jodi Marchant"
+      },
+      "starRating": "FIVE",
+      "comment": "Hoda was incredible! My nails were perfect shape and design. Highly recommend",
+      "createTime": "2025-06-09T11:29:14.676830Z",
+      "updateTime": "2025-06-09T11:30:36.566828Z",
+      "reviewReply": {
+        "comment": "Thank you so much Jodi 😍",
+        "updateTime": "2025-06-09T12:03:38.719331Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VPUHJfTjYydF9hZGZBEAE"
     },
     {
-      "name": "Heather Rogers",
-      "date": "2023-09-16T01:54:38+0000",
-      "rating": 5,
-      "text": "Hoda is amazing--- she does soft gel which lasts well and my nails are the strongest they've ever been . She is a... perfectionist and also a pleasure to visit and chat to ---thankou 🥰",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXEDT0gBpb5Fy67z-QV3I2pJAk4v7rQdAl-27S5pOdE10WTi346gQi6ZuQdJ04gv2WZXlKkrq37MBw&psid=7024502030896349&height=120&width=120&ext=1719381446&hash=Abba-wbHi7s8Bnp2UW-fDTJv"
+      "reviewer": {
+        "displayName": "Frankie Lowe"
+      },
+      "starRating": "FIVE",
+      "comment": "Such an amazing experience! Best nail service I have been to on the coast since moving here last year. I was amazed with the attention to detail she gave to each nail and the outcome was beautiful. Would recommend to EVERYONE!! ❤️",
+      "createTime": "2025-06-04T08:25:55.072198Z",
+      "updateTime": "2025-06-04T08:25:55.072198Z",
+      "reviewReply": {
+        "comment": "Thank you so much for your comment Frankie🌺🌺",
+        "updateTime": "2025-06-04T09:17:58.452915Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJaXoxYkRtN01IN2pRRRAB"
     },
     {
-      "name": "Gulya Munnings",
-      "date": "2023-03-31T20:48:02+0000",
-      "rating": 5,
-      "text": "Hoda has been looking after my nails for a while. I am so glad I found her. She is very passionate and professional... even though I am a very difficult and picky client. She always makes sure I am happy with my nails. Recommend Hodas service 100%.",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXFG2D9jfgb9EYEkDWU94prXQhEYtVLlbIRV99O4xzNefRoGLn1OFTSQiO4yQU_7Xw_RHQ2gRzTUmg&psid=5840836076024628&height=120&width=120&ext=1719381446&hash=AbbcKMZU6GBBExT1VRNNWjpe"
+      "reviewer": {
+        "displayName": "Rachael Battiston"
+      },
+      "starRating": "FIVE",
+      "createTime": "2025-05-07T22:15:37.311905Z",
+      "updateTime": "2025-05-07T22:15:37.311905Z",
+      "reviewReply": {
+        "comment": "❤️",
+        "updateTime": "2025-05-07T22:31:38.501154Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VQblFqOV96d096ZWdBRRAB"
     },
     {
-      "name": "Somayeh Mirsane",
-      "date": "2022-08-01T10:34:09+0000",
-      "rating": 5,
-      "text": "It was an amazing experience! I'm beyond happy with my nails! Hoda is so professional and friendly ! I will always... recommend her for getting your nails done!💅🏼❤️",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXHXxJ93d5466ZhfuD1P0b-6pSfyYRRkEOOr6r1n7OyzPW43yNp_EG9oQh765KO1qtvCSgaU5gaSwA&psid=3817836425006980&height=120&width=120&ext=1719381446&hash=AbZ0BQzXiJISi6nyp0Og2AVJ"
+      "reviewer": {
+        "displayName": "Jasmine Sandhu"
+      },
+      "starRating": "FIVE",
+      "comment": "I had good experience with Hoda. You really had good hands on the services that you provided.",
+      "createTime": "2025-04-30T11:13:45.012542Z",
+      "updateTime": "2025-04-30T11:13:45.012542Z",
+      "reviewReply": {
+        "comment": "Thank you so much Jasmine 🌺",
+        "updateTime": "2025-04-30T11:57:39.307016Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnTUNZMFBQU1dBEAE"
     },
     {
-      "name": "Trisha Doyle",
-      "date": "2022-07-26T22:57:24+0000",
-      "rating": 5,
-      "text": "Hoda was very professional and talented, i am so happy with the nails! Love the soft gel option!!",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXECkX2Xzn8e6bHKP55LypALOWk4sITLqCykJSrjNOKobymXwOoZp9cOlNSOb1hltH4yqR5UxaUZJw&psid=5702265189848237&height=120&width=120&ext=1719381446&hash=AbYJdQHDf7iAdCXpPEeG6zn3"
+      "reviewer": {
+        "displayName": "Jennifer Greig"
+      },
+      "starRating": "FIVE",
+      "comment": "Amazing ❤️ the attention to detail is unmatched, my nails are perfect! Thank you again!! Highly recommend",
+      "createTime": "2025-04-28T20:03:09.126108Z",
+      "updateTime": "2025-04-28T20:03:09.126108Z",
+      "reviewReply": {
+        "comment": "Thank you Jennifer for your comment 🌸",
+        "updateTime": "2025-04-28T21:13:22.104667Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnTURvaTV6VF9nRRAB"
     },
     {
-      "name": "Carole Morris",
-      "date": "2022-07-25T12:07:18+0000",
-      "rating": 5,
-      "text": "Had the best nails I've ever had done by Hoda today. So natural looking not Thick. She was friendly attentive very... thorough and her work is very skillful and perfect Thanks for a great experience Hoda",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXH2J5pz7Iv_9290CH2rLAB8tphGLI7yTpbSHvLmHgvCU4REhEk6mtSqwdHpX-UvzhoNklq6_OMzcg&psid=5546467918729755&height=120&width=120&ext=1719381446&hash=AbZWVdqVz7XSRA9YxJdADVyc"
+      "reviewer": {
+        "displayName": "Michelle Tabulo"
+      },
+      "starRating": "FIVE",
+      "comment": "I was away on holidays for 6 weeks and resisted getting my nails done anywhere else so waited until I got home.  So impressed they lasted that long. Great service and attention to detail.  Highly recommend",
+      "createTime": "2025-04-03T22:48:25.147176Z",
+      "updateTime": "2025-04-03T22:48:25.147176Z",
+      "reviewReply": {
+        "comment": "Thanks Michelle for your comment 🌸",
+        "updateTime": "2025-04-04T06:37:41.163449Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnTUNJelozOFFnEAE"
     },
     {
-      "name": "Machelle Lou",
-      "date": "2022-07-10T04:14:07+0000",
-      "rating": 5,
-      "text": "Very good service. Always on time & does a great job. Love the soft gel option. Won't go to anyone else but Hoda.",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXEg0UMCVJH0ZNj-nsLhVoWhm3Uq3DMJpr9KkyFxL_lDt9XH5kx270h1iAeDi7E_E-isbMYegACsww&psid=5875673249129391&height=120&width=120&ext=1719381446&hash=Abbr1UGMy9491HO7xoYnA4k2"
+      "reviewer": {
+        "displayName": "bita heidari"
+      },
+      "starRating": "FIVE",
+      "comment": "I had an amazing experience at Luminous Nails! The staff was friendly, professional, and the ambiance was relaxing. My gel manicure and pedicure turned out perfect, and the attention to detail was fantastic. Highly recommend this place for top-quality service and a great atmosphere!",
+      "createTime": "2025-03-30T00:50:32.834118Z",
+      "updateTime": "2025-03-30T00:50:32.834118Z",
+      "reviewReply": {
+        "comment": "Thanks for your comment 🙂",
+        "updateTime": "2025-03-30T02:53:15.085732Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnTUNJbUxISGtRRRAB"
     },
     {
-      "name": "Yuliamm Yulia",
-      "date": "2022-07-05T00:10:12+0000",
-      "rating": 5,
-      "text": "Hoda never fails to make my nails look amazing! She has great prices, so many colours to choose from and very... comfortable surroundings. Now I've been here I wouldn't go anywhere else!",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXFsK9_bin6hGCi2SgTDPScMvWRR9yZ_LnTH3gxjLd47a5WV3o48zZsbZk8OK-BVhCQwUpKRKHSUjQ&psid=7927975830576027&height=120&width=120&ext=1719381446&hash=AbZAG4bTPznHplZnCDjKTcaG"
+      "reviewer": {
+        "displayName": "Elnaz Mousavizadeh jazaeri"
+      },
+      "starRating": "FIVE",
+      "comment": "Hoda is fantastic! I can’t recommend her more. She is friendly, professional and efficient. I am always happy with her services.",
+      "createTime": "2025-03-29T01:13:21.898508Z",
+      "updateTime": "2025-03-29T01:13:21.898508Z",
+      "reviewReply": {
+        "comment": "Thank you Elnaz🥰",
+        "updateTime": "2025-03-29T01:16:07.210156Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnTUR3ajVxQXRnRRAB"
     },
     {
-      "name": "Andrea Krueger",
-      "date": "2022-07-01T08:49:27+0000",
-      "rating": 5,
-      "text": "I am so glad I have found Hoda as she has restored my nail health using soft gel overlay after many many years of... acrylic. I now have my own nails super long with a beautiful overlay of soft gel. They finally look natural and thin but super strong. Highly recommend. Thank you Hoda",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXEjZj2wGtJR8ul7_mz5GMndBvI3egq6EWJZmibY44WoZ51AGoMTrrqLYU5_y986onTux35YfFRLnQ&psid=4140937042620356&height=120&width=120&ext=1719381446&hash=AbZKO3q8FR-ZG-BvKcpighk6"
+      "reviewer": {
+        "displayName": "Mahsa Mgh"
+      },
+      "starRating": "FIVE",
+      "comment": "I really love Hoda’s work. She always does a great job, and my nails look amazing every time. She also uses high-quality products, which makes a big difference. Highly recommend!",
+      "createTime": "2025-03-29T00:16:40.123847Z",
+      "updateTime": "2025-03-29T00:16:40.123847Z",
+      "reviewReply": {
+        "comment": "Thanks Mahsa for your comment 😍",
+        "updateTime": "2025-03-29T01:11:37.685657Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnTUR3OThIdkxnEAE"
     },
     {
-      "name": "Jodi Page",
-      "date": "2022-07-26T13:03:05+0000",
-      "rating": 5,
-      "text": "I had an awesome experience with Hoda. She was so professional and welcoming and offered me great advice on color and... service! I tried the soft gel for the first time and I'm so happy with the result. Anyone on the Sunshine Coast looking for quality nail service at a great price needs to go visit Hoda at Luminous Nails.",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXFh7nemjP9QeeGsLBRfqnekgVg2USyJ1OTqD8q_XSIXqDvFFz-iy2JdzFok0Vt6sRjXxeE9LCBH6w&psid=5249357981819277&height=120&width=120&ext=1719381446&hash=Abav1IVq3ENKs1GQFSZo7F9d"
+      "reviewer": {
+        "displayName": "Parisa Arabloo"
+      },
+      "starRating": "FIVE",
+      "comment": "Hoda is amazing! She does nail extensions and designs so perfectly, and her work is always super clean and professional. Her designs are gorgeous and unique—she’s seriously so talented! On top of that, she’s the sweetest person, and I absolutely love her. Thanks for always doing such a great job! You are an artist. ❤️💅✨",
+      "createTime": "2025-03-28T23:53:42.117657Z",
+      "updateTime": "2025-03-28T23:53:42.117657Z",
+      "reviewReply": {
+        "comment": "Thanks Parisa for your comment!😊",
+        "updateTime": "2025-03-29T00:05:06.845194Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnTUR3OTZ5dTdRRRAB"
     },
     {
-      "name": "Sienna Martinuzzi",
-      "date": "2021-12-22T10:26:24+0000",
-      "rating": 5,
-      "text": "This was my first time getting my nails done by hoda & she did a perfect job. i've been going to nail salons for years... & nothing compares to the amazing job she did. wouldn't consider going anywhere else from now on ❤️‍🔥",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXFFnvKN61UsY31T_fxZptljHhVARGwyqdKbI-Jp2Lw8I26gygtRumPrv7t8PmccLuX8S7DsiClvnQ&psid=4346388382138951&height=120&width=120&ext=1719381446&hash=AbZ-LJDzzxBa6vqz-85Txh7A"
+      "reviewer": {
+        "displayName": "Lais Matile"
+      },
+      "starRating": "FIVE",
+      "comment": "Absolutely in love with my nails!\n\nI got gel extensions done, and the results are stunning—exactly what I wanted. The shape, the finish, and the subtle shimmer are just perfect. The nail technician was incredibly skilled, paid attention to every detail. I will definitely be coming back and highly recommend them to anyone looking for beautiful, high-quality nails with good price",
+      "createTime": "2025-03-28T04:04:40.631110Z",
+      "updateTime": "2025-03-28T04:04:40.631110Z",
+      "reviewReply": {
+        "comment": "Thanks Lais for your comment!☺️",
+        "updateTime": "2025-03-28T20:52:13.393861Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnTUR3MC11d2RBEAE"
     },
     {
-      "name": "Beth Ryan",
-      "date": "2021-11-14T03:23:10+0000",
-      "rating": 5,
-      "text": "Hoda has been doing my nails for over 4 years now. I wouldn't go anywhere else. Hoda always does a professional job and... my nails last for ages. Great service and flexible times. The most difficult decision is what colour to choose. 🌸",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXHPvvr8FvrKOvzkSXe4Fo43QiVs6Kq0bczquAyg9k-1PyOkf8Eu7GIUlbM6XLIQd38_mmivc8Jc5Q&psid=1222710737829288&height=120&width=120&ext=1719381446&hash=AbbUsV-zrQj7gDVv0Rykfs4M"
+      "reviewer": {
+        "displayName": "Heidi Oakley"
+      },
+      "starRating": "FIVE",
+      "comment": "Hoda is professional who takes the time to listen to customer preferences, has a wealth of knowledge around nail care and what works best with nails in different conditions and is keen to have you walk out satisfied. I am always happy to recommend her skills.",
+      "createTime": "2025-03-26T02:34:13.872121Z",
+      "updateTime": "2025-03-26T02:34:13.872121Z",
+      "reviewReply": {
+        "comment": "Thank you so much Heidi for your comment 🥰",
+        "updateTime": "2025-03-26T03:14:45.429247Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnTUR3bnMtT3ZRRRAB"
     },
     {
-      "name": "Hannah Sarney",
-      "date": "2021-05-17T03:51:29+0000",
-      "rating": 5,
-      "text": "It was an amazing experience! I'm beyond happy with my nails! Hoda is so professional and friendly ! I will always... recommend her for getting your nails done!💅🏼❤️",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXES-IoFB84yzJRWYt-jE1dnK9qa4nGiT0uuDgk9EG-sZMrgAX1ftsFlVoEc427gq4vmVQCy9jL-yA&psid=4124153254332054&height=120&width=120&ext=1719381446&hash=AbZ-LJDzzxBa6vqz-85Txh7A"
+      "reviewer": {
+        "displayName": "Philip Peterson"
+      },
+      "starRating": "FIVE",
+      "createTime": "2025-03-26T01:32:27.483597Z",
+      "updateTime": "2025-03-26T01:32:27.483597Z",
+      "reviewReply": {
+        "comment": "🌺",
+        "updateTime": "2025-05-07T22:31:54.240917Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnTUR3bnVqQlB3EAE"
     },
     {
-      "name": "Mandy Preece",
-      "date": "2020-12-07T09:27:50+0000",
-      "rating": 5,
-      "text": "This lady is amazing, always a great result, recommended to me by my 19 year old, best find ever 😊👏",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXGwUs_ZmArC4FfeyNKtELS6TnZgdKrnZ60POcb590W_J3HUqaNX0p1LfDaKUWN_AWua7sgWh5EaDA&psid=5874708075887681&height=120&width=120&ext=1719381446&hash=AbZtFzEvJuUWP2ewhqmkYZaA"
+      "reviewer": {
+        "displayName": "Bella Nicklin"
+      },
+      "starRating": "FIVE",
+      "createTime": "2025-03-25T21:07:37.219717Z",
+      "updateTime": "2025-03-25T21:07:37.219717Z",
+      "reviewReply": {
+        "comment": "❤️",
+        "updateTime": "2025-05-07T22:32:04.226121Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnTUR3OXBuX2ZnEAE"
     },
     {
-      "name": "Sharndra Marple",
-      "date": "2020-09-22T13:00:12+0000",
-      "rating": 5,
-      "text": "Hoda offers a very professional service. Her work is beautiful, always accommodating and fair priced. Wouldn't go... anywhere else! Highly recommended. Thanks Hoda😊",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXEg0UMCVJH0ZNj-nsLhVoWhm3Uq3DMJpr9KkyFxL_lDt9XH5kx270h1iAeDi7E_E-isbMYegACsww&psid=4236335989760858&height=120&width=120&ext=1719381446&hash=AbYG52j89LSqG_b2seKiBasY"
+      "reviewer": {
+        "displayName": "Melissa Matt Nuttall"
+      },
+      "starRating": "FIVE",
+      "comment": "Fantastic!! Very happy with the service and quality. Efficient and friendly, especially as I also got the appointment at short notice. Highly recommend. Thank you ☺️",
+      "createTime": "2025-02-27T10:39:56.395563Z",
+      "updateTime": "2025-02-27T10:39:56.395563Z",
+      "reviewReply": {
+        "comment": "Thank you so much Melissa for your comment 🥰",
+        "updateTime": "2025-02-27T11:53:18.874909Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnTURnODd2X21RRRAB"
     },
     {
-      "name": "Emily ReAl Auzzie",
-      "date": "2020-09-22T13:00:12+0000",
-      "rating": 5,
-      "text": "Today was my first appt and i can say i wasnt dissapointed, loooove my nails and will continue to get my nails done 🥰🥰",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXFTFJFFWz142kzUSYELPj1KqMAK95HX5EUE4Wsq5tciY6NFifCeS2Bx8Qufxj5aZij38FgX42GYXw&psid=4068757236552755&height=120&width=120&ext=1719381446&hash=AbZRGs8ou-C2ccNkE7crIIi3"
+      "reviewer": {
+        "displayName": "Elizabeth Monthe"
+      },
+      "starRating": "FIVE",
+      "comment": "I love getting my nails done with Hoda, she always does an incredible job! Would highly recommend for anyone on the Sunshine Coast. :)",
+      "createTime": "2025-02-11T09:17:16.827447Z",
+      "updateTime": "2025-02-11T09:17:16.827447Z",
+      "reviewReply": {
+        "comment": "Thank you so much Elizabeth🌷",
+        "updateTime": "2025-02-11T09:36:49.183532Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnTURBdlppX1dBEAE"
     },
     {
-      "name": "Shamim Rezaee",
-      "date": "2023-10-18T12:58:43+0000",
-      "rating": 5,
-      "text": "For a nail service that combines expertise, cleanliness, and personalized care, Luminous nail service is a top choice... for anyone seeking a remarkable nail care experience. Hoda is looking after my nails more than a year and I am pretty happy with her service. would recommend her to anyone",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXFvniKp_kNgQjiVInuKNdXzVgmF_0qgivonFfvQXd9iMltTbXAUDHHZ0rGHr6OjzZ3mznPxkY2J1g&psid=6716940198395987&height=120&width=120&ext=1719381446&hash=Abbeti5AsIWuH_N7C154GCBI"
+      "reviewer": {
+        "displayName": "Tarrynn Morris"
+      },
+      "starRating": "FIVE",
+      "comment": "Hoda’s work is exceptional! The organic builder gel she uses is high-quality, long-lasting, and beautifully applied. Her pricing is incredibly competitive, offering outstanding value for the level of skill and care she provides. Each time even after several weeks, my nails are still going strong. Highly recommend!",
+      "createTime": "2025-02-06T11:56:17.100331Z",
+      "updateTime": "2025-02-06T11:56:17.100331Z",
+      "reviewReply": {
+        "comment": "Thank you so much for your comment! ",
+        "updateTime": "2025-02-07T14:05:52.478035Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnTURBOE5uRTF3RRAB"
     },
     {
-      "name": "Heather Rogers",
-      "date": "2023-09-16T01:54:38+0000",
-      "rating": 5,
-      "text": "Hoda is amazing--- she does soft gel which lasts well and my nails are the strongest they've ever been . She is a... perfectionist and also a pleasure to visit and chat to ---thankou 🥰",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXEDT0gBpb5Fy67z-QV3I2pJAk4v7rQdAl-27S5pOdE10WTi346gQi6ZuQdJ04gv2WZXlKkrq37MBw&psid=7024502030896349&height=120&width=120&ext=1719381446&hash=Abba-wbHi7s8Bnp2UW-fDTJv"
+      "reviewer": {
+        "displayName": "Carolyn McHenry"
+      },
+      "starRating": "ONE",
+      "comment": "Really disappointed in the professionalism. I’m new to the area and booked on line. I received a message saying she wasn’t available and gave me 2 alternative days. I chose today. I received a reply with the date and time with a question mark to which I replied “thankyou that’s great” apparently that’s not a booking as she never sent a confirmation.\nI travelled from Mapleton to PalmView and totally wasted my time.\nPerhaps respond to your bookings and be a bit clearer.\nThese messages were sent on Monday when did you plan on confirming my booking",
+      "createTime": "2025-02-06T01:11:07.453485Z",
+      "updateTime": "2025-02-06T01:12:51.707012Z",
+      "reviewReply": {
+        "comment": "I’m so sorry to hear that you were disappointed. However, a booking is only confirmed once a deposit is paid and a confirmation message is sent from my side. Simply inquiring about availability does not guarantee an appointment.\nWhen you arrived. I was still happy to accommodate you despite not having received a confirmation from you. I strive to provide clear communication and professional service, and I apologise if there was any misunderstanding. I appreciate your feedback and will work on making my booking process even clearer in the future.",
+        "updateTime": "2025-02-06T03:15:02.897749Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnTUNBXzczYzRnRRAB"
     },
     {
-      "name": "Gulya Munnings",
-      "date": "2023-03-31T20:48:02+0000",
-      "rating": 5,
-      "text": "Hoda has been looking after my nails for a while. I am so glad I found her. She is very passionate and professional... even though I am a very difficult and picky client. She always makes sure I am happy with my nails. Recommend Hodas service 100%.",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXFG2D9jfgb9EYEkDWU94prXQhEYtVLlbIRV99O4xzNefRoGLn1OFTSQiO4yQU_7Xw_RHQ2gRzTUmg&psid=5840836076024628&height=120&width=120&ext=1719381446&hash=AbbcKMZU6GBBExT1VRNNWjpe"
+      "reviewer": {
+        "displayName": "Glenn"
+      },
+      "starRating": "FIVE",
+      "createTime": "2024-12-30T05:49:34.090262Z",
+      "updateTime": "2024-12-30T05:49:34.090262Z",
+      "reviewReply": {
+        "comment": "Thank you so much🌷",
+        "updateTime": "2024-12-30T09:56:28.131738Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSUNmOGNuSWxRRRAB"
     },
     {
-      "name": "Somayeh Mirsane",
-      "date": "2022-08-01T10:34:09+0000",
-      "rating": 5,
-      "text": "It was an amazing experience! I'm beyond happy with my nails! Hoda is so professional and friendly ! I will always... recommend her for getting your nails done!💅🏼❤️",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXHXxJ93d5466ZhfuD1P0b-6pSfyYRRkEOOr6r1n7OyzPW43yNp_EG9oQh765KO1qtvCSgaU5gaSwA&psid=3817836425006980&height=120&width=120&ext=1719381446&hash=AbZ0BQzXiJISi6nyp0Og2AVJ"
+      "reviewer": {
+        "displayName": "Lindy L"
+      },
+      "starRating": "FIVE",
+      "createTime": "2024-11-12T10:13:38.219111Z",
+      "updateTime": "2024-11-12T10:13:38.219111Z",
+      "reviewReply": {
+        "comment": "Thanks Limdy",
+        "updateTime": "2025-02-06T03:15:18.666334Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUQzcFAzcFB3EAE"
     },
     {
-      "name": "Trisha Doyle",
-      "date": "2022-07-26T22:57:24+0000",
-      "rating": 5,
-      "text": "Hoda was very professional and talented, i am so happy with the nails! Love the soft gel option!!",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXECkX2Xzn8e6bHKP55LypALOWk4sITLqCykJSrjNOKobymXwOoZp9cOlNSOb1hltH4yqR5UxaUZJw&psid=5702265189848237&height=120&width=120&ext=1719381446&hash=AbYJdQHDf7iAdCXpPEeG6zn3"
+      "reviewer": {
+        "displayName": "Sienna Duncan"
+      },
+      "starRating": "FOUR",
+      "comment": "very good quality nails for good price x",
+      "createTime": "2024-11-12T09:52:34.761006Z",
+      "updateTime": "2024-11-12T09:52:34.761006Z",
+      "reviewReply": {
+        "comment": "Thank you so much 🌷",
+        "updateTime": "2024-11-12T11:46:32.201702Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSUQzcExHUXN3RRAB"
     },
     {
-      "name": "Carole Morris",
-      "date": "2022-07-25T12:07:18+0000",
-      "rating": 5,
-      "text": "Had the best nails I've ever had done by Hoda today. So natural looking not Thick. She was friendly attentive very... thorough and her work is very skillful and perfect Thanks for a great experience Hoda",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXH2J5pz7Iv_9290CH2rLAB8tphGLI7yTpbSHvLmHgvCU4REhEk6mtSqwdHpX-UvzhoNklq6_OMzcg&psid=5546467918729755&height=120&width=120&ext=1719381446&hash=AbZWVdqVz7XSRA9YxJdADVyc"
+      "reviewer": {
+        "displayName": "Grace johnson"
+      },
+      "starRating": "FOUR",
+      "createTime": "2024-10-17T01:17:30.301786Z",
+      "updateTime": "2024-10-17T01:17:30.301786Z",
+      "reviewReply": {
+        "comment": "Thanks for your review 🌷",
+        "updateTime": "2025-02-06T03:15:49.354870Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSUNYM3NhaG9nRRAB"
     },
     {
-      "name": "Machelle Lou",
-      "date": "2022-07-10T04:14:07+0000",
-      "rating": 5,
-      "text": "Very good service. Always on time & does a great job. Love the soft gel option. Won't go to anyone else but Hoda.",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXEg0UMCVJH0ZNj-nsLhVoWhm3Uq3DMJpr9KkyFxL_lDt9XH5kx270h1iAeDi7E_E-isbMYegACsww&psid=5875673249129391&height=120&width=120&ext=1719381446&hash=Abbr1UGMy9491HO7xoYnA4k2"
+      "reviewer": {
+        "displayName": "Danielle Zwart"
+      },
+      "starRating": "FIVE",
+      "comment": "Hoda is a very careful and talented nail technician.  Love her work. ❤️",
+      "createTime": "2024-10-10T03:43:36.370941Z",
+      "updateTime": "2024-10-10T03:43:36.370941Z",
+      "reviewReply": {
+        "comment": "Thank you so much for your comment 🌟🌷",
+        "updateTime": "2024-10-10T10:20:56.866347Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSURueTlxd0pnEAE"
     },
     {
-      "name": "Yuliamm Yulia",
-      "date": "2022-07-05T00:10:12+0000",
-      "rating": 5,
-      "text": "Hoda never fails to make my nails look amazing! She has great prices, so many colours to choose from and very... comfortable surroundings. Now I've been here I wouldn't go anywhere else!",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXFsK9_bin6hGCi2SgTDPScMvWRR9yZ_LnTH3gxjLd47a5WV3o48zZsbZk8OK-BVhCQwUpKRKHSUjQ&psid=7927975830576027&height=120&width=120&ext=1719381446&hash=AbZAG4bTPznHplZnCDjKTcaG"
+      "reviewer": {
+        "displayName": "Mihaela Petkovic"
+      },
+      "starRating": "FIVE",
+      "comment": "10 out of 10 customer service, I am absolutely obsessed with my nails!!!!!!!!!!!",
+      "createTime": "2024-10-09T05:22:21.904034Z",
+      "updateTime": "2024-10-09T05:22:21.904034Z",
+      "reviewReply": {
+        "comment": "Thanks for your comment 🌷",
+        "updateTime": "2024-10-10T10:20:24.034326Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSURuX2JyWU9REAE"
     },
     {
-      "name": "Andrea Krueger",
-      "date": "2022-07-01T08:49:27+0000",
-      "rating": 5,
-      "text": "I am so glad I have found Hoda as she has restored my nail health using soft gel overlay after many many years of... acrylic. I now have my own nails super long with a beautiful overlay of soft gel. They finally look natural and thin but super strong. Highly recommend. Thank you Hoda",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXEjZj2wGtJR8ul7_mz5GMndBvI3egq6EWJZmibY44WoZ51AGoMTrrqLYU5_y986onTux35YfFRLnQ&psid=4140937042620356&height=120&width=120&ext=1719381446&hash=AbZKO3q8FR-ZG-BvKcpighk6"
+      "reviewer": {
+        "displayName": "Holly Musselman"
+      },
+      "starRating": "TWO",
+      "comment": "A disappointing experience. I’m shocked that she would let me walk out with nails that look like this.",
+      "createTime": "2024-10-08T07:16:23.094242Z",
+      "updateTime": "2024-10-08T07:16:23.094242Z",
+      "reviewReply": {
+        "comment": "I’m sad to hear you are disappointed. As you said yourself when you came in, your nails were not in good condition, since you had chewed off both the previous acrylic extensions and almost all of the real nails underneath.\n\nI recommended that you just get a manicure and let the nails grow before getting extensions, or I would have to glue them directly on your skin and it would not look good, but you chose not to do that. I then recommended you choose a natural colour that would better suit your nails in their current condition, and you instead chose pastel pink. However, I completely respected your decision to go ahead with the extensions and your choice of colour.\n\nWhile I always do my best to accomodate my clients wishes, there are limitations when working with damaged nails, as I explained at the time. I always ask my clients if they are happy with their nails, and if not I will fix them for free, either then or at another appointment, but you did not say anything.",
+        "updateTime": "2024-10-08T09:52:00.728348Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSURuMWQ2ckp3EAE"
     },
     {
-      "name": "Jodi Page",
-      "date": "2022-07-26T13:03:05+0000",
-      "rating": 5,
-      "text": "I had an awesome experience with Hoda. She was so professional and welcoming and offered me great advice on color and... service! I tried the soft gel for the first time and I'm so happy with the result. Anyone on the Sunshine Coast looking for quality nail service at a great price needs to go visit Hoda at Luminous Nails.",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXFh7nemjP9QeeGsLBRfqnekgVg2USyJ1OTqD8q_XSIXqDvFFz-iy2JdzFok0Vt6sRjXxeE9LCBH6w&psid=5249357981819277&height=120&width=120&ext=1719381446&hash=Abav1IVq3ENKs1GQFSZo7F9d"
+      "reviewer": {
+        "displayName": "Karly Kelly"
+      },
+      "starRating": "FIVE",
+      "comment": "Amazing service. I'm so pleased with my nails.  I'll definitely be back. The salon was beautiful and clean. The booking process was very simple.",
+      "createTime": "2024-09-26T13:21:18.756187Z",
+      "updateTime": "2024-09-26T13:21:18.756187Z",
+      "reviewReply": {
+        "comment": "Thank you so much for your comment 🌷",
+        "updateTime": "2024-09-26T20:06:18.650176Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSUNuX3REZWxRRRAB"
     },
     {
-      "name": "Sienna Martinuzzi",
-      "date": "2021-12-22T10:26:24+0000",
-      "rating": 5,
-      "text": "This was my first time getting my nails done by hoda & she did a perfect job. i've been going to nail salons for years... & nothing compares to the amazing job she did. wouldn't consider going anywhere else from now on ❤️‍🔥",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXFFnvKN61UsY31T_fxZptljHhVARGwyqdKbI-Jp2Lw8I26gygtRumPrv7t8PmccLuX8S7DsiClvnQ&psid=4346388382138951&height=120&width=120&ext=1719381446&hash=AbZ-LJDzzxBa6vqz-85Txh7A"
+      "reviewer": {
+        "displayName": "Katie Gammage"
+      },
+      "starRating": "FIVE",
+      "comment": "Amazing experience, such a lovely lady and nails are perfect! Took the time to mend my terrible nails and make them look perfect, not an inch of polish out of place, will be going back!",
+      "createTime": "2024-09-26T09:57:39.175534Z",
+      "updateTime": "2024-09-26T09:57:39.175534Z",
+      "reviewReply": {
+        "comment": "Thank you so much 🌟",
+        "updateTime": "2024-09-26T09:59:48.899523Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSUNubnVQbWlnRRAB"
     },
     {
-      "name": "Beth Ryan",
-      "date": "2021-11-14T03:23:10+0000",
-      "rating": 5,
-      "text": "Hoda has been doing my nails for over 4 years now. I wouldn't go anywhere else. Hoda always does a professional job and... my nails last for ages. Great service and flexible times. The most difficult decision is what colour to choose. 🌸",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXHPvvr8FvrKOvzkSXe4Fo43QiVs6Kq0bczquAyg9k-1PyOkf8Eu7GIUlbM6XLIQd38_mmivc8Jc5Q&psid=1222710737829288&height=120&width=120&ext=1719381446&hash=AbbUsV-zrQj7gDVv0Rykfs4M"
+      "reviewer": {
+        "displayName": "Carmel A-T"
+      },
+      "starRating": "FIVE",
+      "comment": "Hoda greeted me with a smile, beautiful salon setting, gentle in her work and allowed me quiet time as nails are part of my self-care. Colour range comprehensive and no qualms of artwork request. Very reasonable pricing for builder gel, colour and nail art. I will certainly be going back :-)",
+      "createTime": "2024-09-26T07:59:34.617437Z",
+      "updateTime": "2024-10-13T07:57:47.126326Z",
+      "reviewReply": {
+        "comment": "Thank you so much Carmel🌟",
+        "updateTime": "2024-09-26T09:59:16.173371Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSUNuN3FPSDlnRRAB"
     },
     {
-      "name": "Hannah Sarney",
-      "date": "2021-05-17T03:51:29+0000",
-      "rating": 5,
-      "text": "It was an amazing experience! I'm beyond happy with my nails! Hoda is so professional and friendly ! I will always... recommend her for getting your nails done!💅🏼❤️",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXES-IoFB84yzJRWYt-jE1dnK9qa4nGiT0uuDgk9EG-sZMrgAX1ftsFlVoEc427gq4vmVQCy9jL-yA&psid=4124153254332054&height=120&width=120&ext=1719381446&hash=AbZ-LJDzzxBa6vqz-85Txh7A"
+      "reviewer": {
+        "displayName": "clayton james"
+      },
+      "starRating": "FIVE",
+      "comment": "My name is Lisa and I have been seeing Hoda for my nails regularly. She is so lovely, professional and her nail work is wonderful. She is quick and flexible with appointment times. Highly recommend!",
+      "createTime": "2024-09-19T21:48:24.118128Z",
+      "updateTime": "2024-09-19T21:48:24.118128Z",
+      "reviewReply": {
+        "comment": "Thank you so much for your comment 🌟",
+        "updateTime": "2024-09-19T22:09:32.029416Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSURIaTU2Q2JnEAE"
     },
     {
-      "name": "Mandy Preece",
-      "date": "2020-12-07T09:27:50+0000",
-      "rating": 5,
-      "text": "This lady is amazing, always a great result, recommended to me by my 19 year old, best find ever 😊👏",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXGwUs_ZmArC4FfeyNKtELS6TnZgdKrnZ60POcb590W_J3HUqaNX0p1LfDaKUWN_AWua7sgWh5EaDA&psid=5874708075887681&height=120&width=120&ext=1719381446&hash=AbZtFzEvJuUWP2ewhqmkYZaA"
+      "reviewer": {
+        "displayName": "Lucy Goodridge Gaines"
+      },
+      "starRating": "FIVE",
+      "comment": "I can’t thank Hoda enough for her patience and attention to detail. It was my first time getting a full set acrylic, but she put me at ease and recommended what shape and colour for it to turn out exactly what I wanted for my wedding. Thank you Hoda 🤍",
+      "createTime": "2024-09-19T11:04:18.546647Z",
+      "updateTime": "2024-09-19T11:04:18.546647Z",
+      "reviewReply": {
+        "comment": "Thank you so much for your comment Lucy🌷",
+        "updateTime": "2024-09-19T11:25:15.982911Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSURIbzh6c0tnEAE"
     },
     {
-      "name": "Sharndra Marple",
-      "date": "2020-09-22T13:00:12+0000",
-      "rating": 5,
-      "text": "Hoda offers a very professional service. Her work is beautiful, always accommodating and fair priced. Wouldn't go... anywhere else! Highly recommended. Thanks Hoda😊",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXEg0UMCVJH0ZNj-nsLhVoWhm3Uq3DMJpr9KkyFxL_lDt9XH5kx270h1iAeDi7E_E-isbMYegACsww&psid=4236335989760858&height=120&width=120&ext=1719381446&hash=AbYG52j89LSqG_b2seKiBasY"
+      "reviewer": {
+        "displayName": "melissa leathley"
+      },
+      "starRating": "FIVE",
+      "comment": "Amazing, great price, beautiful nail work. Absolutely love it. Going back again soon 😁",
+      "createTime": "2024-09-13T08:38:56.366278Z",
+      "updateTime": "2024-09-13T08:38:56.366278Z",
+      "reviewReply": {
+        "comment": "Thank you so much for your comment 🌷",
+        "updateTime": "2024-09-13T13:32:08.344296Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSURIek9iQzVBRRAB"
     },
     {
-      "name": "Emily ReAl Auzzie",
-      "date": "2020-09-22T13:00:12+0000",
-      "rating": 5,
-      "text": "Today was my first appt and i can say i wasnt dissapointed, loooove my nails and will continue to get my nails done 🥰🥰",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXFTFJFFWz142kzUSYELPj1KqMAK95HX5EUE4Wsq5tciY6NFifCeS2Bx8Qufxj5aZij38FgX42GYXw&psid=4068757236552755&height=120&width=120&ext=1719381446&hash=AbZRGs8ou-C2ccNkE7crIIi3"
+      "reviewer": {
+        "displayName": "Sandra Beatty"
+      },
+      "starRating": "FIVE",
+      "comment": "I'm an older woman and although I've often painted my nails myself, this was my first time ever having a professional do my nails & toes for me and I was more than impressed and pleased with the result. I cannot recommend Hoda highly enough and am now a regular monthly customer. 11/10 service.",
+      "createTime": "2024-09-05T08:46:12.722784Z",
+      "updateTime": "2024-09-05T08:46:12.722784Z",
+      "reviewReply": {
+        "comment": "Thank you so much for your comment. Good to see you🌱",
+        "updateTime": "2024-09-05T10:57:50.387279Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSUNIbnMzMXN3RRAB"
     },
     {
-      "name": "Nicky Townson",
-      "date": "2018-04-06T06:02:50+0000",
-      "rating": 5,
-      "text": "I love my SNS nails ~ Thank you Hoda 🙌",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXESwmMmHuXW1BjSPGWveTRNDQtkhacnaE70LPdnnEd59UG5-eZVSjQr_Fx9yvwMX3Nj2SPj4V2fFg&psid=4161042740628087&height=120&width=120&ext=1719381446&hash=AbbxNT05XZBg_SFn3WVm0sJB"
+      "reviewer": {
+        "displayName": "Michelle Beatty"
+      },
+      "starRating": "FIVE",
+      "comment": "I can't recommend Hoda at Luminous Nails highly enough. I've been going to her regularly for at least 3 years now and EVERY single time she has done an outstanding job. I get both my nails and toes done. Her attention to detail is excellent, very clean & sterile and exceptionally affordable given the quality service she provides, as well as being a lovely, genuine, warm, caring lady.",
+      "createTime": "2024-08-30T22:48:37.045802Z",
+      "updateTime": "2024-08-30T22:48:37.045802Z",
+      "reviewReply": {
+        "comment": "Thank you so much Michelle 🌷",
+        "updateTime": "2024-08-31T04:16:48.147122Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUNINEphZFN3EAE"
     },
     {
-      "name": "Fatemeh Hosseinzadeh",
-      "date": "2018-07-22T09:21:38+0000",
-      "rating": 5,
-      "text": "The best ever nails! Thanks a lot Hoda. I am hooked for ever!",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXE5wqoJg4_a_nvXjRjOrWEZDxGz4Lqyy6rjoewFOa9Bim3C-AfV7YBzz3JLn7s3X5crzy6YwTUBRw&psid=3633942303376233&height=120&width=120&ext=1719381446&hash=AbbNoyG-Jy6ubZSJq0g1gxBz"
+      "reviewer": {
+        "displayName": "Diana Grime"
+      },
+      "starRating": "FIVE",
+      "comment": "First time having my nails done at Luminous Nails.  Soft Gel was used and they look fantastic. Very clean studio.   Very professional job done and on time for appointment.  I will be going back again in 3 weeks time.",
+      "createTime": "2024-08-22T04:23:01.281769Z",
+      "updateTime": "2024-08-22T04:23:01.281769Z",
+      "reviewReply": {
+        "comment": "Thank you so much. Looking forward to seeing you 💅🏻",
+        "updateTime": "2024-08-22T10:52:41.681177Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUQ3clBxb1JREAE"
     },
     {
-      "name": "Ruby Hart",
-      "date": "2017-10-08T07:20:14+0000",
-      "rating": 5,
-      "text": "I have been getting acrylic nails for the last 3 years, and never have came across a person to be able to give me all... my nail requests nothing but perfect, in every way i like to change them. But now i've found Hoda and that's exactly what i get, 100% recommend xx 💅🏼",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXF1tLy0XOfWJCsArRiip3qZ-d0ILDkGGIbVXR07NVnB847E15mhCcwk8HpNFsrTksuf_aVySF20sA&psid=4782518211776504&height=120&width=120&ext=1719381446&hash=AbYLeowLHeD1MjgCjsIlu04B"
+      "reviewer": {
+        "displayName": "Arefeh Shojaie"
+      },
+      "starRating": "FIVE",
+      "comment": "Hoda is one of the best! Highly recommend to try just one time, you will never go anywhere else!\nNot only will enjoy your beautiful nails, but also will enjoy chatting with her 😍",
+      "createTime": "2024-08-21T07:09:45.033960Z",
+      "updateTime": "2024-08-21T07:09:45.033960Z",
+      "reviewReply": {
+        "comment": "Thank you 😊",
+        "updateTime": "2024-08-21T07:40:25.272589Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSUQ3LUtHUTRRRRAB"
     },
     {
-      "name": "Chloe Wotton",
-      "date": "2017-05-08T21:59:07+0000",
-      "rating": 5,
-      "text": "Amazingly beautiful nails. First time visiting Hoda and her service was wonderful. Thankyou so much I love them🌸. Will... definitely recommend and be returning for next time.",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXGn2c_sP9yF4ipdytvCqHKzDzUUnkJD8atPHPlaijmcj7fl7AZr51UMyIJjiXGabf7G6un0i0IWOw&psid=6146299825383715&height=120&width=120&ext=1719381446&hash=AbbVID_qCQwmZjTNBoybuQ9r"
+      "reviewer": {
+        "displayName": "maryam khatamirad"
+      },
+      "starRating": "FIVE",
+      "comment": "Hoda is very professional and lovely .\nAnd the place is also clean and nice.\nHighly recommended ladies 👌🏻",
+      "createTime": "2024-08-21T03:56:51.212537Z",
+      "updateTime": "2024-08-21T03:56:51.212537Z",
+      "reviewReply": {
+        "comment": "Thank you so much 🌱",
+        "updateTime": "2024-08-21T07:40:09.614562Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUQ3dUxqYkNnEAE"
     },
     {
-      "name": "Keryn Fuller",
-      "date": "2017-05-08T05:10:48+0000",
-      "rating": 5,
-      "text": "Absolutely love my nails and the friendly service makes it even better. Thankyou so much x",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXGw9oIemr3SsNMwBlPEDQHg9jXZqOjNeFqmXUQFKfo8recfBwp3VtnMQ4pQqfWWIPXlj1IZPNqk8Q&psid=1203331083105880&height=120&width=120&ext=1719381446&hash=AbaFF-QsjSk1coVOU2i9DDB6"
+      "reviewer": {
+        "displayName": "Ally Riley"
+      },
+      "starRating": "FIVE",
+      "comment": "Lovely Hoda always does a great job on my nails. Love the shape, large colour selection, nice and clean, quick and beautiful. Highly recommend!",
+      "createTime": "2024-08-20T23:20:47.509377Z",
+      "updateTime": "2024-08-20T23:20:47.509377Z",
+      "reviewReply": {
+        "comment": "Thanks Ally🥰",
+        "updateTime": "2024-08-20T23:26:33.500449Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUQ3bU5xUk93EAE"
     },
     {
-      "name": "Jessica Kristensen",
-      "date": "2017-04-21T11:10:14+0000",
-      "rating": 5,
-      "text": "Thank you for fitting me in today last minute you did a wonderful job I am very very happy with my nails your a... beautiful lady was a pleasure meeting you 😊",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXHg3bdbqmIKIdEAlJpQYcCSEnE1XLbNz_SIANEQhnwGPXMAcGWhJFLBC7GXTUfcSEI-prksZSHS9g&psid=3542838559150071&height=120&width=120&ext=1719381446&hash=AbYZGrFd_5vgGtiPcYhJOHdJ"
+      "reviewer": {
+        "displayName": "Keira Hunt"
+      },
+      "starRating": "FIVE",
+      "comment": "Absolutely amazing! For the first time ever I have left a nail salon happy. Hoda was really lovely and genuine. She was on time and did an amazing job with my nails. Will definitely be coming back soon 🫶💕",
+      "createTime": "2024-08-19T10:36:15.641956Z",
+      "updateTime": "2024-08-19T10:36:15.641956Z",
+      "reviewReply": {
+        "comment": "Thank you so much 🌱",
+        "updateTime": "2024-08-19T10:50:28.707813Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUM3cjU3TGR3EAE"
     },
     {
-      "name": "Madii O'doherty",
-      "date": "2017-03-31T05:14:59+0000",
-      "rating": 5,
-      "text": "",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXF6qBnamJukDXyLyAKg56v0FX4PmA8vM0VQpPKXnzHR5D2TC4EoHSVPzGW5YNGP29EcB86cIFmMSg&psid=3963419377086988&height=120&width=120&ext=1719381446&hash=AbbGzAhOKfWPZWo9gVW2RS8v"
+      "reviewer": {
+        "displayName": "Mojgan S."
+      },
+      "starRating": "FIVE",
+      "comment": "Hoda is extremely meticulous and professional and my nails look fab every time. She has an amazing work ethic and also very friendly in her interactions. I’d highly recommend her.",
+      "createTime": "2024-08-19T10:21:04.750232Z",
+      "updateTime": "2024-08-19T10:21:04.750232Z",
+      "reviewReply": {
+        "comment": "Thank you so much Mojgan🌸",
+        "updateTime": "2024-08-19T10:23:43.970552Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSUM3cjVxc3pBRRAB"
     },
     {
-      "name": "Brianna Johann",
-      "date": "2017-12-07T10:01:08+0000",
-      "rating": 5,
-      "text": "",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXGPameaVfm62NPT1GZKkf1-o52Lm_YGaYfi2qARpIHplQthliyL_livMAXgcrDjjHJtgw__0L1xKA&psid=5599108440159072&height=120&width=120&ext=1719381446&hash=AbaIgV4Z6ceY-21ytxj2Zceh"
+      "reviewer": {
+        "displayName": "Paige Simpson"
+      },
+      "starRating": "FIVE",
+      "comment": "I love my nails thanks to Hoda's amazing skills. She's not only talented but also super kind & made sure that I was happy with my nails. Great prices too. Will definitely be returning. Thank you 🌹",
+      "createTime": "2024-08-17T10:40:58.114887Z",
+      "updateTime": "2024-08-17T10:40:58.114887Z",
+      "reviewReply": {
+        "comment": "Thank you so much 🌸",
+        "updateTime": "2024-08-17T10:57:16.056522Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUM3eFktX2V3EAE"
     },
     {
-      "name": "Ashleigh Taylor",
-      "date": "2018-06-16T00:38:43+0000",
-      "rating": 5,
-      "text": "Hoda was very professional and talented, i am so happy with the nails! Love the soft gel option!!",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXHcjczV0bdornkhv7q7PYZiNHg4biU5z4dxjRbseskXZqomLA2EzJpnLT65xWLS1vj29S3kIV47Sw&psid=4124153254332054&height=120&width=120&ext=1719381446&hash=AbbcYKHSEhUuN7lz2ekY91Y5"
+      "reviewer": {
+        "displayName": "Christopher Raines"
+      },
+      "starRating": "FIVE",
+      "comment": "Amazing! After going to shopping centre nail places and having my nails destroyed and being made to feel like I was on a production line I find Luminous Nails, from the moment walking into the salon I felt instantly at ease, it is a beautiful, clean and very professional salon.\n\nMy nails look and feel amazing, I would never go anywhere else now that I have been here!",
+      "createTime": "2024-08-15T11:33:52.452392Z",
+      "updateTime": "2024-08-15T11:33:52.452392Z",
+      "reviewReply": {
+        "comment": "Thank you so much 🥰",
+        "updateTime": "2024-08-15T11:39:17.175818Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUM3bHFTVWF3EAE"
     },
     {
-      "name": "Becky Nelms",
-      "date": "2018-01-02T04:59:16+0000",
-      "rating": 5,
-      "text": "If anyone wants amazing nails for an amazing price go to Hoda, she is so lovely and makes you feel so welcome ! So... happy 😊",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXGVZdwUdOM-gkiG0NnHIBL3oX1dSI1rd2PZctN8EscF5Wsl9fh-IBt5gu1M9WZC2pU6ItPWMsLAnw&psid=1526907020681765&height=120&width=120&ext=1719381446&hash=AbYdtUwpaCCtOFRHNn6IjU10"
+      "reviewer": {
+        "displayName": "Louisa Hardcastle"
+      },
+      "starRating": "FIVE",
+      "comment": "Beautiful and clean space, not rushed and very personal experience, large range of gel colours to choose from and she takes very good care of your nails and skin by being so gentle. My nails came out just as I wanted and for so cheap! Will definitely become my regular nail salon! :)",
+      "createTime": "2024-08-13T10:27:16.259610Z",
+      "updateTime": "2024-09-16T06:59:20.515981Z",
+      "reviewReply": {
+        "comment": "Thank you so much 🌸",
+        "updateTime": "2024-08-13T11:03:51.148147Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUM3ck9iN0dnEAE"
     },
     {
-      "name": "Chelsea Loves-Harry Styles",
-      "date": "2018-01-02T04:59:16+0000",
-      "rating": 5,
-      "text": "",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXECkX2Xzn8e6bHKP55LypALOWk4sITLqCykJSrjNOKobymXwOoZp9cOlNSOb1hltH4yqR5UxaUZJw&psid=5702265189848237&height=120&width=120&ext=1719381446&hash=AbYJdQHDf7iAdCXpPEeG6zn3"
+      "reviewer": {
+        "displayName": "Emilia"
+      },
+      "starRating": "FIVE",
+      "comment": "I started going to Luminous Nails beginning of this year and have always had an exceptional experience! The salon itself is clean, modern, and beautifully decorated, creating a relaxing atmosphere from the moment you walk in. Hoda is incredibly welcoming and professional, making you feel right at home.\n\nI opted for a gel overlay and was thoroughly impressed with the attention to detail and care that went into the service. Hoda is highly skilled and meticulous, ensuring each nail was perfectly shaped and polished. She also offers a wide range of colors and designs to choose from, making it easy to find the perfect look.\n\nOverall, Luminous Nails exceeded my expectations. The combination of excellent customer service, skilled technician, and a serene environment makes it my go-to nail salon. I highly recommend Luminous Nails for anyone looking for top-notch nail services!",
+      "createTime": "2024-07-31T05:25:30.360500Z",
+      "updateTime": "2024-07-31T05:25:30.360500Z",
+      "reviewReply": {
+        "comment": "Thank you so much ",
+        "updateTime": "2024-07-31T05:27:28.522027Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSUNiejZpRHNBRRAB"
     },
     {
-      "name": "Helia Fardhosseini",
-      "date": "2017-10-09T19:37:38+0000",
-      "rating": 5,
-      "text": "",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXFG2D9jfgb9EYEkDWU94prXQhEYtVLlbIRV99O4xzNefRoGLn1OFTSQiO4yQU_7Xw_RHQ2gRzTUmg&psid=1636318883058862&height=120&width=120&ext=1719381446&hash=AbY-1WJDKV5vMwLsavHn9S3w"
+      "reviewer": {
+        "displayName": "Georgia Jones"
+      },
+      "starRating": "FIVE",
+      "comment": "Great job, quick, punctual and well priced!",
+      "createTime": "2024-07-31T03:10:44.362577Z",
+      "updateTime": "2024-07-31T03:10:44.362577Z",
+      "reviewReply": {
+        "comment": "Thank you so much 🌸",
+        "updateTime": "2024-07-31T05:27:45.961592Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUNial9ERkpBEAE"
     },
     {
-      "name": "Leana Barnes",
-      "date": "2017-03-21T06:48:03+0000",
-      "rating": 5,
-      "text": "Fast, Affordable, Professional Nail Artist",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXFqqjldxlcFrcNmFEbQeVHD30bVXpN4WRHk2e4WZ4cPGXgJGxt9rzPE1f6wo96RJm9JSEpuEt8pxg&psid=5394068297302635&height=120&width=120&ext=1719381446&hash=AbajIhB0V4CWC36UQstK68-8"
+      "reviewer": {
+        "displayName": "Koda"
+      },
+      "starRating": "FIVE",
+      "comment": "Would 100% recommend Hoda for nails every time, only place I’ll go now. Friendly and professional combined with amazing nails makes for a great experience!",
+      "createTime": "2024-07-31T02:25:10.819179Z",
+      "updateTime": "2024-07-31T02:25:10.819179Z",
+      "reviewReply": {
+        "comment": "Thank you so much 😊",
+        "updateTime": "2024-07-31T02:32:29.525849Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUNiOTYyT2NnEAE"
     },
     {
-      "name": "Lauren Kirkby",
-      "date": "2017-04-27T08:30:01+0000",
-      "rating": 5,
-      "text": "Perfect Nails and what a lovely lady , I'll be back xx",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXEi_MViHaTi7IARef_cbQhOSX4gFpd9VsIc5nWBlnPFe5tJ412rBuDe6TrABI8I8iUf2jtZ5BOkjw&psid=1639965669444601&height=120&width=120&ext=1719381446&hash=AbZFQbfdRqgNYqC75PeUETIv"
+      "reviewer": {
+        "displayName": "caroline pierre"
+      },
+      "starRating": "FIVE",
+      "comment": "Hoda is great and easy to talk to ! My nails looks great and last up to 3 weeks without breaking, all of that at a good price ! I recommend !",
+      "createTime": "2024-07-31T00:48:51.256935Z",
+      "updateTime": "2024-07-31T00:48:51.256935Z",
+      "reviewReply": {
+        "comment": "Thank you so much 😊",
+        "updateTime": "2024-07-31T02:33:03.095872Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSUNiOTREZjJRRRAB"
     },
     {
-      "name": "Chloe Connellan",
-      "date": "2017-03-17T10:12:08+0000",
-      "rating": 5,
-      "text": "Absolutely amazing! Such a lovely lady! And awesome prices! Would highly recommend.",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXFlp_q0WSN7Oza7acY9Lr1109bvKSu0zEmKUGPOBZ7H1ZORJeymhZ1nvL3uE1CGaVYGotGE7lBSxg&psid=1548311715192235&height=120&width=120&ext=1719381446&hash=AbZmz45LyjECtaSZe8LzAIV4"
+      "reviewer": {
+        "displayName": "Elsa Pouya"
+      },
+      "starRating": "FIVE",
+      "comment": "Very good 🤙🏻 10/10",
+      "createTime": "2024-06-05T05:28:54.894865Z",
+      "updateTime": "2024-06-05T05:28:54.894865Z",
+      "reviewReply": {
+        "comment": "Thank you so much 🌸",
+        "updateTime": "2024-06-05T06:03:28.182553Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUN6eThtb1hREAE"
     },
     {
-      "name": "Parisa Mehdipour",
-      "date": "2017-02-01T10:53:24+0000",
-      "rating": 5,
-      "text": "Oh my lord! Absolutely beautiful job she did today. Professional and perfect job with low prices! Can't be any... better. Thank you Hoda",
-      "profilePic": "https://platform-lookaside.fbsbx.com/platform/profilepic/?eai=AXF9C_2i9uNELeSXF1UiZBkazVKpGnwsSf78EyDb47FBGbVDssFxW7-fVIv-9T_V9Qf9XwFH4_DQEw&psid=1678875815487112&height=120&width=120&ext=1719381446&hash=AbbThhTohp6DaChzKr4bQ2L8"
+      "reviewer": {
+        "displayName": "Maddy Mccaul"
+      },
+      "starRating": "FIVE",
+      "comment": "AMAZING!\nI am so happy with my nails every time I leave.\nI first went to Hoda after I had my nails done at a shopping centre nail bar and needed them removed and redone due to them being chunky, messy, misshaped and uncomfortable. Hoda  quickly fit me in and did an amazing job at giving me what I wanted. She is on point with her shaping and ensures the nails are not chunky and look natural. My nails last weeks and I have never had one snap or come off. She completes a beautiful set of nails in a very efficient time and her pricing is very reasonable in comparison to other nail techs. I can’t recommend Hoda enough!",
+      "createTime": "2024-05-21T20:49:04.628053Z",
+      "updateTime": "2024-05-21T20:49:04.628053Z",
+      "reviewReply": {
+        "comment": "Thank you so much 😍",
+        "updateTime": "2024-05-22T04:20:09.233018Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSURUaUltOTFBRRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Jessie Broomhead"
+      },
+      "starRating": "FIVE",
+      "comment": "Hoda is very friendly and does a great job of my nails, very efficient ! Will be returning 😊",
+      "createTime": "2024-03-20T09:59:42.539074Z",
+      "updateTime": "2024-03-20T09:59:42.539074Z",
+      "reviewReply": {
+        "comment": "Thank you so much Jess🌸",
+        "updateTime": "2024-03-20T10:25:27.118428Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUQ5X2J1RE13EAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Jo Healy"
+      },
+      "starRating": "FIVE",
+      "comment": "Fabulous service. Flexible and efficient.  I'll be booking again soon 😁",
+      "createTime": "2024-02-25T05:13:39.920250Z",
+      "updateTime": "2024-02-25T05:13:39.920250Z",
+      "reviewReply": {
+        "comment": "Thanks Jo🌸",
+        "updateTime": "2024-02-25T14:31:01.800789Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChRDSUhNMG9nS0VJQ0FnSURkMmFVXxAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Renny Hewson"
+      },
+      "starRating": "FIVE",
+      "comment": "Had a lovely experience meeting Hoda, she provided me with product recommendations to maintain the integrity of my natural nails as I have had problems with my natural nails painfully breaking recently. She is capable of freehanding beautiful nail art. I am very impressed, will be returning x",
+      "createTime": "2024-02-14T01:53:43.085539Z",
+      "updateTime": "2024-02-14T01:53:43.085539Z",
+      "reviewReply": {
+        "comment": "Thank you so much 🌷",
+        "updateTime": "2024-02-14T04:57:04.694617Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSUNkb3AyYXNnRRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Alison Stone"
+      },
+      "starRating": "FOUR",
+      "createTime": "2024-01-25T05:11:00.525964Z",
+      "updateTime": "2024-01-25T05:11:00.525964Z",
+      "reviewReply": {
+        "comment": "🌸",
+        "updateTime": "2024-02-14T04:58:28.400127Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSURObmZfWEN3EAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Tanya Wood"
+      },
+      "starRating": "FIVE",
+      "comment": "Hoda always does an amazing job with my nails. She has a beautiful salon, easy to book in to and I’m always out in a reasonable time frame. Her beautiful dogs are an extra bonus. Would highly recommend Hoda.",
+      "createTime": "2024-01-11T02:42:06.120281Z",
+      "updateTime": "2024-01-11T02:42:06.120281Z",
+      "reviewReply": {
+        "comment": "Thank you so much 🌸",
+        "updateTime": "2024-02-14T04:58:44.714585Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSUQxdjdtSG1BRRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Brooke Battiston"
+      },
+      "starRating": "FIVE",
+      "comment": "Hoda did an amazing job on my nails! The attention to detail in the shaping and application process is none like I’ve ever experienced before. I will definitely be recommending her to family and friends!",
+      "createTime": "2024-01-03T23:53:36.401765Z",
+      "updateTime": "2024-01-03T23:53:36.401765Z",
+      "reviewReply": {
+        "comment": "Thank you so much Brooke.\nNice to see you😊",
+        "updateTime": "2024-01-04T09:19:28.950624Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUMxbThHdFZBEAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Matilda Garfield"
+      },
+      "starRating": "FIVE",
+      "comment": "Hoda did such a beautiful job on my sisters and I’s nails for Christmas! She took such good care of us both!",
+      "createTime": "2023-12-21T01:32:05.226380Z",
+      "updateTime": "2023-12-21T01:32:05.226380Z",
+      "reviewReply": {
+        "comment": "Thank you darling 🌷",
+        "updateTime": "2023-12-21T07:19:53.986981Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUMxc09yY1pBEAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Lisa and Warren Reese"
+      },
+      "starRating": "FIVE",
+      "createTime": "2023-12-05T07:37:34.385273Z",
+      "updateTime": "2023-12-05T07:37:34.385273Z",
+      "reviewReply": {
+        "comment": "🌷",
+        "updateTime": "2024-02-14T04:58:58.139769Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUNWNk51bFF3EAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Tamara Allwood"
+      },
+      "starRating": "THREE",
+      "comment": "My appointment was for soft gel/builder gel and it felt very rushed, and they didn’t really shape my nails (just left them with how I had them shaped). Not sure it was worth the $70 ($55 for the gel + $15 for chrome polish).",
+      "createTime": "2023-12-04T07:33:38.589667Z",
+      "updateTime": "2023-12-04T07:33:38.589667Z",
+      "reviewReply": {
+        "comment": "Sorry you were disappointed with the session. I never rush with my clients, and shaping the nails is the most important step. I never leave nails unshaped. And I always check if you are happy before asking for payment, and you didn’t say anything about any problems you had with the job at the time.",
+        "updateTime": "2023-12-05T10:28:38.110663Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSURscDlmMjR3RRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Layla Wilmot"
+      },
+      "starRating": "FIVE",
+      "comment": "Best experience ever!! Hoda Madani has such a lovely studio and amazing talent. I got my formal nails done there, and received plentiful compliments. She completes such beautiful designs, I definitely recommend .",
+      "createTime": "2023-12-02T14:37:52.895772Z",
+      "updateTime": "2023-12-02T14:37:52.895772Z",
+      "reviewReply": {
+        "comment": "Thank you so much ",
+        "updateTime": "2023-12-03T07:13:58.705394Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSURseWNMOFNREAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Adelie T"
+      },
+      "starRating": "FIVE",
+      "comment": "Was overall an amazing and comfortable experience. The nails came out stunning, she was lovely to talk to and I felt comfortable throughout the whole process, highly recommend!!",
+      "createTime": "2023-11-13T05:04:21.826024Z",
+      "updateTime": "2023-11-13T05:04:21.826024Z",
+      "reviewReply": {
+        "comment": "Thank you so much 🌹",
+        "updateTime": "2023-11-13T22:26:12.744201Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSUNsc08zQzhBRRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Nicole Morris"
+      },
+      "starRating": "FIVE",
+      "comment": "I loved the experience, she was so nice and welcoming. The nails were so nicely treated and overall came out stunning. Highly recommend !!",
+      "createTime": "2023-11-13T05:00:40.305315Z",
+      "updateTime": "2023-11-13T05:00:40.305315Z",
+      "reviewReply": {
+        "comment": "Thank you so much❤️",
+        "updateTime": "2023-11-13T22:26:54.274014Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSUNsc0kzOHhnRRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "M Pearson"
+      },
+      "starRating": "FIVE",
+      "comment": "Stunning work done by the lovely Hoda. She took me in for a last minute appointment, and set me out feeling beautiful and confident. Very well done!",
+      "createTime": "2023-08-01T08:25:22.074960Z",
+      "updateTime": "2023-08-01T08:26:41.302853Z",
+      "reviewReply": {
+        "comment": "thank you so much for your comment🙂",
+        "updateTime": "2023-08-10T11:53:54.218756Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSUNwOHVubnVnRRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Daynah Mackenzie"
+      },
+      "starRating": "FIVE",
+      "comment": "Such amazing nails. I’ve had them done twice now by Hoda, one for formal and they lasted until well over my schoolies and got them done the other day and once again amazing nail. I have a birth deformity on my hands which effects my nails but she always does and amazing job with no judgement. Definitely recommend!!!!",
+      "createTime": "2023-07-14T09:35:02.523485Z",
+      "updateTime": "2023-07-14T09:35:02.523485Z",
+      "reviewReply": {
+        "comment": "thanks lovely🥰",
+        "updateTime": "2023-08-10T11:55:13.986969Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSURKc3NfaGR3EAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Lilly Baker"
+      },
+      "starRating": "FIVE",
+      "comment": "Beautifully done, gentle and professional.\nMy new nail lady indefinitely 🥰",
+      "createTime": "2023-07-05T21:31:50.344090Z",
+      "updateTime": "2023-07-05T21:31:50.344090Z",
+      "reviewReply": {
+        "comment": "Thank you so much ",
+        "updateTime": "2023-12-03T07:14:27.490521Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSUNKLTZxRnN3RRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Farah Roeland"
+      },
+      "starRating": "ONE",
+      "comment": "My appointment was forgotten about, when I showed up for my appointment she was confused and forgot that she had me slotted in, did a rushed job with my nails, croocked nails, airbubbles in the nail polish, not happy with the service.",
+      "createTime": "2023-05-25T01:29:18.481672Z",
+      "updateTime": "2023-05-25T01:29:18.481672Z",
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUN4NDV5TVV3EAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Gulya Kholmatova"
+      },
+      "starRating": "FIVE",
+      "comment": "Hoda has been looking after my nails for a while. I am so glad I found her. She is very passionate and professional even though I am a very difficult and picky client. She always makes sure I am happy with my nails. Recommend Hodas service 100%.",
+      "createTime": "2023-03-31T20:41:55.306548Z",
+      "updateTime": "2023-03-31T20:41:55.306548Z",
+      "reviewReply": {
+        "comment": "Thanks Gulya :)",
+        "updateTime": "2023-05-05T01:00:59.194935Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUNSNXFLSmV3EAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Amber Wright"
+      },
+      "starRating": "FIVE",
+      "comment": "Hoda was very lovely and did an amazing job on my nails. Super comfortable experience, she is a perfectionist!",
+      "createTime": "2023-02-21T04:45:00.658916Z",
+      "updateTime": "2023-02-21T04:45:00.658916Z",
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUNobzUtSlFnEAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Sharon Rez"
+      },
+      "starRating": "FIVE",
+      "comment": "Such a fantastic salon! Fast but beautiful work. Hoda is really friendly and I always enjoy her accompany whilst she is doing my nails. She is a perfect nail designer and never makes you disappointed. No one can make the nails shape like her.\nI would rate her 10 stars if I could.",
+      "createTime": "2023-02-11T06:01:01.478741Z",
+      "updateTime": "2023-02-11T06:01:01.478741Z",
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUNoLXZpMlJnEAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "zahra alipour"
+      },
+      "starRating": "FIVE",
+      "comment": "I would like to note that if I could give more than 5 stars on this review, I would give unlimited golden stars.\nLove love love Hoda! Today was my first time there, but it was the best experience I’ve had with a nail artist. She cares and takes the time to make sure you’re getting what you came for. I will never go anywhere else ever again. You have a lifetime customer in me!",
+      "createTime": "2023-02-11T04:20:15.054596Z",
+      "updateTime": "2023-02-11T04:20:15.054596Z",
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSUNodXV1TWp3RRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Sheida Shaban"
+      },
+      "starRating": "FIVE",
+      "comment": "I’m a fan of nail designs and lovely Hoda always make it happen for me In the best way.\nHighly professional and friendly",
+      "createTime": "2023-02-10T22:37:03.190183Z",
+      "updateTime": "2023-02-10T22:37:03.190183Z",
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUNoMnVlTlFBEAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Trudi Nipperess"
+      },
+      "starRating": "FIVE",
+      "createTime": "2023-01-29T05:52:05.822406Z",
+      "updateTime": "2023-02-19T06:12:20.720084Z",
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSURCNjdqZnZRRRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Kylie Davies"
+      },
+      "starRating": "FIVE",
+      "comment": "Hoda always does a beautiful job with my soft gel nails. I get a square French tip and people always comment on them. I have been going to Luminous Nails for almost 2 years now and I will never go anywhere else. Hoda always fits me in, even at a moments notice and I have always loved her work. I highly recommend her services.",
+      "createTime": "2022-09-19T03:57:44.273645Z",
+      "updateTime": "2022-09-19T03:57:44.273645Z",
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUNleGE2TUZnEAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Rebecca Roebuck-Malone"
+      },
+      "starRating": "FIVE",
+      "comment": "Hoda's work is amazing and always done with such professionalism. Would highly recommend Luminous Nails.",
+      "createTime": "2022-08-17T06:43:08.490786Z",
+      "updateTime": "2022-08-17T06:43:08.490786Z",
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUR1a29tU2FREAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Chamika Khodaei"
+      },
+      "starRating": "FIVE",
+      "comment": "I have been a very happy client of Luminous Nails for a long time. Hoda is very professional and punctual and always do the best job. Happily recommending her services to all!",
+      "createTime": "2022-08-08T02:59:28.978824Z",
+      "updateTime": "2022-08-08T02:59:28.978824Z",
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUN1cDdYNmJnEAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Nooshin Moghadam"
+      },
+      "starRating": "FIVE",
+      "comment": "I have been getting my nails done by Hoda for 1 year and she always makes them look beautiful. Hoda has a strong artistic ability and can do any design you ask of her. She always provides quick, precise and affordable service. I highly recommend Hoda",
+      "createTime": "2022-08-07T06:22:22.384669Z",
+      "updateTime": "2022-08-07T06:22:22.384669Z",
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUN1MjVXWEJnEAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "mozhgan bagheri"
+      },
+      "starRating": "FIVE",
+      "comment": "Highly recommended!\nVery professional,  friendly, passionate and caring lady. She done an amazing job. Price wise, so reasonable. You should try yourself!",
+      "createTime": "2022-08-04T06:13:08.835285Z",
+      "updateTime": "2022-08-04T06:13:08.835285Z",
+      "reviewReply": {
+        "comment": "thank you Mozhgan :)",
+        "updateTime": "2022-08-04T10:54:49.810844Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUN1M2RhZ013EAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Nellie Zoughi"
+      },
+      "starRating": "FIVE",
+      "comment": "It is usually really hard to locate a truly skilled nail salon, but what a joy to find this place.The technicians here are very efficient,qualified, and experienced. Personal service and attention to details are also provided at a high level. The place is immaculately presented which makes you feel assured that you are in good hands.\nThe only down point is that it’s too far to me as I live in Perth and I only found this place by word of mouth during to my trip to Sunshine Coast 🥰 thanks for the great service and beautiful experience…",
+      "createTime": "2022-08-02T12:08:15.059329Z",
+      "updateTime": "2022-08-02T12:08:15.059329Z",
+      "reviewReply": {
+        "comment": "thanks Nellie for your review.",
+        "updateTime": "2022-08-02T22:10:19.461377Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSUN1bGZDeDVBRRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Maryam"
+      },
+      "starRating": "FIVE",
+      "comment": "I had my nails done by the amazing Hoda. She's so kind and friendly and really made me feel special when she did my nails. They're beautiful, creative and I'm so happy with the result! I can't wait to come back in another four weeks.",
+      "createTime": "2022-08-02T08:58:28.793600Z",
+      "updateTime": "2022-08-02T08:58:28.793600Z",
+      "reviewReply": {
+        "comment": "thanks lovely for your review",
+        "updateTime": "2022-08-02T09:01:22.944780Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUN1NWFURGRBEAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Aye Azarbashi"
+      },
+      "starRating": "FIVE",
+      "comment": "One of the best .Highly recommended.",
+      "createTime": "2022-08-02T08:30:32.874661Z",
+      "updateTime": "2022-08-02T08:30:32.874661Z",
+      "reviewReply": {
+        "comment": "thank you so much Aye",
+        "updateTime": "2022-08-03T11:20:49.856942Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUN1NWNEc2N3EAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Emily Smith"
+      },
+      "starRating": "FIVE",
+      "comment": "Hoda is fantastic! I can’t recommend her more. She is friendly, professional and efficient. I am always happy with her services.",
+      "createTime": "2022-08-02T07:49:09.616267Z",
+      "updateTime": "2022-08-02T07:49:09.616267Z",
+      "reviewReply": {
+        "comment": "thank you so much for your comment",
+        "updateTime": "2022-08-02T09:02:13.703189Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSUN1cGF2V3lBRRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Leila Radfar"
+      },
+      "starRating": "FIVE",
+      "comment": "She is so professional and use high quality material. I had a lovely experience of manicures & pedicures.",
+      "createTime": "2022-08-01T20:03:09.930284Z",
+      "updateTime": "2022-08-01T20:03:09.930284Z",
+      "reviewReply": {
+        "comment": "thank you Leila for your comment",
+        "updateTime": "2022-08-03T11:21:21.578249Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUN1aFkybWN3EAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Nina Danesh"
+      },
+      "starRating": "FIVE",
+      "comment": "Amazing work! This is my second time doing my nails with Hoda and I am so satisfied.\nShe is beyond amazing, very calm, super sweet, pays attention to the details and also creative! I loved her work😊😊",
+      "createTime": "2022-08-01T18:10:56.193046Z",
+      "updateTime": "2022-08-01T18:10:56.193046Z",
+      "reviewReply": {
+        "comment": "thank you Nina for our comment",
+        "updateTime": "2022-08-02T09:02:34.786200Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSUN1aGJUUHd3RRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Asieh Sheibak"
+      },
+      "starRating": "FIVE",
+      "createTime": "2022-08-01T17:10:27.481906Z",
+      "updateTime": "2022-08-01T17:10:27.481906Z",
+      "reviewReply": {
+        "comment": "thanks",
+        "updateTime": "2022-08-03T11:21:30.026199Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUN1LWNlRkZBEAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "فروزان رحیمی"
+      },
+      "starRating": "FIVE",
+      "comment": "(Translated by Google) 🙏\n\n(Original)\n🙏🙏🙏🙏",
+      "createTime": "2022-08-01T11:07:40.217987Z",
+      "updateTime": "2022-08-01T11:07:40.217987Z",
+      "reviewReply": {
+        "comment": "thanks",
+        "updateTime": "2022-08-03T11:21:37.138343Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSUN1dWNTTXpBRRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Zahra Atash Ghaleh"
+      },
+      "starRating": "FIVE",
+      "comment": "Extremely talented and professional nail technician and amazing prices. Definitely will be recommending and definitely will be back.💙",
+      "createTime": "2022-08-01T10:47:59.352845Z",
+      "updateTime": "2022-08-01T10:47:59.352845Z",
+      "reviewReply": {
+        "comment": "thank you so much",
+        "updateTime": "2022-08-02T09:02:59.686045Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSUN1dWRDUHFBRRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Soma Mir"
+      },
+      "starRating": "FIVE",
+      "comment": "It was an amazing experience! I’m beyond happy with my nails! So professional and friendly!\nI will always recommend her for getting your nails done!",
+      "createTime": "2022-08-01T10:22:35.158126Z",
+      "updateTime": "2022-08-01T10:22:35.158126Z",
+      "reviewReply": {
+        "comment": "thank you Somayeh for your comment",
+        "updateTime": "2022-08-02T09:03:21.517673Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSUN1MllfMnRBRRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Hoomaan Mazarei"
+      },
+      "starRating": "FIVE",
+      "comment": "I went and had my nails done here a while ago and i have to say it was a very fun time, I went with my girlies and i can speak for all of us when I say they were one of the best nail salons we've been to. Also, the lady was a wonderful person and I would highly recommend it to anyone who is trying to feel good about their nails.",
+      "createTime": "2022-08-01T10:16:15.575347Z",
+      "updateTime": "2022-08-01T10:18:06.673789Z",
+      "reviewReply": {
+        "comment": "thank you so much",
+        "updateTime": "2022-08-02T09:04:06.688056Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUN1MmRlRU1nEAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Baran Kadivar"
+      },
+      "starRating": "FIVE",
+      "comment": "Hoda is the best nail technician i’ve been too! She did my nails very quickly and so perfectly💗 I highly recommend going to Hoda, she’s spectacular at what she does. 👍",
+      "createTime": "2022-08-01T09:38:19.196118Z",
+      "updateTime": "2022-08-01T09:38:19.196118Z",
+      "reviewReply": {
+        "comment": "Thank you so much for your lovely comment",
+        "updateTime": "2022-08-01T09:42:02.427409Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUN1MllPUUlBEAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Prue McAlpine"
+      },
+      "starRating": "FIVE",
+      "comment": "Hoda has been doing my nails for well over 3 yrs now and I would highly recommend her to anyone. She is extremely experienced and very professional in all aspects of nail sculpting. Anyone that goes to Hoda for their nails, would never go anywhere else❤️",
+      "createTime": "2022-07-27T03:16:49.678872Z",
+      "updateTime": "2022-07-27T03:16:49.678872Z",
+      "reviewReply": {
+        "comment": "Thank you for taking the time to give your feedback",
+        "updateTime": "2022-08-01T09:29:42.467125Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUN1eHNiZ1BnEAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Jodi Page"
+      },
+      "starRating": "FIVE",
+      "comment": "I had an awesome experience with Hoda.   She was so professional and welcoming and offered me great advice on color and service!  I tried the soft gel for the first time and I’m so happy with the result.  Anyone on the Sunshine  Coast looking for quality nail service at a great price needs to go visit Hoda at Luminous Nails.",
+      "createTime": "2022-07-26T13:04:33.011242Z",
+      "updateTime": "2022-07-26T13:04:33.011242Z",
+      "reviewReply": {
+        "comment": "Thank you Jodi for taking your time to give your feedback",
+        "updateTime": "2022-08-01T09:31:18.958968Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUN1MnYya0pBEAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Arezoo kavousi"
+      },
+      "starRating": "FIVE",
+      "comment": "I’ve done my nails manicure and polishing several times with Hoda. She  is great and her job is professionally perfect.",
+      "createTime": "2022-07-26T07:52:39.752819Z",
+      "updateTime": "2022-07-26T07:52:39.752819Z",
+      "reviewReply": {
+        "comment": "Thank you Arezoo for sharing your kind comment",
+        "updateTime": "2022-08-01T09:32:45.669684Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSUN1bXByUW5BRRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "michelle strong"
+      },
+      "starRating": "FIVE",
+      "comment": "I have been going to Hoda for about 5 years im always extremely happy with her services as Hoda is a very talented women and does a Fantastic job everytime .. I would highly recommend her work to everyone...\nBig thanks Hoda",
+      "createTime": "2022-07-26T06:02:26.378104Z",
+      "updateTime": "2022-07-26T06:02:26.378104Z",
+      "reviewReply": {
+        "comment": "Thank you so much Michelle for your comment",
+        "updateTime": "2022-08-01T10:10:20.277342Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUN1NnNlbVBBEAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "keri hermanns"
+      },
+      "starRating": "FIVE",
+      "comment": "Hoda has been doing my nails for a while now and I always find her very professional. She takes the time to make them perfect. Very good prices and always finds time to fit me in last minute if I haven't booked. Highly recommend.",
+      "createTime": "2022-07-25T22:43:32.438342Z",
+      "updateTime": "2022-07-25T22:43:32.438342Z",
+      "reviewReply": {
+        "comment": "Thanks Keri for leaving a review",
+        "updateTime": "2022-08-01T09:34:26.449210Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUN1cXFuOFhnEAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Carole Morris"
+      },
+      "starRating": "FIVE",
+      "comment": "I went to Hoda today and came away with the most beautiful manicured  nails.  I love her technique very different to what the other nail salons have but so much better. My result was perfect beautifully done. Hoda was polite  very attentive and delivered me the best nails I've  ever had so natural. Not thick.  Can't wait to return to try some new colours. Thanks so very much Hoda.\nKind Regards\nCarole🌻",
+      "createTime": "2022-07-25T12:03:20.452440Z",
+      "updateTime": "2022-07-25T12:03:20.452440Z",
+      "reviewReply": {
+        "comment": "thanks Carole for your kind review",
+        "updateTime": "2022-08-01T09:35:04.238374Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSUN1OHIzODdRRRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Helia"
+      },
+      "starRating": "FIVE",
+      "comment": "Extremely clean service, perfect attention to detail and just all around high quality work. I got a manicure and it has lasted me for over a month now, and the service itself is very kind, patient and attentive. I would highly recommend Hoda and Luminous Nails.",
+      "createTime": "2022-07-11T04:41:51.147078Z",
+      "updateTime": "2022-07-11T04:41:51.147078Z",
+      "reviewReply": {
+        "comment": "Thank you for sharing 🌺",
+        "updateTime": "2022-07-17T14:45:01.226907Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSURPOWVXd0x3EAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Yulia Madani"
+      },
+      "starRating": "FIVE",
+      "comment": "Hoda never fails to make my nails look amazing!\nShe has great prices, so many colours to choose from and very comfortable surroundings. Now I’ve been here I wouldn’t go anywhere else!",
+      "createTime": "2022-07-05T00:02:49.467733Z",
+      "updateTime": "2022-07-05T00:04:32.559094Z",
+      "reviewReply": {
+        "comment": "Thanks for your review Yulia🌺",
+        "updateTime": "2022-07-05T00:42:35.447710Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSURPMXFfdGRnEAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Saeedeh Asadikia"
+      },
+      "starRating": "FIVE",
+      "comment": "Great Job, so welcoming,  good price! I absolutely loved it ♥️",
+      "createTime": "2022-06-28T21:42:59.489671Z",
+      "updateTime": "2022-06-28T21:42:59.489671Z",
+      "reviewReply": {
+        "comment": "Thanks Saeedeh🌺",
+        "updateTime": "2022-06-30T10:15:09.082384Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSURPOU55VVZBEAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Neda Sartipi"
+      },
+      "starRating": "FIVE",
+      "comment": "Im the regular and happy client.\nHoda is very talented and professional. She always give me the best services and design.\nI get exactly what I asked for even if I changed mind , she is helping me to choose the right colour nails for me. I 100% recommend her if you want beautiful nails she is so nice and friendly.",
+      "createTime": "2022-06-27T01:19:06.148564Z",
+      "updateTime": "2022-06-27T01:33:10.540285Z",
+      "reviewReply": {
+        "comment": "Thanks Neda🌺",
+        "updateTime": "2022-06-27T02:03:46.543584Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSURPMktUUmx3RRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Leonora Moses"
+      },
+      "starRating": "ONE",
+      "comment": "Service was very rushed, acrylic was so poorly applied to the nail and my cuticles?! I had to tweeze it off. bumpy, uneven application. really unhappy with the finished product,  however when I complained I was offered a free service which is very nice but I didn't accept it as it should have been good the first time and I was told I would be 'more than happy' the second time. Honestly wouldn't recommend, there is far better salons on the coast.",
+      "createTime": "2022-05-05T05:20:27.453952Z",
+      "updateTime": "2022-05-05T05:20:27.453952Z",
+      "reviewReply": {
+        "comment": "Hi Leonora,\nAll my regular clients know that my services are done quickly, not rushed. It’s just my technique. If your nail needs fixing, I’ll do it for free, otherwise I don’t do free services.\n\nMany thanks, Hoda",
+        "updateTime": "2022-06-16T11:31:17.762530Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSUQycUlINGdnRRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Kristy Akers"
+      },
+      "starRating": "ONE",
+      "comment": "This is the worst nail place I have ever been to, the staff are rude, the nails are terrible and overall terrible and completely unprofessional. The photos on the website are completely unrealistic and I am extremely disappointed with the nails I got for $60. Please never go there they are terrible and you will regret it",
+      "createTime": "2021-12-10T07:43:50.440948Z",
+      "updateTime": "2021-12-10T07:46:28.722840Z",
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSURHbThiSnRRRRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Rachael T"
+      },
+      "starRating": "FIVE",
+      "comment": "It’s always a pleasure getting my nails done with Hoda. So relaxing, calm and my nails are always done perfectly. I especially love the colour choices.",
+      "createTime": "2021-12-04T06:51:44.205627Z",
+      "updateTime": "2021-12-04T06:51:44.205627Z",
+      "reviewReply": {
+        "comment": "Thank you so much 🌺",
+        "updateTime": "2021-12-06T04:32:34.708289Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSURHcGVqMW93RRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Jenny Martin"
+      },
+      "starRating": "FIVE",
+      "comment": "Hoda never fails to make my nails look amazing! Her pricing is excellent & so many colours to choose from. Very comfortable salon. Nothing is a problem & she always manages to fit me in even at short notice. Now that I've been here I wouldn't go anywhere else! Thank you Hoda 😊",
+      "createTime": "2021-11-15T07:04:19.294290Z",
+      "updateTime": "2021-11-15T07:04:19.294290Z",
+      "reviewReply": {
+        "comment": "Thanks lovely ✨",
+        "updateTime": "2021-11-15T07:18:21.315674Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSURHb0xHVUdREAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Selina Bennett"
+      },
+      "starRating": "FIVE",
+      "comment": "I've been going to Hoda for over 3 years now and she always does a fantastic job. She is very welcoming and strives to provide a good service. The negative review from Kalou (who has given everyone she reviews only 1 star!) is misleading and not representative of Hoda at all.",
+      "createTime": "2021-11-15T01:33:18.143406Z",
+      "updateTime": "2021-11-15T01:33:18.143406Z",
+      "reviewReply": {
+        "comment": "Thanks Selina✨",
+        "updateTime": "2021-11-15T07:17:58.706088Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSURHd0pQQWhRRRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Michelle Hutchinson"
+      },
+      "starRating": "FIVE",
+      "comment": "I have been going to Hoda for years to get my nails done and would highly recommend her,I always leave there loving my nails ❤️",
+      "createTime": "2021-11-14T10:10:56.330674Z",
+      "updateTime": "2024-08-20T04:39:31.409952Z",
+      "reviewReply": {
+        "comment": "Thank you so much ✨",
+        "updateTime": "2021-11-15T07:18:34.439811Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUNHdjQtU1dnEAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Melissa Pearce"
+      },
+      "starRating": "FIVE",
+      "comment": "Hoda is an amazing women who is very professional, no matter what my request is she always exceeds my expectations . I would highly  recommend Luminious Nails to everyone.",
+      "createTime": "2021-11-14T01:41:15.303553Z",
+      "updateTime": "2021-11-14T01:41:15.303553Z",
+      "reviewReply": {
+        "comment": "Thank you so much ✨",
+        "updateTime": "2021-11-14T04:58:14.934100Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUNHMzdYb0Z3EAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Carly Smithwick"
+      },
+      "starRating": "FIVE",
+      "comment": "Hoda is very professional and provides a quality nail service. She is very efficient and talented with her nail techniques and nail art. She offers many colours and accessories to choose from. Her pricing is excellent. 🌸",
+      "createTime": "2021-11-14T01:22:21.138206Z",
+      "updateTime": "2021-11-14T01:22:21.138206Z",
+      "reviewReply": {
+        "comment": "Thank you so much ✨",
+        "updateTime": "2021-11-14T01:35:01.642368Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSUNHMzRYMl9BRRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Sandy Thompson"
+      },
+      "starRating": "FIVE",
+      "comment": "What a fabulous place to get your nails done. Hoda is professional, prices are amazing and the environment is gorgeous. Hoda’s work is high quality, and it is such a pleasure getting my nails done with her. I am so pleased I found her. I would highly recommend her outstanding business ⭐️⭐️⭐️⭐️⭐️",
+      "createTime": "2021-11-14T00:33:30.295616Z",
+      "updateTime": "2021-11-14T00:33:30.295616Z",
+      "reviewReply": {
+        "comment": "Thank you so much 🌻✨",
+        "updateTime": "2021-11-14T01:21:36.955704Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUNHMzhHdlBREAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Ruby McCulloch"
+      },
+      "starRating": "FIVE",
+      "comment": "I have been going to get my nails done here for 4 years now and every time without fail I leave with the most beautiful nails ever. The service is always amazing and very time efficient. This is my forever salon xxx",
+      "createTime": "2021-11-14T00:16:23.400918Z",
+      "updateTime": "2021-11-14T00:16:23.400918Z",
+      "reviewReply": {
+        "comment": "Thanks gorgeous 🌻✨",
+        "updateTime": "2021-11-14T00:27:10.343409Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUNHMzU2dmZnEAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Daphne Nasir"
+      },
+      "starRating": "FOUR",
+      "createTime": "2021-07-18T09:25:06.508030Z",
+      "updateTime": "2022-04-26T22:28:10.312414Z",
+      "reviewReply": {
+        "comment": "Thank you so much 🌺",
+        "updateTime": "2022-07-17T14:45:32.025163Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSURxdDk2dXdnRRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "fateme riazi"
+      },
+      "starRating": "FIVE",
+      "createTime": "2021-06-22T20:33:22.054474Z",
+      "updateTime": "2021-06-22T20:36:15.968487Z",
+      "reviewReply": {
+        "comment": "🙏🏻❤️",
+        "updateTime": "2021-06-24T08:09:20.625652Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUNxajdlNWVnEAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Kimia Jafari"
+      },
+      "starRating": "FIVE",
+      "comment": "I got my nails done in this salon. They were quick, clean, professional and nice.",
+      "createTime": "2021-06-22T19:16:11.077916Z",
+      "updateTime": "2021-06-22T19:16:11.077916Z",
+      "reviewReply": {
+        "comment": "🙏🏻❤️",
+        "updateTime": "2021-06-24T08:09:33.674689Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSUNxal9YMGx3RRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Baran Kadivar"
+      },
+      "starRating": "FIVE",
+      "comment": "Amazing job! She is super friendly, and does an amazing job very fast and efficiently! Highly recommend! Will certainly go back to her!❤❤",
+      "createTime": "2021-03-28T06:24:38.451443Z",
+      "updateTime": "2021-03-28T06:26:42.336083Z",
+      "reviewReply": {
+        "comment": "❤️",
+        "updateTime": "2021-03-28T09:18:57.528029Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUNLaEppRk9BEAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Jess Thomas"
+      },
+      "starRating": "FIVE",
+      "comment": "Best place for acrylic nails. Great price and they always last ages. Highly recommend.",
+      "createTime": "2021-02-02T00:56:17.996208Z",
+      "updateTime": "2021-02-02T00:56:17.996208Z",
+      "reviewReply": {
+        "comment": "Thank you Jess🌺",
+        "updateTime": "2021-02-02T01:09:19.207955Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUN5d2RhVGF3EAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Kerryn Hurae"
+      },
+      "starRating": "FIVE",
+      "createTime": "2020-10-26T23:33:02.777845Z",
+      "updateTime": "2020-10-26T23:33:02.777845Z",
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSUNpa3JETjJ3RRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Lisa Brown"
+      },
+      "starRating": "FIVE",
+      "comment": "Hoda is always sure to do an amazing job with my nails..\nQuality and Price are fantastic!",
+      "createTime": "2020-09-22T23:59:03.747418Z",
+      "updateTime": "2020-09-22T23:59:03.747418Z",
+      "reviewReply": {
+        "comment": "Thanks Lisa😊",
+        "updateTime": "2020-09-23T20:11:52.638636Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSURDbXVEMXBnRRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Cecilia Schultz"
+      },
+      "starRating": "FIVE",
+      "comment": "Excellent service,  i love my nails that I get done.  Is always happy to help me when I brake a nail and treats every customer with respect. Love having my nails done and a chat.",
+      "createTime": "2020-09-22T12:26:50.539998Z",
+      "updateTime": "2020-09-22T12:26:50.539998Z",
+      "reviewReply": {
+        "comment": "Thanks heaps",
+        "updateTime": "2020-09-22T22:00:34.505702Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSURDcXR5Z0FREAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Katrina Friend"
+      },
+      "starRating": "FIVE",
+      "comment": "Very professional, beautiful results every time. Hoda is always on time, great selection of colours and a lovely lasting result with my gel nails x",
+      "createTime": "2020-09-22T10:20:21.886426Z",
+      "updateTime": "2022-07-25T21:14:13.799447Z",
+      "reviewReply": {
+        "comment": "Thank you so much 🌸",
+        "updateTime": "2020-09-22T11:21:38.183795Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSURDeXBmTlpnEAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Terri-anne Murray"
+      },
+      "starRating": "FIVE",
+      "comment": "I have been using Hoda as my nail technician for the past 2 months.  She is quick, polite, professional and best value you will find.  I have rung her in the past when I broken and nail and she will fit me in straight away to fix it.  She prides herself on her clients being happy and I wont go anywhere else.  Thank you Hoda for being a true superstar. ;-)",
+      "createTime": "2020-09-22T10:03:00.278874Z",
+      "updateTime": "2020-09-22T10:03:00.278874Z",
+      "reviewReply": {
+        "comment": "Thank you so much 🌺",
+        "updateTime": "2020-09-22T11:21:17.944769Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSURDeXZ1LWtnRRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Trez Strong"
+      },
+      "starRating": "FIVE",
+      "comment": "Hoda is an amazing nail technician, my nails are always looking awesome, nothing is too much trouble (even rescheduling). Great prices and great quality work, I always leave happy! 💅🏻",
+      "createTime": "2020-09-22T08:48:30.810162Z",
+      "updateTime": "2020-09-22T08:48:30.810162Z",
+      "reviewReply": {
+        "comment": "Thank you so much ✨",
+        "updateTime": "2020-09-22T11:21:27.191732Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSURDeXEyU0NREAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Jasmin ZANDE"
+      },
+      "starRating": "FIVE",
+      "comment": "Huda is so quick, efficient and gentle. My nails are always perfect !",
+      "createTime": "2020-09-22T08:18:18.904541Z",
+      "updateTime": "2020-09-22T08:18:18.904541Z",
+      "reviewReply": {
+        "comment": "🌺✨Thank you so much",
+        "updateTime": "2020-09-22T11:24:55.763722Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSURDeXFYZ3Z3RRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Anna Hill"
+      },
+      "starRating": "FIVE",
+      "comment": "Love love love my nails. Only ever go to Hoda to get them done. She’s the best! Thank you 😊",
+      "createTime": "2020-09-22T08:04:11.198805Z",
+      "updateTime": "2020-09-22T08:04:11.198805Z",
+      "reviewReply": {
+        "comment": "🌺✨",
+        "updateTime": "2020-09-22T08:20:38.501086Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSURDeXJtcXNRRRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "AnnaKateBear TV"
+      },
+      "starRating": "FIVE",
+      "comment": "I love going to Hoda to get my nails done. She is the only salon I visit. She does an awesome job and has a huge variety of designs and colours to choose from!",
+      "createTime": "2020-09-22T08:00:12.272635Z",
+      "updateTime": "2020-09-22T08:00:12.272635Z",
+      "reviewReply": {
+        "comment": "🌺✨",
+        "updateTime": "2020-09-22T08:20:48.700688Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSURDeXRteTN3RRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Szabo Brigitta"
+      },
+      "starRating": "ONE",
+      "comment": "I know, my nails have some difficalties, but my acrylic nails fell in one week. She doesn't do any prepareing, doesn't manicure and pedicure. I would not recommend, there are better places to get nails done on the coast. “I am not reach enough to buy chip things.”",
+      "createTime": "2020-09-21T01:01:12.000748Z",
+      "updateTime": "2020-09-21T01:01:12.000748Z",
+      "reviewReply": {
+        "comment": "Hi there,\nIf someone asks me for a manicure, I would do it but a manicure is not included of full set of acrylic. Because I have a home business, I don’t have spa at home so obviously I can’t do a whole pedicure. You want to do manicure, pedicure and full set of acrylic for $40? Also I did tell you that I can’t guarantee that the acrylic will last long for someone that bites their nails.",
+        "updateTime": "2020-09-21T02:49:13.362846Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSURDMHBQR2d3RRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Tina Smith"
+      },
+      "starRating": "FIVE",
+      "createTime": "2020-06-29T00:38:48.527697Z",
+      "updateTime": "2020-06-29T00:38:48.527697Z",
+      "reviewReply": {
+        "comment": "🌺🙌🏻",
+        "updateTime": "2020-06-29T02:41:53.178823Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUM4NG9qZ0FREAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Debra Curtis"
+      },
+      "starRating": "FIVE",
+      "comment": "Hoda is an amazing nail technician! I love coming to her salon. She is always welcoming and a lovely person. Here salon is clean and comfortable!",
+      "createTime": "2020-06-09T00:51:30.667401Z",
+      "updateTime": "2020-06-09T00:52:37.325616Z",
+      "reviewReply": {
+        "comment": "🌺🍒Thanks Debra",
+        "updateTime": "2020-06-10T11:09:55.033334Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSURjeHByM3pBRRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Maureene Mahoney"
+      },
+      "starRating": "FIVE",
+      "comment": "Great nails - they last.  Lovely lady.",
+      "createTime": "2020-03-03T07:21:07.699195Z",
+      "updateTime": "2020-03-03T07:21:07.699195Z",
+      "reviewReply": {
+        "comment": "🌹🙏🏻",
+        "updateTime": "2020-03-09T05:51:49.456477Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSURzbHZ1ZXd3RRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Magic Painting"
+      },
+      "starRating": "FIVE",
+      "comment": "Highly recommended, good skill and affordable",
+      "createTime": "2020-02-11T22:02:25.872789Z",
+      "updateTime": "2020-02-11T22:02:25.872789Z",
+      "reviewReply": {
+        "comment": "🙏🏻🌹",
+        "updateTime": "2020-02-13T02:13:49.720966Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUNzX2Vud0tnEAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Tahlia Brown"
+      },
+      "starRating": "FIVE",
+      "comment": "Very happy with my nails. Thank you 💓",
+      "createTime": "2020-02-10T09:07:56.807774Z",
+      "updateTime": "2020-12-08T06:12:42.366989Z",
+      "reviewReply": {
+        "comment": "🌹🙏🏻",
+        "updateTime": "2020-02-11T05:45:31.222393Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSUNzelo3TmhnRRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Toni Kirkby"
+      },
+      "starRating": "FIVE",
+      "comment": "Every nail bar I phoned up or visited was shut EARLIER THAN THEIR PUBLISHED CLOSING TIMES! I rang this wonderful lady who got me in within 30 minutes! She was so professional and kind and her process are incredibly low! Very happy customer :)",
+      "createTime": "2020-01-03T08:22:29.240625Z",
+      "updateTime": "2020-11-16T06:57:38.995082Z",
+      "reviewReply": {
+        "comment": "Thank you so much lovely 🌹🙏🏻",
+        "updateTime": "2020-01-03T09:25:14.079030Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSURNOGRYRi1RRRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Krystle Stanton"
+      },
+      "starRating": "ONE",
+      "comment": "Shellac advertised is questionable. My nails chipped after 3 days. The owner did offer to fix them but only at a time that suits her. Would not recommend there are better places to get nails done on the coast.",
+      "createTime": "2019-12-06T10:39:53.980805Z",
+      "updateTime": "2019-12-06T10:40:43.650006Z",
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSUNNcS12ei13RRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Barbara Deen"
+      },
+      "starRating": "FIVE",
+      "comment": "Very personable attention and care, excellent job!!",
+      "createTime": "2019-12-01T04:51:11.428204Z",
+      "updateTime": "2019-12-01T04:51:11.428204Z",
+      "reviewReply": {
+        "comment": "🙏🏻🌹",
+        "updateTime": "2019-12-01T21:36:50.372354Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSUNNN2FMOHJ3RRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Amelia Holly"
+      },
+      "starRating": "FIVE",
+      "createTime": "2019-11-21T05:56:57.131953Z",
+      "updateTime": "2019-11-21T05:56:57.131953Z",
+      "reviewReply": {
+        "comment": "🙏🏻🌹",
+        "updateTime": "2019-11-21T07:14:50.662742Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUNNM3FPOUZ3EAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "milly hermon"
+      },
+      "starRating": "FIVE",
+      "comment": "she is so lovely and very professional!! knew i was in the right hands as soon as met her great prices also def will be going back 💯💅",
+      "createTime": "2019-10-24T06:41:49.092615Z",
+      "updateTime": "2019-10-24T06:41:49.092615Z",
+      "reviewReply": {
+        "comment": "🙏🏻🌹",
+        "updateTime": "2019-10-24T08:00:45.628518Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUQwbEsyNVN3EAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Danika Rose"
+      },
+      "starRating": "FIVE",
+      "comment": "Love my nails, didn't feel rushed to choose a colour. Don't get mine done often but it was nice to go somewhere accommodating and professional.\nThanks!",
+      "createTime": "2019-09-18T01:02:12.097274Z",
+      "updateTime": "2019-09-18T01:02:12.097274Z",
+      "reviewReply": {
+        "comment": "🙏🏻🌹",
+        "updateTime": "2019-09-18T09:28:14.857048Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSUMwbktDX25nRRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Beth McCracken"
+      },
+      "starRating": "FIVE",
+      "comment": "First time coming here and I did not regret it! My nails are absolutely gorgeous, done to perfection! The prices and service are outstanding! Will definitely be back!",
+      "createTime": "2019-08-16T10:49:07.196936Z",
+      "updateTime": "2019-08-16T10:49:07.196936Z",
+      "reviewReply": {
+        "comment": "🙏🏻🌹",
+        "updateTime": "2019-08-16T11:36:52.929433Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSURVelAyeWZnEAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Katrice Boag"
+      },
+      "starRating": "FIVE",
+      "comment": "Hoda is such an amazing nail artist and an amazing person. Such a lovely lady and she listens to the customers requests. Always so happy with the end result!\nHighly recommend her!! Xx",
+      "createTime": "2019-08-14T10:45:06.625803Z",
+      "updateTime": "2019-08-14T10:45:06.625803Z",
+      "reviewReply": {
+        "comment": "🙏🏻🌹",
+        "updateTime": "2019-08-14T22:55:41.540302Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSURVeFB5U2p3RRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Abby Cossalter"
+      },
+      "starRating": "FIVE",
+      "comment": "Hoda is super lovely. She does an amazing job! Will always visit her when I need some nail love.",
+      "createTime": "2019-08-03T02:55:17.152453Z",
+      "updateTime": "2019-08-03T02:55:17.152453Z",
+      "reviewReply": {
+        "comment": "🌹🙏🏻",
+        "updateTime": "2019-08-03T03:16:27.308353Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSUNVdzRXaGtnRRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Shery Kimia"
+      },
+      "starRating": "FIVE",
+      "comment": "I usually do my nails with Hoda. She is fantastic, professional and talented. Best service .... highly recommended.",
+      "createTime": "2019-08-02T08:21:17.480152Z",
+      "updateTime": "2019-08-02T08:21:17.480152Z",
+      "reviewReply": {
+        "comment": "🌹🙏🏻",
+        "updateTime": "2019-08-02T09:01:14.527762Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUNVdmVIaFNREAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Bree Kronk"
+      },
+      "starRating": "FIVE",
+      "comment": "Hoda does really beautiful work and at such an affordable price. She is accomodating and efficient. I highly recommend luminous nails ♥️",
+      "createTime": "2019-07-30T00:38:10.367255Z",
+      "updateTime": "2019-07-30T00:38:10.367255Z",
+      "reviewReply": {
+        "comment": "🌹🙏🏻",
+        "updateTime": "2019-07-30T01:01:01.401076Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUNVeFp2MVVnEAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Roy Mazarei"
+      },
+      "starRating": "FIVE",
+      "createTime": "2019-07-26T22:16:15.806822Z",
+      "updateTime": "2019-07-26T22:16:15.806822Z",
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUNVa2Z1TVNREAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Safoora Mazarei"
+      },
+      "starRating": "FIVE",
+      "comment": "I have my nails done here several times and loved it. I am very satisfied by the amazing quality. I will highly recommend Luminous Nails for the great service Hoda provides.",
+      "createTime": "2019-07-26T21:37:35.228709Z",
+      "updateTime": "2019-07-26T21:37:35.228709Z",
+      "reviewReply": {
+        "comment": "🌹🙏🏻",
+        "updateTime": "2019-07-30T01:02:18.033056Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUNVa2VQQUxnEAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Babak Kimiyaghalam"
+      },
+      "starRating": "FIVE",
+      "createTime": "2019-07-26T21:24:26.750304Z",
+      "updateTime": "2019-07-26T21:24:26.750304Z",
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUNVa2IzTkp3EAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Sarah Weber"
+      },
+      "starRating": "FIVE",
+      "comment": "Couldn’t be more happy with my ombré acrylics the shape and colour are so perfect and quick service to a good price :) will be back for sure!",
+      "createTime": "2019-07-20T05:27:53.751789Z",
+      "updateTime": "2019-07-20T05:27:53.751789Z",
+      "reviewReply": {
+        "comment": "🙏🏻🌺",
+        "updateTime": "2019-07-20T06:37:26.065890Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUNVcktyOEJ3EAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Isabel Bugden"
+      },
+      "starRating": "FIVE",
+      "comment": "Very welcoming and good quality service",
+      "createTime": "2019-07-08T22:59:45.161318Z",
+      "updateTime": "2019-07-08T22:59:45.161318Z",
+      "reviewReply": {
+        "comment": "🙏🏻🌹",
+        "updateTime": "2019-07-08T23:17:51.718877Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSURrbTgtWmlRRRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Emily Jones"
+      },
+      "starRating": "FIVE",
+      "comment": "Hoda is honestly the most thorough and talented nail technician I know. I have never had any issues with my SNS nails and they still look just like new even after weeks. I cannot recommend Hoda enough!",
+      "createTime": "2019-06-28T07:34:23.927129Z",
+      "updateTime": "2019-06-28T07:34:23.927129Z",
+      "reviewReply": {
+        "comment": "🌹🙏🏻",
+        "updateTime": "2019-06-28T08:29:08.607324Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSURrNGI3VnlnRRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Hedieh Madani"
+      },
+      "starRating": "FIVE",
+      "createTime": "2019-06-24T17:42:00.041766Z",
+      "updateTime": "2019-06-24T17:42:00.041766Z",
+      "reviewReply": {
+        "comment": "🌹🙏🏻",
+        "updateTime": "2019-06-25T00:44:23.461040Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSURreFBQdDJnRRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Adele Broomhead"
+      },
+      "starRating": "FIVE",
+      "comment": "Hoda is a beautiful person inside and out. I have been going here for 2 years and always live my nails. Always tries to fit me in at short notice. Amazing service!! X x x x",
+      "createTime": "2019-06-22T22:06:48.694513Z",
+      "updateTime": "2019-06-22T22:06:48.694513Z",
+      "reviewReply": {
+        "comment": "🌹🙏🏻",
+        "updateTime": "2019-06-22T22:24:48.686393Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUNrZzduRldnEAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Helia Fardhosseini"
+      },
+      "starRating": "FIVE",
+      "comment": "Best costumer service , best price, super fast ,\nHighly recommend",
+      "createTime": "2019-06-21T23:28:19.628873Z",
+      "updateTime": "2019-06-21T23:35:13.445530Z",
+      "reviewReply": {
+        "comment": "🌹🙏🏻",
+        "updateTime": "2019-06-21T23:40:05.368542Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUNraXRXRUVnEAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Lousineh Collins"
+      },
+      "starRating": "FIVE",
+      "comment": "Went to see Hoda to get my nails done after 6 years of having my natural nails . Was very pleased with the work Hoda did.  She was very friendly and made me feel comfortable from the start. Would defiantly recommended her and her work to anyone. Thank you again Hoda.",
+      "createTime": "2019-06-21T06:07:36.149674Z",
+      "updateTime": "2019-06-21T06:07:36.149674Z",
+      "reviewReply": {
+        "comment": "🌹🙏🏻",
+        "updateTime": "2019-06-21T07:01:03.289576Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUNrdEx6c1VnEAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Iboiya Grezlo"
+      },
+      "starRating": "FIVE",
+      "comment": "Hodah is amazing at making my nails look the best they ever have. I have been to many nail technicians in the past and her work totally exceeds my expectations highly recommend. ~ Iboiya manager at Resort  Hair and Beauty.",
+      "createTime": "2019-06-21T04:39:52.713296Z",
+      "updateTime": "2019-06-21T04:39:52.713296Z",
+      "reviewReply": {
+        "comment": "🙏🏻🌹",
+        "updateTime": "2019-06-21T07:01:12.824397Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSUNrcFBpSjR3RRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Ana Goode"
+      },
+      "starRating": "FIVE",
+      "comment": "Highly recommended. Great service and a lovely range of colours. Clean and welcoming.",
+      "createTime": "2019-06-20T23:44:53.040704Z",
+      "updateTime": "2019-06-20T23:44:53.040704Z",
+      "reviewReply": {
+        "comment": "🙏🏻🌹",
+        "updateTime": "2019-06-20T23:56:06.138426Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUNrZ0lhTkV3EAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Trish Forbes"
+      },
+      "starRating": "FIVE",
+      "comment": "I have always had incredible results with Hoda, her service and prices are the best.",
+      "createTime": "2019-06-20T23:34:18.205639Z",
+      "updateTime": "2019-06-20T23:34:18.205639Z",
+      "reviewReply": {
+        "comment": "🙏🏻🌹",
+        "updateTime": "2019-06-20T23:54:18.387522Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSURFXzdYOHdRRRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Lou"
+      },
+      "starRating": "FIVE",
+      "comment": "Fantastic service and nails. Have been going to Hoda for over 12 months - she is the best.",
+      "createTime": "2019-06-20T23:34:07.549910Z",
+      "updateTime": "2019-06-20T23:34:07.549910Z",
+      "reviewReply": {
+        "comment": "🙏🏻🌹",
+        "updateTime": "2019-06-20T23:54:28.393547Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSURFXzdYODdnRRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Claudia Wykamp"
+      },
+      "starRating": "FIVE",
+      "comment": "Very nice welcoming home, lovely lady and great nails! Also the cutest puppy dog!",
+      "createTime": "2019-06-14T05:52:43.864382Z",
+      "updateTime": "2019-06-14T05:52:43.864382Z",
+      "reviewReply": {
+        "comment": "🙏🏻🌹",
+        "updateTime": "2019-06-20T23:54:36.529926Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUQ0aVpITWFnEAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Julia Stone"
+      },
+      "starRating": "FIVE",
+      "comment": "I have been going to  Hoda for about 6 months now, very happy with my nails (sns lasts well over 3 weeks) and great price and service would  recommend.",
+      "createTime": "2019-05-31T09:31:22.344704Z",
+      "updateTime": "2019-05-31T09:31:22.344704Z",
+      "reviewReply": {
+        "comment": "🙏🏻🌹",
+        "updateTime": "2019-06-20T23:54:43.735826Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSUM0aVBXMXhnRRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Chell Boag"
+      },
+      "starRating": "FIVE",
+      "comment": "Love, love ,love Hoda, I have been with her for nearly 2 years now.\nShe's not just amazing with her pricing but does a fantastic, quick job, with a massive variety of colors and styles.\nI highly recommend her.\nXx",
+      "createTime": "2019-05-29T10:13:41.779095Z",
+      "updateTime": "2019-05-29T10:13:41.779095Z",
+      "reviewReply": {
+        "comment": "🌹🙏🏻",
+        "updateTime": "2019-06-20T23:54:51.673337Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSURZdi11Z2t3RRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Michelle Tuer"
+      },
+      "starRating": "FIVE",
+      "comment": "I'v been to many different nail salons but Luminous Nails is by far the best I'v been to.\nGreat service and awesome price. Won't go anywhere else.\n💕",
+      "createTime": "2019-05-25T02:31:59.128797Z",
+      "updateTime": "2019-05-25T02:31:59.128797Z",
+      "reviewReply": {
+        "comment": "🌹🙏🏻",
+        "updateTime": "2019-06-20T23:55:00.244506Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSURZaDVUTUdREAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Olivia Poulton"
+      },
+      "starRating": "FIVE",
+      "comment": "Hoda never fails to make my nails look amazing! She has great prices, so many colours to choose from and very comfortable surroundings 💅🏽 Now I've been here I wouldn't go anywhere else!",
+      "createTime": "2019-05-24T08:56:59.749637Z",
+      "updateTime": "2019-05-24T08:56:59.749637Z",
+      "reviewReply": {
+        "comment": "🌹🙏🏻",
+        "updateTime": "2019-06-20T23:55:09.139778Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSURZMl9YYWN3EAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Karen Smith"
+      },
+      "starRating": "FIVE",
+      "comment": "Best nails on the Coast, very professional, good quality and price..Thanks Hoda 💅",
+      "createTime": "2019-05-24T01:54:30.483204Z",
+      "updateTime": "2019-05-24T01:54:30.483204Z",
+      "reviewReply": {
+        "comment": "🙏🏻🌹",
+        "updateTime": "2019-06-20T23:55:16.385504Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSURZbV91Q1JREAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Susan Scott"
+      },
+      "starRating": "FIVE",
+      "comment": "Have been going to Luminous nails for a while now. Fantastic service and excellent job every time. Wouldn't go anywhere else.",
+      "createTime": "2019-05-23T23:53:25.476485Z",
+      "updateTime": "2019-05-23T23:53:25.476485Z",
+      "reviewReply": {
+        "comment": "🙏🏻🌹",
+        "updateTime": "2019-06-20T23:55:23.557921Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSURZbTdXVFhREAE"
+    },
+    {
+      "reviewer": {
+        "displayName": "Madison Penfold-Peters"
+      },
+      "starRating": "FIVE",
+      "createTime": "2019-05-20T05:53:59.111178Z",
+      "updateTime": "2019-05-20T05:53:59.111178Z",
+      "reviewReply": {
+        "comment": "🌹🙏🏻",
+        "updateTime": "2019-06-20T23:55:31.746080Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSURZZzQzZHJnRRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Mana Eshragh"
+      },
+      "starRating": "FIVE",
+      "comment": "Great quality , professional customer service.",
+      "createTime": "2019-05-19T03:57:06.839347Z",
+      "updateTime": "2019-05-19T03:57:06.839347Z",
+      "reviewReply": {
+        "comment": "🌹🙏🏻",
+        "updateTime": "2019-06-20T23:55:39.094023Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSURZM2ZqTGhnRRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Sue Prizeman"
+      },
+      "starRating": "FIVE",
+      "comment": "Very professional, always on time. Best prices, best service, best smile 😊",
+      "createTime": "2019-05-19T00:52:39.843709Z",
+      "updateTime": "2019-05-19T00:54:13.911360Z",
+      "reviewReply": {
+        "comment": "🌹🙏🏻",
+        "updateTime": "2019-06-20T23:55:46.063608Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSURZbmQzSTdnRRAB"
+    },
+    {
+      "reviewer": {
+        "displayName": "Roya Halavati"
+      },
+      "starRating": "FIVE",
+      "comment": "She is so cute and punctual. I really enjoyed her work. I will do that again. Highly recommended to you.",
+      "createTime": "2019-05-18T11:04:36.127131Z",
+      "updateTime": "2019-05-18T11:04:36.127131Z",
+      "reviewReply": {
+        "comment": "🙏🏻🌹",
+        "updateTime": "2019-06-20T23:55:55.195459Z"
+      },
+      "name": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChdDSUhNMG9nS0VJQ0FnSURZcllua3p3RRAB"
     }
-  ],
-  "businessInfo": {
-    "name": "Luminous Nails",
-    "phone": "0439929210",
-    "email": "info@luminous-nails.com.au",
-    "address": "85 Palmview Forest Drive, Palmview, QLD, 4553",
-    "facebook": "https://www.facebook.com/Luminous-Nails-1047621128675893/",
-    "instagram": "https://www.instagram.com/luminous.nails/"
-  },
-  "overallRating": 4.9,
-  "totalReviews": 46
+  ]
 }
