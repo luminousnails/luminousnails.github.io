@@ -276,13 +276,61 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function renderReview(review) {
+    const MAX_CHARS = 300; // Character limit before truncation
+    const MIN_TRUNCATE_THRESHOLD = 350; // Only truncate if text is at least this long
+    
+    let reviewContent = review.comment ? review.comment.replace(/\n/g, '<br>') : '';
+    let isLongReview = false;
+    let reviewId = `review-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+    
+    // Only truncate if the review is significantly longer than our limit
+    if (review.comment && review.comment.length > MIN_TRUNCATE_THRESHOLD) {
+      isLongReview = true;
+      // Find a good break point (end of sentence or space) near our character limit
+      let truncateAt = MAX_CHARS;
+      const textToTruncate = review.comment;
+      
+      // Look for sentence endings first
+      const sentenceEnd = textToTruncate.lastIndexOf('.', MAX_CHARS);
+      const questionEnd = textToTruncate.lastIndexOf('?', MAX_CHARS);
+      const exclamationEnd = textToTruncate.lastIndexOf('!', MAX_CHARS);
+      
+      const bestSentenceEnd = Math.max(sentenceEnd, questionEnd, exclamationEnd);
+      
+      if (bestSentenceEnd > MAX_CHARS - 100) {
+        // Good sentence ending found within reasonable range
+        truncateAt = bestSentenceEnd + 1;
+      } else {
+        // Fall back to word boundary
+        const spaceIndex = textToTruncate.lastIndexOf(' ', MAX_CHARS);
+        if (spaceIndex > MAX_CHARS - 50) {
+          truncateAt = spaceIndex;
+        }
+      }
+      
+      const truncatedText = textToTruncate.substring(0, truncateAt).trim();
+      const remainingText = textToTruncate.substring(truncateAt).trim();
+      
+      reviewContent = `
+        <div class="review-text-container" data-review-id="${reviewId}">
+          <div class="review-text-short">
+            ${truncatedText.replace(/\n/g, '<br>')}
+            <div class="review-fade-overlay"></div>
+          </div>
+          <div class="review-text-full" style="display: none;">
+            ${textToTruncate.replace(/\n/g, '<br>')}
+          </div>
+        </div>
+      `;
+    }
+    
     return `
-      <div class="review">
+      <div class="review" data-review-id="${reviewId}">
         <div class="review-header">
           <div class="review-author">${review.reviewer?.displayName || 'Anonymous'}</div>
           ${renderStars(review.starRating)}
         </div>
-        <div class="review-content">${review.comment ? review.comment.replace(/\n/g, '<br>') : ''}</div>
+        <div class="review-content">${reviewContent}</div>
         ${review.createTime ? `<div class="review-date" style="font-size:0.9em;color:#888;margin-top:8px;">${formatReviewDate(review.createTime)}</div>` : ''}
       </div>
     `;
@@ -295,6 +343,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const reviewsList = document.getElementById('reviews-list');
     if (reviewsList) {
       reviewsList.innerHTML = reviewsToShow.map(renderReview).join('');
+      
+      // Set up event listeners for read more/less functionality
+      setupReadMoreHandlers();
     }
     const loadMoreBtn = document.getElementById('load-more-reviews');
     if (loadMoreBtn) {
@@ -304,6 +355,34 @@ document.addEventListener("DOMContentLoaded", function () {
         loadMoreBtn.style.display = '';
       }
     }
+  }
+
+  function setupReadMoreHandlers() {
+    // Handle click on truncated reviews to expand
+    document.querySelectorAll('.review-text-container').forEach(container => {
+      container.addEventListener('click', function(e) {
+        const reviewId = this.getAttribute('data-review-id');
+        const shortText = this.querySelector('.review-text-short');
+        const fullText = this.querySelector('.review-text-full');
+        
+        if (shortText && fullText) {
+          if (fullText.style.display === 'none') {
+            // Expand
+            shortText.style.display = 'none';
+            fullText.style.display = 'block';
+            this.classList.add('expanded');
+          } else {
+            // Collapse
+            shortText.style.display = 'block';
+            fullText.style.display = 'none';
+            this.classList.remove('expanded');
+          }
+        }
+      });
+      
+      // Add hover effect to indicate clickability
+      container.style.cursor = 'pointer';
+    });
   }
 
   function setupReviewsSection() {
