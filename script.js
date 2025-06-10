@@ -245,6 +245,83 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
+  // --- Reviews Section Logic ---
+  const REVIEWS_PER_PAGE = 6;
+  let allReviews = [];
+  let currentPage = 0;
+
+  function renderStars(starRating) {
+    if (!starRating) return '';
+    let stars = '';
+    let count = 0;
+    if (starRating === 'FIVE') count = 5;
+    else if (starRating === 'FOUR') count = 4;
+    else if (starRating === 'THREE') count = 3;
+    else if (starRating === 'TWO') count = 2;
+    else if (starRating === 'ONE') count = 1;
+    for (let i = 0; i < count; i++) stars += '★';
+    for (let i = count; i < 5; i++) stars += '☆';
+    return `<span class="review-rating">${stars}</span>`;
+  }
+
+  function formatReviewDate(dateString) {
+    if (!dateString) return '';
+    const date = new Date(dateString);
+    if (isNaN(date)) return '';
+    // Format: d MMMM, yyyy
+    const day = date.getDate();
+    const month = date.toLocaleString('en-AU', { month: 'long' });
+    const year = date.getFullYear();
+    return `${day} ${month}, ${year}`;
+  }
+
+  function renderReview(review) {
+    return `
+      <div class="review">
+        <div class="review-header">
+          <div class="review-author">${review.reviewer?.displayName || 'Anonymous'}</div>
+          ${renderStars(review.starRating)}
+        </div>
+        <div class="review-content">${review.comment ? review.comment.replace(/\n/g, '<br>') : ''}</div>
+        ${review.createTime ? `<div class="review-date" style="font-size:0.9em;color:#888;margin-top:8px;">${formatReviewDate(review.createTime)}</div>` : ''}
+      </div>
+    `;
+  }
+
+  function showReviews() {
+    const start = currentPage * REVIEWS_PER_PAGE;
+    const end = start + REVIEWS_PER_PAGE;
+    const reviewsToShow = allReviews.slice(0, end);
+    const reviewsList = document.getElementById('reviews-list');
+    if (reviewsList) {
+      reviewsList.innerHTML = reviewsToShow.map(renderReview).join('');
+    }
+    const loadMoreBtn = document.getElementById('load-more-reviews');
+    if (loadMoreBtn) {
+      if (end >= allReviews.length) {
+        loadMoreBtn.style.display = 'none';
+      } else {
+        loadMoreBtn.style.display = '';
+      }
+    }
+  }
+
+  function setupReviewsSection() {
+    const loadMoreBtn = document.getElementById('load-more-reviews');
+    if (loadMoreBtn) {
+      loadMoreBtn.addEventListener('click', function() {
+        currentPage++;
+        showReviews();
+      });
+    }
+    fetch('reviews.json')
+      .then(res => res.json())
+      .then(data => {
+        allReviews = (data.reviews || []).filter(r => r.comment && r.starRating);
+        showReviews();
+      });
+  }
+
   // Call all setup functions
   setupMobileMenu();
   populateServiceDropdown();
@@ -252,4 +329,5 @@ document.addEventListener("DOMContentLoaded", function () {
   setupDateValidation();
   setupFullScreenImage();
   setupInteractiveMap();
+  setupReviewsSection();
 });

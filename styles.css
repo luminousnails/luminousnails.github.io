@@ -420,7 +420,7 @@ h2 {
 }
 
 .review {
-  background-color: var(--background-color);
+  background-color: var(--service-background-color);
   padding: 20px;
   border-radius: 10px;
   box-shadow: var(--box-shadow-medium);
@@ -433,10 +433,12 @@ h2 {
   box-shadow: var(--box-shadow-heavy);
 }
 
+
 .review-header {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
+  gap: 10px;
 }
 
 .review-avatar {
@@ -449,6 +451,9 @@ h2 {
 .review-author {
   font-weight: bold;
   color: var(--text-color);
+  font-family: var(--hero-font);
+  font-size: 1.3em;
+  letter-spacing: 0.5px;
 }
 
 .review-content {
@@ -457,7 +462,13 @@ h2 {
 
 .review-rating {
   color: gold;
-  font-size: 1.2em;
+  font-size: 1em;
+  margin-left: 8px;
+  letter-spacing: 1px;
+  text-shadow:
+    0 2px 6px var(--box-shadow-color),
+    0 0 3px #b8860b,
+    0 0 6px #b8860b;
 }
 
 .review-link {
