@@ -30,7 +30,9 @@ let allReviews = [];
 for (const filePath of reviewFiles) {
   const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
   if (Array.isArray(data.reviews)) {
-    allReviews = allReviews.concat(data.reviews);
+    allReviews = allReviews.concat(
+      data.reviews.filter(r => r.starRating === 'FOUR' || r.starRating === 'FIVE')
+    );
   }
 }
 
