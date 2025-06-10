@@ -276,49 +276,21 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function renderReview(review) {
-    const MAX_CHARS = 300; // Character limit before truncation
-    const MIN_TRUNCATE_THRESHOLD = 350; // Only truncate if text is at least this long
-    
     let reviewContent = review.comment ? review.comment.replace(/\n/g, '<br>') : '';
-    let isLongReview = false;
     let reviewId = `review-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
     
-    // Only truncate if the review is significantly longer than our limit
-    if (review.comment && review.comment.length > MIN_TRUNCATE_THRESHOLD) {
-      isLongReview = true;
-      // Find a good break point (end of sentence or space) near our character limit
-      let truncateAt = MAX_CHARS;
-      const textToTruncate = review.comment;
-      
-      // Look for sentence endings first
-      const sentenceEnd = textToTruncate.lastIndexOf('.', MAX_CHARS);
-      const questionEnd = textToTruncate.lastIndexOf('?', MAX_CHARS);
-      const exclamationEnd = textToTruncate.lastIndexOf('!', MAX_CHARS);
-      
-      const bestSentenceEnd = Math.max(sentenceEnd, questionEnd, exclamationEnd);
-      
-      if (bestSentenceEnd > MAX_CHARS - 100) {
-        // Good sentence ending found within reasonable range
-        truncateAt = bestSentenceEnd + 1;
-      } else {
-        // Fall back to word boundary
-        const spaceIndex = textToTruncate.lastIndexOf(' ', MAX_CHARS);
-        if (spaceIndex > MAX_CHARS - 50) {
-          truncateAt = spaceIndex;
-        }
-      }
-      
-      const truncatedText = textToTruncate.substring(0, truncateAt).trim();
-      const remainingText = textToTruncate.substring(truncateAt).trim();
-      
+    // Check if review is long enough to warrant the expand/collapse functionality
+    const isLongReview = review.comment && review.comment.length > 350;
+    
+    if (isLongReview) {
       reviewContent = `
         <div class="review-text-container" data-review-id="${reviewId}">
           <div class="review-text-short">
-            ${truncatedText.replace(/\n/g, '<br>')}
+            ${reviewContent}
             <div class="review-fade-overlay"></div>
           </div>
           <div class="review-text-full" style="display: none;">
-            ${textToTruncate.replace(/\n/g, '<br>')}
+            ${reviewContent}
           </div>
         </div>
       `;
