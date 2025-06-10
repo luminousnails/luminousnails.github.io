@@ -446,6 +446,10 @@ h2 {
   gap: 10px;
 }
 
+.review-header .review-rating {
+  margin-left: 8px;
+}
+
 .review-avatar {
   width: 50px;
   height: 50px;
@@ -802,4 +806,17 @@ footer {
 .show-both-btn {
   font-weight: 500;
   font-style: italic;
+}
+
+/* Reviews error message styling */
+.reviews-error {
+  text-align: center;
+  color: var(--review-date-color);
+  font-style: italic;
+  padding: 40px 20px;
+  margin: 20px 0;
+  background-color: var(--service-background-color);
+  border-radius: 10px;
+  border: 1px solid var(--accent-color);
+  box-shadow: var(--box-shadow-light);
 }
