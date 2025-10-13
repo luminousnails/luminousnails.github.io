@@ -167,13 +167,13 @@ document.addEventListener("DOMContentLoaded", function () {
     // Map URLs for different locations (no API key required)
     const mapUrls = {
       'palmview': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10769.234833108465!2d153.03785045974269!3d-26.750823725913754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b9377f4cbe999a7%3A0x8746d9fa8e02533!2sLuminous%20Nails%20Sunshine%20Coast!5e0!3m2!1sen!2sau!4v1724069961704!5m2!1sen!2sau',
-      'halo': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3540.5!2d152.9785!3d-27.3017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b93ef123456789a%3A0x123456789abcdef0!2s11%20Halo%20Ct%2C%20Bray%20Park%20QLD%204500!5e0!3m2!1sen!2sau!4v1624069961704!5m2!1sen!2sau'
+      'strathpine': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3545.5189126471314!2d153.00001817608637!3d-27.296944009368726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b9377e002ec47f3%3A0x906b78b0e8b2125!2sLuminous%20Nails%20Strathpine!5e0!3m2!1sen!2sau!4v1760342133368!5m2!1sen!2sau'
     };
 
     // Direct Google Maps URLs for opening in new tab
     const directMapUrls = {
       'palmview': 'https://www.google.com/maps/place/85+Palmview+Forest+Drive,+Palmview+QLD+4553',
-      'halo': 'https://www.google.com/maps/place/11+Halo+Ct,+Bray+Park+QLD+4500'
+      'strathpine': 'https://www.google.com/maps/place/43+Monroe+Crescent,+Strathpine+QLD+4500'
     };
 
     // Function to update map and visual state
@@ -185,7 +185,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // Update address link highlighting
       mapLinks.forEach(l => l.classList.remove('active'));
-      const targetLink = document.querySelector(`[data-address*="${locationKey === 'palmview' ? 'Palmview Forest Drive' : 'Halo Ct'}"]`);
+      const targetLink = document.querySelector(`[data-address*="${locationKey === 'palmview' ? 'Palmview Forest Drive' : 'Monroe Crescent'}"]`);
       if (targetLink) {
         targetLink.classList.add('active');
       }
@@ -225,8 +225,8 @@ document.addEventListener("DOMContentLoaded", function () {
         
         if (address && address.includes('Palmview Forest Drive')) {
           mapKey = 'palmview';
-        } else if (address && address.includes('Halo Ct')) {
-          mapKey = 'halo';
+        } else if (address && address.includes('Monroe Crescent')) {
+          mapKey = 'strathpine';
         }
         
         // Check if this location is already active (showing in the map)

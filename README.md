@@ -60,3 +60,17 @@ You can repeat these steps any time you want to update your reviews:
 3. Run `node combine_reviews.js` again
 
 **Tip**: Set a reminder to update your reviews monthly or quarterly to keep your website current with the latest customer feedback!
+
+## Getting an embeddable Google Maps URL for a salon location
+
+Follow these steps to retrieve the `mapUrl` for a specific location (for example, Strathpine) so it matches the embedded format already used for Palmview in `script.js`:
+
+1. Open [Google Maps](https://maps.google.com/) in a browser while signed into the Google account that manages the salon's Business Profiles.
+2. In the search bar, enter the exact business name and address for the location (e.g. **"Luminous Nails Strathpine"**) and press **Enter**.
+3. In the information panel that appears for the business, click the **Share** button.
+4. In the share dialog, choose the **Embed a map** tab.
+5. Pick a size ("Medium" works well for our iframe) and copy the HTML `<iframe>` code that Google provides.
+6. Extract just the value of the `src` attribute from that snippet. It will look similar to the Palmview entry (`https://www.google.com/maps/embed?...`).
+7. Paste that URL into the Strathpine entry inside the `mapUrls` object in `script.js`, keeping the rest of the iframe markup unchanged.
+
+If Google ever regenerates the embed code, simply repeat the steps above to keep the on-site map pointing at the latest Google Business Profile listing for that location.
