@@ -172,7 +172,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Direct Google Maps URLs for opening in new tab
     const directMapUrls = {
-      'palmview': 'https://www.google.com/maps/place/85+Palmview+Forest+Drive,+Palmview+QLD+4553',
+      'palmview': 'https://www.google.com/maps/place/1+Kingfisher+Cr,+Palmview+QLD+4553',
       'strathpine': 'https://www.google.com/maps/place/43+Monroe+Crescent,+Strathpine+QLD+4500'
     };
 
@@ -185,7 +185,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // Update address link highlighting
       mapLinks.forEach(l => l.classList.remove('active'));
-      const targetLink = document.querySelector(`[data-address*="${locationKey === 'palmview' ? 'Palmview Forest Drive' : 'Monroe Crescent'}"]`);
+      const targetLink = document.querySelector(`[data-address*="${locationKey === 'palmview' ? 'Kingfisher Cr' : 'Monroe Crescent'}"]`);
       if (targetLink) {
         targetLink.classList.add('active');
       }
@@ -223,7 +223,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const address = this.getAttribute('data-address');
         let mapKey = 'palmview'; // default
         
-        if (address && address.includes('Palmview Forest Drive')) {
+        if (address && address.includes('Kingfisher Cr')) {
           mapKey = 'palmview';
         } else if (address && address.includes('Monroe Crescent')) {
           mapKey = 'strathpine';
