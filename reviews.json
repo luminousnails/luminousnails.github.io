@@ -1,6 +1,133 @@
 {
   "reviews": [
     {
+      "name": "Sharon Esler",
+      "rating": 5,
+      "text": "",
+      "date": "2025-11-15T23:31:07.286050Z",
+      "source": "google",
+      "profilePic": null,
+      "reply": null,
+      "originalId": "accounts/113959561893966879306/locations/6728864654749532091/reviews/Ci9DQUlRQUNvZENodHljRjlvT2taa1prVjRRVEkyWmpKWWIzaERNa3RhWDFoUFpYYxAB"
+    },
+    {
+      "name": "Bella Nicklin",
+      "rating": 5,
+      "text": "Always very lovely and welcoming, does a great job every time.",
+      "date": "2025-11-08T00:21:49.659341Z",
+      "source": "google",
+      "profilePic": null,
+      "reply": {
+        "text": "Thanks Bella for your comment ❤️",
+        "date": "2025-11-16T01:52:22.860742Z"
+      },
+      "originalId": "accounts/113959561893966879306/locations/16748308557499747812/reviews/Ci9DQUlRQUNvZENodHljRjlvT25vNVJXYzFjblptVnpaWVZYUTJSVlZ3VFhJNFZYYxAB"
+    },
+    {
+      "name": "Parisa Rajaei",
+      "rating": 5,
+      "text": "I had an amazing experience in Luminous nails with Hoda for the first time. She’s super professional, gentle, and pays attention to every little detail. My nails turned out absolutely beautiful, and I’ve definitely become one of her regular clients",
+      "date": "2025-11-04T00:42:55.411675Z",
+      "source": "google",
+      "profilePic": null,
+      "reply": {
+        "text": "Thanks Parisa for your lovely comment🌺",
+        "date": "2025-11-04T04:10:15.032925Z"
+      },
+      "originalId": "accounts/113959561893966879306/locations/16748308557499747812/reviews/Ci9DQUlRQUNvZENodHljRjlvT2tSV1EyUlVUVW95U1dwMk4wSkZjMFJGVG1sS2VGRRAB"
+    },
+    {
+      "name": "Naomi Lawson",
+      "rating": 5,
+      "text": "I had an amazing experience at Brisbane Luminous Nails! Hoda was professional, attentive and accommodating. She was always asking if I liked the nail, how they looked and if I needed any changes but it was a perfect experience the whole time. I recommend Luminous Nails through and through!",
+      "date": "2025-10-30T08:37:44.699829Z",
+      "source": "google",
+      "profilePic": null,
+      "reply": {
+        "text": "Thank you so much for your comment! 😍",
+        "date": "2025-10-31T00:25:26.224303Z"
+      },
+      "originalId": "accounts/113959561893966879306/locations/16748308557499747812/reviews/Ci9DQUlRQUNvZENodHljRjlvT2sxWFYxWXdSMEo2V1VwUFFWaDJZVjlDVDBodVZXYxAB"
+    },
+    {
+      "name": "Mojgan S.",
+      "rating": 5,
+      "text": "I always have an amazing experience with Hoda. She’s very detail-oriented, friendly and truly cares about her clients. My nails always turn out perfect. She always takes her time to make sure everything is just right and makes me feel so comfortable throughout the appointment. I highly recommend her.",
+      "date": "2025-10-22T21:19:21.621859Z",
+      "source": "google",
+      "profilePic": null,
+      "reply": {
+        "text": "Thank you so much Mojgan for your lovely comment ☺️",
+        "date": "2025-10-22T23:44:16.708932Z"
+      },
+      "originalId": "accounts/113959561893966879306/locations/16748308557499747812/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xCUFRXdE5SM1o1T0daM1pYcFBaMlk1YlVKdU9WRRAB"
+    },
+    {
+      "name": "Elaine Blattner",
+      "rating": 5,
+      "text": "Hoda is a caring nail tech that does a beautiful job of builder gel at great prices. I arrived with a damaged nail plate and she happily fit me in the next week to work on the nail when it was healed. Would recommend her to anyone looking for a nail tech on the Sunny Coast!",
+      "date": "2025-10-22T20:56:46.110382Z",
+      "source": "google",
+      "profilePic": null,
+      "reply": {
+        "text": "Thank you so much for your love words! I am so glad you’re happy with your nails and it was a pleasure taking care of you xx",
+        "date": "2025-10-23T12:22:37.746154Z"
+      },
+      "originalId": "accounts/113959561893966879306/locations/6728864654749532091/reviews/Ci9DQUlRQUNvZENodHljRjlvT21WTmVYUnBWMDFKYjNweFFVTlVaalF4VldWbFFVRRAB"
+    },
+    {
+      "name": "Priscilla Trahar",
+      "rating": 5,
+      "text": "I'm a regular of Hoda's and can't fault her professionalism and the work she does. I typically get builder gel on my hands and I don't get any chips for weeks. They look amazing and I always get compliments. I would highly recommend Hoda!",
+      "date": "2025-10-21T10:29:39.330044Z",
+      "source": "google",
+      "profilePic": null,
+      "reply": {
+        "text": "Thanks Priscilla, looking forward to seeing you again soon.",
+        "date": "2025-10-21T21:50:58.586527Z"
+      },
+      "originalId": "accounts/113959561893966879306/locations/6728864654749532091/reviews/Ci9DQUlRQUNvZENodHljRjlvT25sUUxXMWZTRlkzT1VScGJ6RjRWbFpJZERSamNIYxAB"
+    },
+    {
+      "name": "Suzanne Rose",
+      "rating": 5,
+      "text": "Got an appointment really quickly and I love the colour and the whole experience was great.",
+      "date": "2025-10-09T10:11:33.815415Z",
+      "source": "google",
+      "profilePic": null,
+      "reply": {
+        "text": "Thanks for your comment Suzanne and nice to meet you!",
+        "date": "2025-10-10T11:22:10.559390Z"
+      },
+      "originalId": "accounts/113959561893966879306/locations/6728864654749532091/reviews/Ci9DQUlRQUNvZENodHljRjlvT25KNmNIbHdWazU2VVY5MmVEZHVNVzlxYlZkNlVFRRAB"
+    },
+    {
+      "name": "Shamim Rezaee",
+      "rating": 5,
+      "text": "Always a great experience! Super clean, professional work and very friendly. I’m always happy with my nails and highly recommend Luminous Nails",
+      "date": "2025-10-06T21:21:36.662063Z",
+      "source": "google",
+      "profilePic": null,
+      "reply": {
+        "text": "Thanks Shamim for your lovely comment ☺️",
+        "date": "2025-10-07T09:57:54.728727Z"
+      },
+      "originalId": "accounts/113959561893966879306/locations/16748308557499747812/reviews/Ci9DQUlRQUNvZENodHljRjlvT2padlozZFphbVY1VkMxUGFUTlBVRmR2TUhkMWRGRRAB"
+    },
+    {
+      "name": "Kristen Brearley",
+      "rating": 5,
+      "text": "I can’t recommend Luminous Nails enough! From the moment you walk in, you feel so welcomed  it’s such a beautiful and relaxing space. Every time I walk out, my nails look absolutely amazing. The care and attention to detail really shows, and I always leave feeling pampered and happy. If you’re looking for a place where you’ll feel comfortable, valued, and walk out with gorgeous nails, this is the salon to visit.",
+      "date": "2025-09-25T02:05:28.558801Z",
+      "source": "google",
+      "profilePic": null,
+      "reply": {
+        "text": "Thanks Kristen for your comment!☺️",
+        "date": "2025-09-26T07:14:03.637152Z"
+      },
+      "originalId": "accounts/113959561893966879306/locations/6728864654749532091/reviews/Ci9DQUlRQUNvZENodHljRjlvT214U1J6RjJlblJmWjBVeVVuUnpVR1l6VmpSU1ZVRRAB"
+    },
+    {
       "name": "Anne-Marie Roberts",
       "rating": 5,
       "text": "Love Luminous nails. Hoda is an excellent nail technician, I highly recommend her.",
@@ -24,6 +151,19 @@
       "originalId": "accounts/113959561893966879306/locations/16748308557499747812/reviews/Ci9DQUlRQUNvZENodHljRjlvT25wamEzUlNZMWx0WW5WaFRWSlFVbnBMTTE4eFgzYxAB"
     },
     {
+      "name": "Cheryl Lee-Roberts",
+      "rating": 5,
+      "text": "",
+      "date": "2025-09-20T23:40:03.033037Z",
+      "source": "google",
+      "profilePic": null,
+      "reply": {
+        "text": "❤️",
+        "date": "2025-09-21T13:20:50.008568Z"
+      },
+      "originalId": "accounts/113959561893966879306/locations/6728864654749532091/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xkM1JWZEdOMjA1VTNOUFVHcFlaemxUUjFZeVNuYxAB"
+    },
+    {
       "name": "Era Poo",
       "rating": 5,
       "text": "The best nail tech I have been too in years, she takes so much pride in her work and attention to detail, I always leave feeling refreshed and in love with my nails what better feeling 🙌🏼",
@@ -35,6 +175,32 @@
         "date": "2025-09-25T00:27:16.880675Z"
       },
       "originalId": "accounts/113959561893966879306/locations/16748308557499747812/reviews/Ci9DQUlRQUNvZENodHljRjlvT21rMVNuWkdlazFUWjJ3MWFXdERURkZpVjBWdVVtYxAB"
+    },
+    {
+      "name": "Chrissy Capra",
+      "rating": 5,
+      "text": "The best nail tech I have been too in years, she takes so much pride in her work and attention to detail, I always leave feeling refreshed and in love with my nails what better feeling 🙌🏼",
+      "date": "2025-09-20T03:58:27.419036Z",
+      "source": "google",
+      "profilePic": null,
+      "reply": {
+        "text": "Thanks Era for your lovely comment! 😍",
+        "date": "2025-09-25T00:27:16.880675Z"
+      },
+      "originalId": "accounts/113959561893966879306/locations/16748308557499747812/reviews/Ci9DQUlRQUNvZENodHljRjlvT21rMVNuWkdlazFUWjJ3MWFXdERURkZpVjBWdVVtYxAB"
+    },
+    {
+      "name": "Robyn Wilson",
+      "rating": 5,
+      "text": "Wow perfection lovely lady,  she knows what does doing will return",
+      "date": "2025-09-17T08:37:03.771250Z",
+      "source": "google",
+      "profilePic": null,
+      "reply": {
+        "text": "Thanks Robyn ☺️",
+        "date": "2025-09-17T11:01:42.100427Z"
+      },
+      "originalId": "accounts/113959561893966879306/locations/6728864654749532091/reviews/Ci9DQUlRQUNvZENodHljRjlvT25BNE1VbDRVVWN3YUc1cWRteENXazl2WHpkdGNIYxAB"
     },
     {
       "name": "Bonni Monthe",
@@ -64,6 +230,19 @@
     },
     {
       "name": "Chelsea Rowney",
+      "rating": 5,
+      "text": "An absolute genius when it comes to nails — from colour and design to cuticle care, she truly does it all. Hoda is incredibly gentle, especially when working with sensitive areas. The calm, relaxed environment only adds to the overall experience. She works efficiently without ever compromising on quality. Highly recommend! ⭐",
+      "date": "2025-08-25T06:19:16.493152Z",
+      "source": "google",
+      "profilePic": null,
+      "reply": {
+        "text": "Thank you so much Chelsea for your comment🌺",
+        "date": "2025-08-26T22:05:58.421375Z"
+      },
+      "originalId": "accounts/113959561893966879306/locations/16748308557499747812/reviews/Ci9DQUlRQUNvZENodHljRjlvT201alFtMVVVMGMzWW1SMFVHczFNbmhOVUZCYVJrRRAB"
+    },
+    {
+      "name": "Charlie J",
       "rating": 5,
       "text": "An absolute genius when it comes to nails — from colour and design to cuticle care, she truly does it all. Hoda is incredibly gentle, especially when working with sensitive areas. The calm, relaxed environment only adds to the overall experience. She works efficiently without ever compromising on quality. Highly recommend! ⭐",
       "date": "2025-08-25T06:19:16.493152Z",
@@ -221,7 +400,7 @@
     {
       "name": "Rachael Battiston",
       "rating": 5,
-      "text": "",
+      "text": "Hoda's work is exceptional, quick and precise! Would recommend her for some great builder gel nails 😊",
       "date": "2025-05-07T22:15:37.311905Z",
       "source": "google",
       "profilePic": null,
@@ -753,6 +932,19 @@
     },
     {
       "name": "Koda",
+      "rating": 5,
+      "text": "Would 100% recommend Hoda for nails every time, only place I’ll go now. Friendly and professional combined with amazing nails makes for a great experience!",
+      "date": "2024-07-31T02:25:10.819179Z",
+      "source": "google",
+      "profilePic": null,
+      "reply": {
+        "text": "Thank you so much 😊",
+        "date": "2024-07-31T02:32:29.525849Z"
+      },
+      "originalId": "accounts/113959561893966879306/locations/6728864654749532091/reviews/ChZDSUhNMG9nS0VJQ0FnSUNiOTYyT2NnEAE"
+    },
+    {
+      "name": "Dakoda",
       "rating": 5,
       "text": "Would 100% recommend Hoda for nails every time, only place I’ll go now. Friendly and professional combined with amazing nails makes for a great experience!",
       "date": "2024-07-31T02:25:10.819179Z",
@@ -2472,12 +2664,12 @@
     }
   ],
   "metadata": {
-    "totalReviews": 200,
+    "totalReviews": 214,
     "sources": {
-      "google": 174,
+      "google": 188,
       "facebook": 26
     },
     "averageRating": "5.0",
-    "lastUpdated": "2025-10-13T08:47:57.228Z"
+    "lastUpdated": "2025-12-15T06:46:24.353Z"
   }
 }
