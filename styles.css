@@ -310,6 +310,25 @@ nav {
   box-shadow: var(--box-shadow);
 }
 
+/* Secondary button variant with gold accent */
+.btn-secondary {
+  background-color: var(--accent-color);
+}
+
+/* Hero section button spacing */
+#hero .btn {
+  margin: 10px 5px;
+}
+
+/* Mobile responsive layout for hero buttons */
+@media (max-width: 768px) {
+  #hero .btn {
+    display: block;
+    margin: 10px auto;
+    max-width: 300px;
+  }
+}
+
 section {
   padding: 50px 0;
 }
