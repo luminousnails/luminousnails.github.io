@@ -103,7 +103,7 @@ Reviews must have this structure:
 ```
 
 ### Google Review Processing
-- Google TakeOut files use star ratings: `ONE`, `TWO`, `THREE`, `FOUR`, `FIVE`
+- Google TakeOut files use star ratings as enum values: `ONE`, `TWO`, `THREE`, `FOUR`, `FIVE` (mapped to numeric 1-5)
 - Only 4-5 star reviews are included
 - Reviews come from `data.reviews` array in each file
 
@@ -128,9 +128,9 @@ Reviews must have this structure:
 - No backend - form uses `mailto:` action
 
 ### Reviews Display
-- Initially show 6 reviews on mobile
-- "Read more..." button to load additional reviews
-- Long reviews can be expanded/collapsed
+- Initially show 6 reviews (REVIEWS_PER_PAGE constant in script.js)
+- "Load more reviews" button to display additional batches of 6
+- Long reviews can be expanded/collapsed with "Read more..."/"Read less..." links
 - Display source badge (Google/Facebook)
 
 ### Interactive Map
@@ -183,7 +183,10 @@ This is a GitHub Pages site:
 - Use WebP format for better compression
 - Provide @2x variants for retina displays
 - Name pattern: `image-name.webp` and `image-name@2x.webp`
-- Use CSS `content` property to swap images based on pixel ratio
+- Use CSS custom properties with media queries for retina image swapping:
+  - Define image paths as CSS variables (e.g., `--logo-image`, `--logo-image-2x`)
+  - Use `content` property on pseudo-elements with the CSS variable
+  - Swap via `@media (-webkit-min-device-pixel-ratio: 2)` or `(min-resolution: 192dpi)`
 
 ### Data Files
 - Keep source review files in `data/google/` and `data/facebook/`
