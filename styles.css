@@ -313,6 +313,7 @@ nav {
 /* Secondary button variant with gold accent */
 .btn-secondary {
   background-color: var(--accent-color);
+  color: var(--secondary-color);
 }
 
 .btn-secondary:hover {
