@@ -299,7 +299,7 @@ After generation, refine the selected flyer so it exactly matches this document:
 - The current layout removes the divider rule between the descriptor line and the service cards.
 - The current service rows keep prices as text-only elements with a consistent right-aligned gutter, rather than boxed or filled treatments.
 - Prices use a restrained dark-gold emphasis through color and slightly stronger weight only.
-- The left service card has a tightened internal vertical rhythm so the lower rows clear the border and the card content sits more evenly.
+- The service cards use a tightened internal vertical rhythm so the category headings sit higher in the cards and the lower rows clear the borders more evenly.
 - The top gold rules above the first `Acrylic` and `Manicure` headings have been removed.
 - The current vertical layout uses one shared spacing step for the inner frame top padding, logo-to-descriptor gap, descriptor-to-service gap, service-to-footer gap, and bottom padding.
 - The current footer center stack is spaced to better match the QR cards without changing the QR card sizes.
@@ -401,3 +401,4 @@ Before considering the flyer task complete, verify all of the following:
 - Removed the divider rule beneath the descriptor line, replaced the descriptor bar separator with a dot separator, and normalized the header, service area, and footer to a single repeated vertical spacing value inside the page frame.
 - Rebalanced the QR-card title bands so the `INSTAGRAM` and `WEBSITE` headings have even whitespace above and below.
 - Replaced the boxed price treatment with a subtler text-only dark-gold emphasis, kept a clearer gutter between names and prices, tightened the left-card vertical rhythm so it no longer clips the border, and removed the top gold rules above `Acrylic` and `Manicure`.
+- Rebalanced both service cards upward internally so the top whitespace above the headings is reduced and the bottom rows have more even clearance.
