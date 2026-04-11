@@ -109,7 +109,8 @@ The price list is the main content. Branding, QR codes, and contact details shou
 
 ### Header Content
 
-- Preferred image treatment: use the existing Luminous Nails logo as the primary header treatment.
+- Preferred image treatment: use the highest-resolution approved Luminous Nails logo asset available in the repo as the primary header treatment.
+- Current source asset: `flyer/logo-full.png`
 - Do not repeat `Luminous Nails` as separate title text when the logo already contains the business name.
 - Do not add a separate `PRICE LIST` label; the flyer is already functioning as a price list and the extra heading is redundant.
 - Descriptor line: `Professional Nail Care | Sunshine Coast & Brisbane`
@@ -118,6 +119,7 @@ The price list is the main content. Branding, QR codes, and contact details shou
 
 - Left QR target: Instagram profile
 - Right QR target: website homepage
+- Keep QR captions minimal. Do not add redundant `Scan to follow` or `Scan to browse` text under the QR codes.
 - Center block content:
   - `By Appointment`
   - `0439 929 210`
@@ -291,7 +293,13 @@ After generation, refine the selected flyer so it exactly matches this document:
   - The repo exports are currently rendered from the local SVG source in `flyer/`.
   - The SVG embeds the logo, QR codes, and rendered heading artwork directly so Safari, PNG export, and PDF export stay aligned.
   - The current header is logo-led only, with the descriptor beneath it and no duplicated `Luminous Nails` or `PRICE LIST` text.
-  - The current layout uses an even outer padding system around the service cards and footer panel, with reduced center gap between the two service columns.
+- The current logo embed uses the higher-resolution `flyer/logo-full.png` asset rather than the smaller `logo-light` source.
+- The QR cards show only the platform label and handle/domain, without redundant scan captions.
+- The current layout uses an even outer padding system around the service cards and footer panel, with reduced center gap between the two service columns.
+- The current layout removes the divider rule between the descriptor line and the service cards.
+- The current vertical layout uses one shared spacing step for the inner frame top padding, logo-to-descriptor gap, descriptor-to-service gap, service-to-footer gap, and bottom padding.
+- The current footer center stack is spaced to better match the QR cards without changing the QR card sizes.
+- The current QR cards use a centered title band so `INSTAGRAM` and `WEBSITE` have even whitespace above and below their headings.
   - The older Canva draft is historical reference only and is not the current canonical flyer source.
 
 ## Maintenance Workflow
@@ -384,3 +392,7 @@ Before considering the flyer task complete, verify all of the following:
 - Switched the main title and footer accent to website-derived heading treatments and embedded the visible SVG artwork directly so the SVG, PNG, and PDF render consistently.
 - Removed the stray rule behind the logo, switched the service headings to the same cursive treatment family, and rebalanced horizontal and vertical spacing so the service cards and footer use more even padding.
 - Simplified the header to the logo alone, removed the redundant `PRICE LIST` and duplicated business-name text, and improved the vertical spacing in the center footer stack.
+- Switched the flyer to the higher-resolution logo asset and removed redundant QR scan captions while keeping the footer spacing balanced.
+- Rebalanced the vertical layout by adding proper top padding above the logo, lowering the footer panel, and opening up the center contact stack so the head and foot spacing feel more even.
+- Removed the divider rule beneath the descriptor line, replaced the descriptor bar separator with a dot separator, and normalized the header, service area, and footer to a single repeated vertical spacing value inside the page frame.
+- Rebalanced the QR-card title bands so the `INSTAGRAM` and `WEBSITE` headings have even whitespace above and below.
