@@ -175,6 +175,7 @@ The cards are intentionally light and understated so the pricing information rem
 - Each category is separated by a light rule
 - Service rows are compact but readable
 - The bottom rows clear the card borders cleanly
+- When a service row is added or removed, rebalance the following section break so the whitespace above the next category remains visually consistent with the other category breaks in that card
 
 The internal spacing has been tuned so the cards feel optically balanced rather than mathematically sparse.
 
@@ -346,3 +347,9 @@ The full street addresses remain website content, not flyer copy.
   - `flyer/logo-full.png`
 
 The SVG should remain the canonical working source unless the flyer is deliberately re-authored into a different approved master format later.
+
+## Latest Synced Export
+
+- Export date: `2026-04-12`
+- Notable change: removed `Express manicure with gel polish` so the flyer service list matches the live website manicure section.
+- Follow-up adjustment: moved the `Other Services` subsection up to preserve the same inter-section whitespace used elsewhere in the right-hand card.
