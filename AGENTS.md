@@ -16,7 +16,7 @@
 - `data/google/` and `data/facebook/`: Source review files. Treat these as input data, not presentation files.
 - `DESIGN.md`: Existing visual/design notes for the site.
 - `FLYER.md`: Canonical flyer specification, reproduction guide, and maintenance record for the printable A5 flyer and social image.
-- `flyer/`: Tracked export folder for the latest approved flyer PDF and social image.
+- `flyer/`: Tracked export folder for the latest approved flyer PDF and social images.
 - `README.md`: Review import/update workflow and map URL update instructions.
 
 ## Working Style
@@ -67,7 +67,7 @@
 - Read `FLYER.md` before creating, editing, or regenerating the flyer.
 - Any change to flyer-visible services, prices, phone, suburb labels, website, Instagram, QR targets, or major visual direction must update both the canonical flyer source and `FLYER.md` in the same task.
 - While creating or refining the flyer, record design decisions incrementally in `FLYER.md` instead of reconstructing them afterward.
-- When the flyer is exported, replace the tracked latest PDF and PNG in `flyer/` and commit them in the same task.
+- When the flyer is exported, replace the tracked latest PDF, PNG, and JPG in `flyer/` and commit them in the same task.
 
 ## Verification
 

@@ -6,6 +6,7 @@ This folder stores the latest exported flyer assets that should be committed to 
 
 - `luminous-nails-pricelist.pdf`
 - `luminous-nails-pricelist.png`
+- `luminous-nails-pricelist.jpg`
 
 These filenames should always point to the current approved flyer exports.
 

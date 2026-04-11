@@ -7,7 +7,7 @@ The flyer is a single-page A5 portrait price list designed to work in two contex
 - as a printable salon handout
 - as a portrait social media image
 
-The current canonical flyer source is `flyer/luminous-nails-pricelist.svg`. The committed rendered outputs are `flyer/luminous-nails-pricelist.pdf` and `flyer/luminous-nails-pricelist.png`.
+The current canonical flyer source is `flyer/luminous-nails-pricelist.svg`. The committed rendered outputs are `flyer/luminous-nails-pricelist.pdf`, `flyer/luminous-nails-pricelist.png`, and `flyer/luminous-nails-pricelist.jpg`.
 
 ## Format
 
@@ -341,6 +341,7 @@ The full street addresses remain website content, not flyer copy.
 - Canonical exports:
   - `flyer/luminous-nails-pricelist.pdf`
   - `flyer/luminous-nails-pricelist.png`
+  - `flyer/luminous-nails-pricelist.jpg`
 - Primary logo asset:
   - `flyer/logo-full.png`
 
