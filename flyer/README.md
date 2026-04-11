@@ -22,7 +22,7 @@ Whenever the flyer is changed and exported:
 
 Use the local helper script from the repo root or from this folder:
 
-- `flyer/export_flyer.sh`
+- `./export_flyer.sh`
 
 It regenerates the canonical PDF, PNG, and JPG from `luminous-nails-pricelist.svg` using `rsvg-convert` and `magick`.
 
