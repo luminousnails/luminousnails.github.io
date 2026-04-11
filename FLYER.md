@@ -302,8 +302,10 @@ After generation, refine the selected flyer so it exactly matches this document:
 - The service cards use a tightened internal vertical rhythm so the category headings sit higher in the cards and the lower rows clear the borders more evenly.
 - The top gold rules above the first `Acrylic` and `Manicure` headings have been removed.
 - The current vertical layout uses one shared spacing step for the inner frame top padding, logo-to-descriptor gap, descriptor-to-service gap, service-to-footer gap, and bottom padding.
-- The current footer center stack is spaced to better match the QR cards without changing the QR card sizes.
+- The current footer removes the top gold rule, enlarges both QR cards within the footer panel, and vertically centers the `By Appointment` contact stack against them.
 - The current QR cards use a centered title band so `INSTAGRAM` and `WEBSITE` have even whitespace above and below their headings.
+- The current footer uses matched QR-card insets, so the cards sit on the same horizontal padding value as their vertical padding inside the footer panel.
+- The current QR artwork inside each card uses an equal internal inset, so the left and right QR padding matches the top and bottom padding visually.
   - The older Canva draft is historical reference only and is not the current canonical flyer source.
 
 ## Maintenance Workflow
@@ -402,3 +404,6 @@ Before considering the flyer task complete, verify all of the following:
 - Rebalanced the QR-card title bands so the `INSTAGRAM` and `WEBSITE` headings have even whitespace above and below.
 - Replaced the boxed price treatment with a subtler text-only dark-gold emphasis, kept a clearer gutter between names and prices, tightened the left-card vertical rhythm so it no longer clips the border, and removed the top gold rules above `Acrylic` and `Manicure`.
 - Rebalanced both service cards upward internally so the top whitespace above the headings is reduced and the bottom rows have more even clearance.
+- Removed the footer gold rule above `By Appointment`, scaled the QR cards up inside the footer, and re-centered the middle contact stack to match the QR blocks vertically.
+- Matched the QR-card horizontal inset to the footer’s vertical inset so the footer cards now use the same side and top padding value.
+- Reduced the QR artwork size slightly so each QR card now has a more even internal padding on all sides.

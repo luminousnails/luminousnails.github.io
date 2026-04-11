@@ -170,43 +170,41 @@
 
   <g transform="translate(200 1766)">
     <rect x="0" y="0" width="1348" height="500" rx="30" fill="#f9f2ea" stroke="#e6d3c2" stroke-width="2.5" />
-    <path d="M44 56H1304" stroke="#b8860b" stroke-width="3" opacity="0.9" />
-
-    <rect x="44" y="92" width="272" height="356" rx="24" fill="#fffdfa" stroke="#e5d3c3" stroke-width="2" />
-    <text x="180" y="137" class="body" font-size="24" font-weight="700" letter-spacing="1.5" text-anchor="middle" fill="#b8860b">
+    <rect x="60" y="60" width="272" height="380" rx="24" fill="#fffdfa" stroke="#e5d3c3" stroke-width="2" />
+    <text x="196" y="112" class="body" font-size="24" font-weight="700" letter-spacing="1.5" text-anchor="middle" fill="#b8860b">
       INSTAGRAM
     </text>
     <image
-      x="72"
-      y="165"
+      x="88"
+      y="150"
       width="216"
       height="216"
       preserveAspectRatio="xMidYMid meet"
       href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfQAAAH0AQMAAADxGE3JAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACZklEQVR4nO3cvXHjMBCGYWgcMFQJKoWl0aWxFJbgkAGHOAGLBRYQPb6xLrp9v8gg8UDZDv7MEN7MErt8Ph894pftkZof+nbuu294PN61X1tX7fEVpvQ2PZqffe7Pv0/pkZo1Cx6Pd+8fuZYc4kNpntJjLeXopvVnk7HT6Hg8Ht/5OUr9OVMz5up0f767tXKEx+Px39WfBHYtOFqOIh6Px1/4Gp2hJF8izcO+rcHj8fj3fJfmb1KhZP30IdMhmR2Z4PF4z/7bdL5Wp78PHo//732rP4dsuEjK+mnYf5Hh9laO8Hi8b7/mOpI3VdIfc4xjwbnHIYfWng2Pxzv2mmk8/4lScKIdLqWRLng83p9f8qN7npTUGUrKef07V/MfPB6P/43XE55d7ti3+nXa5dQwXO6qDTwe79eHdn+lbcd05z9dNpkqSecNj8c79nrCM+n7tT/wmdvYKXMe29QfPB7v12smrT9reXDr919MM7brbHg83ruX+nPYA596/34eweO1/uDxeJ9+sRMWW3AMqGnDlXK04fF4/L/x0msLoS2nuuFiuf9WpkPyg3g83reP+aEZbuq/fzJ8f81Mh/B4vG8vN2S79VN3YFz/f1hz6O38DY/HO/Yvmct1lLL/EuzsRkY3cxs8Hu/ZL7GLzlB2Ae036nau+X5SCh6P9+zXUKMVxgCtP7VZj5rxeDz+ff/I9aisn1L9MhdW0ug/rb/weDy++rqdG3L9KdHmrtu5eDweP/gtXH8ORZs1n+Fy/oLH4x35mjZ/qefHuv8SdHUk9efl+2t4PN6j7zJ4yfD9xhJ5h8fj8b/1b+YP2sbFYGVzsWAAAAAASUVORK5CYII="
       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfQAAAH0AQMAAADxGE3JAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACZklEQVR4nO3cvXHjMBCGYWgcMFQJKoWl0aWxFJbgkAGHOAGLBRYQPb6xLrp9v8gg8UDZDv7MEN7MErt8Ph894pftkZof+nbuu294PN61X1tX7fEVpvQ2PZqffe7Pv0/pkZo1Cx6Pd+8fuZYc4kNpntJjLeXopvVnk7HT6Hg8Ht/5OUr9OVMz5up0f767tXKEx+Px39WfBHYtOFqOIh6Px1/4Gp2hJF8izcO+rcHj8fj3fJfmb1KhZP30IdMhmR2Z4PF4z/7bdL5Wp78PHo//732rP4dsuEjK+mnYf5Hh9laO8Hi8b7/mOpI3VdIfc4xjwbnHIYfWng2Pxzv2mmk8/4lScKIdLqWRLng83p9f8qN7npTUGUrKef07V/MfPB6P/43XE55d7ti3+nXa5dQwXO6qDTwe79eHdn+lbcd05z9dNpkqSecNj8c79nrCM+n7tT/wmdvYKXMe29QfPB7v12smrT9reXDr919MM7brbHg83ruX+nPYA596/34eweO1/uDxeJ9+sRMWW3AMqGnDlXK04fF4/L/x0msLoS2nuuFiuf9WpkPyg3g83reP+aEZbuq/fzJ8f81Mh/B4vG8vN2S79VN3YFz/f1hz6O38DY/HO/Yvmct1lLL/EuzsRkY3cxs8Hu/ZL7GLzlB2Ae036nau+X5SCh6P9+zXUKMVxgCtP7VZj5rxeDz+ff/I9aisn1L9MhdW0ug/rb/weDy++rqdG3L9KdHmrtu5eDweP/gtXH8ORZs1n+Fy/oLH4x35mjZ/qefHuv8SdHUk9efl+2t4PN6j7zJ4yfD9xhJ5h8fj8b/1b+YP2sbFYGVzsWAAAAAASUVORK5CYII="
     />
-    <text x="180" y="420" class="body" font-size="20" text-anchor="middle" fill="#6a5d53">
+    <text x="196" y="414" class="body" font-size="20" text-anchor="middle" fill="#6a5d53">
       @luminous.nails
     </text>
 
-    <rect x="1032" y="92" width="272" height="356" rx="24" fill="#fffdfa" stroke="#e5d3c3" stroke-width="2" />
-    <text x="1168" y="137" class="body" font-size="24" font-weight="700" letter-spacing="1.5" text-anchor="middle" fill="#b8860b">
+    <rect x="1016" y="60" width="272" height="380" rx="24" fill="#fffdfa" stroke="#e5d3c3" stroke-width="2" />
+    <text x="1152" y="112" class="body" font-size="24" font-weight="700" letter-spacing="1.5" text-anchor="middle" fill="#b8860b">
       WEBSITE
     </text>
     <image
-      x="1060"
-      y="165"
+      x="1044"
+      y="150"
       width="216"
       height="216"
       preserveAspectRatio="xMidYMid meet"
       href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfQAAAH0AQMAAADxGE3JAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACYklEQVR4nO3dvXHzMAyAYfi+wmVG8CgazR5No2gEly501mcSBPgjxcnFJV50FPkwHQ4EZUXkw7huXdzyw6/tISd7tLwe/LPZqV++4PH40H6uyURXLNnnocb95Z+6Ysrbee7B4/HR/SWvWtVbnCzhLOPwrLvi8Xj84Kc8yPWLnm5SOlp1KHg8Hv/Gy2t49yzUH3h+l7/weHwg72H5565r6kQ+/7TlTA48Ho//zHehK75q/TPndNb4LvB4fGR/EJc89dQMM9dyqO3OvAs8Hh/E1/yzthc+Z7vwSeH9F93uUdMRHo+P7C38wNPULxppuOnstf4pET3/4PH42P6SE07JP7PI/v0T0eHQP7HA4/Ex/bVdIU07trxwIqV/sr2tf/B4PP4vPoFU4TTnp+b9FZ3NBU89MJXtBI/Hh/biF8ZrO9xF9/5sd37C4/FxvcZZ884tD7zhIn5h7AWL1i9N/sHj8bF906Gd+/vjFN39cZodyhk8Hh/TVzBEuT+e6vAw/+Dx+Nje+yeacLr748Pd/XWUBY/H4z/yacXxhXMFYvfPuvQ05j88Hh/V735w/Ggbts331745P+Hx+Kje+y91xdH3T2r4cMHj8YH9LqZy/vHQ99eaH+yc60Z4PD6yv25dWMGS19TtutnidXc8Hh/Zz+JhGSb5p83q6agch3SunH9q/YPH4/F/85ecj1br0GrCGr5fIH0717fD4/H4zqfw+2Ox7aw787B27rf5B4/Hx/XD9wuahm0XaTs8Hh/be+zyzy1fJw+voxx8fwCPx8f0XXTedm/+f46UZLX90P/F4/H4H/2H8R/7jzDGIzD/KwAAAABJRU5ErkJggg=="
       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfQAAAH0AQMAAADxGE3JAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACYklEQVR4nO3dvXHzMAyAYfi+wmVG8CgazR5No2gEly501mcSBPgjxcnFJV50FPkwHQ4EZUXkw7huXdzyw6/tISd7tLwe/LPZqV++4PH40H6uyURXLNnnocb95Z+6Ysrbee7B4/HR/SWvWtVbnCzhLOPwrLvi8Xj84Kc8yPWLnm5SOlp1KHg8Hv/Gy2t49yzUH3h+l7/weHwg72H5565r6kQ+/7TlTA48Ho//zHehK75q/TPndNb4LvB4fGR/EJc89dQMM9dyqO3OvAs8Hh/E1/yzthc+Z7vwSeH9F93uUdMRHo+P7C38wNPULxppuOnstf4pET3/4PH42P6SE07JP7PI/v0T0eHQP7HA4/Ex/bVdIU07trxwIqV/sr2tf/B4PP4vPoFU4TTnp+b9FZ3NBU89MJXtBI/Hh/biF8ZrO9xF9/5sd37C4/FxvcZZ884tD7zhIn5h7AWL1i9N/sHj8bF906Gd+/vjFN39cZodyhk8Hh/TVzBEuT+e6vAw/+Dx+Nje+yeacLr748Pd/XWUBY/H4z/yacXxhXMFYvfPuvQ05j88Hh/V735w/Ggbts331745P+Hx+Kje+y91xdH3T2r4cMHj8YH9LqZy/vHQ99eaH+yc60Z4PD6yv25dWMGS19TtutnidXc8Hh/Zz+JhGSb5p83q6agch3SunH9q/YPH4/F/85ecj1br0GrCGr5fIH0717fD4/H4zqfw+2Ox7aw787B27rf5B4/Hx/XD9wuahm0XaTs8Hh/be+zyzy1fJw+voxx8fwCPx8f0XXTedm/+f46UZLX90P/F4/H4H/2H8R/7jzDGIzD/KwAAAABJRU5ErkJggg=="
     />
-    <text x="1168" y="420" class="body" font-size="18" text-anchor="middle" fill="#6a5d53">
+    <text x="1152" y="414" class="body" font-size="18" text-anchor="middle" fill="#6a5d53">
       luminous-nails.com.au
     </text>
 
-    <g transform="translate(316 100)" text-anchor="middle">
+    <g transform="translate(316 86)" text-anchor="middle">
       <image
         x="171"
         y="0"
