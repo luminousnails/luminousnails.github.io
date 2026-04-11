@@ -15,6 +15,8 @@
 - `combine_reviews.js`: Node script that aggregates review exports from `data/` into root `reviews.json`.
 - `data/google/` and `data/facebook/`: Source review files. Treat these as input data, not presentation files.
 - `DESIGN.md`: Existing visual/design notes for the site.
+- `FLYER.md`: Canonical flyer specification, reproduction guide, and maintenance record for the printable A5 flyer and social image.
+- `flyer/`: Tracked export folder for the latest approved flyer PDF and social images.
 - `README.md`: Review import/update workflow and map URL update instructions.
 
 ## Working Style
@@ -31,6 +33,9 @@
 - The location dropdown, map link addresses, and `mapUrls` / `directMapUrls` in `script.js` must stay in sync.
 - Reviews shown on the site come from root `reviews.json`, which is generated data.
 - `combine_reviews.js` expects Google review files under `data/google/` and optional Facebook data under `data/facebook/reviews.json`.
+- The current flyer implementation is documented in `FLYER.md` and must stay in sync with flyer-visible services, prices, contact details, suburb labels, QR targets, and major visual direction.
+- The flyer is intended to work as both a printable A5 handout and a social media image.
+- The latest approved flyer PDF and PNG should be committed in the `flyer/` subfolder using the canonical filenames documented in `FLYER.md`.
 
 ## Common Tasks
 
@@ -38,6 +43,7 @@
 
 - Usually edit `index.html`.
 - If the change affects service names, verify the booking form still lists the updated names.
+- If the change is visible on the flyer, update `FLYER.md` in the same task.
 
 ### Style or layout changes
 
@@ -56,6 +62,13 @@
 - Run `node combine_reviews.js` from the repo root to regenerate `reviews.json`.
 - Do not hand-edit `reviews.json` unless the task explicitly calls for a one-off data correction.
 
+### Flyer updates
+
+- Read `FLYER.md` before creating, editing, or regenerating the flyer.
+- Any change to flyer-visible services, prices, phone, suburb labels, website, Instagram, QR targets, or major visual direction must update both the canonical flyer source and `FLYER.md` in the same task.
+- While creating or refining the flyer, record design decisions incrementally in `FLYER.md` instead of reconstructing them afterward.
+- When the flyer is exported, replace the tracked latest PDF, PNG, and JPG in `flyer/` and commit them in the same task.
+
 ## Verification
 
 - For static site changes, use a simple local server such as `python3 -m http.server 8000` from repo root and verify in a browser.
@@ -69,6 +82,6 @@
 
 ## Agent Guidance
 
-- Read `README.md` and `DESIGN.md` before making broader structural or content changes.
+- Read `README.md`, `DESIGN.md`, and `FLYER.md` before making broader structural changes or any flyer-related changes.
 - Prefer repo-specific instructions over generic web-project habits.
 - If a request would require adding tooling, large refactors, or changing the content workflow, call that out before proceeding.
