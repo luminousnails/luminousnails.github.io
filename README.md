@@ -46,6 +46,8 @@ This will:
 
 The script keeps older Google snapshots in place. If a review appears in multiple snapshots, the newest snapshot version for that same Google review ID wins. If a review disappears from a newer Takeout, the older locally stored version is still kept in the merged Google master file.
 
+Confirmed Hoda name typo fixes are stored in `data/google/hoda-typo-fixes.json`. The script applies those replacements to generated review text, while leaving the raw imported Google snapshot files unchanged.
+
 If you already imported the latest zip and just want to rebuild `reviews.json`, you can still run:
 
 ```sh
@@ -53,6 +55,20 @@ node combine_reviews.js
 ```
 
 That rebuilds `data/google/master-reviews.json` from all local Google snapshots and then regenerates the root `reviews.json`.
+
+To review fuzzy Hoda typo candidates and add selected ones to the confirmed fixes file, run:
+
+```sh
+node combine_reviews.js --review-hoda-candidates
+```
+
+The script will show numbered candidates such as `Huda -> Hoda` and let you choose which ones to append to `data/google/hoda-typo-fixes.json`.
+
+If you want to accept specific numbered candidates non-interactively, you can also run:
+
+```sh
+node combine_reviews.js --review-hoda-candidates --accept-hoda-candidates 1,2
+```
 
 ### Updating Reviews
 

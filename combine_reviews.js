@@ -5,14 +5,41 @@
 const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
+const readline = require('readline/promises');
 
 const outputFile = path.join(__dirname, 'reviews.json');
 const googleBaseDir = path.join(__dirname, 'data', 'google');
 const googleMasterFile = path.join(googleBaseDir, 'master-reviews.json');
+const hodaTypoFixesFile = path.join(googleBaseDir, 'hoda-typo-fixes.json');
 const facebookReviewsPath = path.join(__dirname, 'data', 'facebook', 'reviews.json');
 const SNAPSHOT_DIR_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
 const LEGACY_SNAPSHOT_ID = '0000-00-00-legacy-root';
-const HODA_NAME_TYPO_PATTERN = /\b(Honda|Hodah)\b/g;
+const HODA_TARGET = 'hoda';
+const HODA_CONTEXT_WORDS = new Set([
+  'visit',
+  'visiting',
+  'visited',
+  'see',
+  'seeing',
+  'saw',
+  'recommend',
+  'recommended',
+  'recommending',
+  'with',
+  'from'
+]);
+const HODA_FOLLOWING_WORDS = new Set([
+  'is',
+  'was',
+  'did',
+  'does',
+  'has'
+]);
+const HODA_FUZZY_EXCLUSIONS = new Set([
+  'hannah',
+  'hilda',
+  'holly'
+]);
 
 function listReviewFiles(dir, options = {}) {
   const { includeRootReviewsJson = true } = options;
@@ -72,7 +99,9 @@ function collectGoogleSources() {
 
 function parseArgs(argv) {
   const options = {
-    googleTakeoutZip: null
+    googleTakeoutZip: null,
+    reviewHodaCandidates: false,
+    acceptHodaCandidates: []
   };
 
   for (let index = 0; index < argv.length; index += 1) {
@@ -83,8 +112,22 @@ function parseArgs(argv) {
       index += 1;
     } else if (arg.startsWith('--google-takeout-zip=')) {
       options.googleTakeoutZip = arg.slice('--google-takeout-zip='.length);
+    } else if (arg === '--review-hoda-candidates') {
+      options.reviewHodaCandidates = true;
+    } else if (arg === '--accept-hoda-candidates') {
+      options.acceptHodaCandidates = (argv[index + 1] || '')
+        .split(',')
+        .map(value => Number.parseInt(value.trim(), 10))
+        .filter(Number.isInteger);
+      index += 1;
+    } else if (arg.startsWith('--accept-hoda-candidates=')) {
+      options.acceptHodaCandidates = arg
+        .slice('--accept-hoda-candidates='.length)
+        .split(',')
+        .map(value => Number.parseInt(value.trim(), 10))
+        .filter(Number.isInteger);
     } else if (arg === '--help' || arg === '-h') {
-      console.log('Usage: node combine_reviews.js [--google-takeout-zip /path/to/takeout.zip]');
+      console.log('Usage: node combine_reviews.js [--google-takeout-zip /path/to/takeout.zip] [--review-hoda-candidates] [--accept-hoda-candidates 1,2]');
       process.exit(0);
     } else if (arg.startsWith('--')) {
       throw new Error(`Unknown option: ${arg}`);
@@ -228,11 +271,109 @@ function importGoogleTakeoutZip(zipPath) {
   return snapshotDir;
 }
 
-function normalizeHodaNameTypos(text) {
-  return (text || '').replace(HODA_NAME_TYPO_PATTERN, 'Hoda');
+function loadHodaTypoFixes() {
+  if (!fs.existsSync(hodaTypoFixesFile)) {
+    return { replacements: {} };
+  }
+
+  const fixes = JSON.parse(fs.readFileSync(hodaTypoFixesFile, 'utf8'));
+  return {
+    replacements: fixes.replacements || {}
+  };
 }
 
-function normalizeGoogleReview(review, context) {
+function escapeRegex(text) {
+  return text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function normalizeHodaNameTypos(text, typoFixes) {
+  let normalizedText = text || '';
+
+  for (const [from, to] of Object.entries(typoFixes.replacements)) {
+    const pattern = new RegExp(`\\b${escapeRegex(from)}\\b`, 'g');
+    normalizedText = normalizedText.replace(pattern, to);
+  }
+
+  return normalizedText;
+}
+
+function levenshteinDistance(left, right) {
+  const rows = left.length + 1;
+  const cols = right.length + 1;
+  const matrix = Array.from({ length: rows }, () => Array(cols).fill(0));
+
+  for (let row = 0; row < rows; row += 1) {
+    matrix[row][0] = row;
+  }
+
+  for (let col = 0; col < cols; col += 1) {
+    matrix[0][col] = col;
+  }
+
+  for (let row = 1; row < rows; row += 1) {
+    for (let col = 1; col < cols; col += 1) {
+      const substitutionCost = left[row - 1] === right[col - 1] ? 0 : 1;
+      matrix[row][col] = Math.min(
+        matrix[row - 1][col] + 1,
+        matrix[row][col - 1] + 1,
+        matrix[row - 1][col - 1] + substitutionCost
+      );
+    }
+  }
+
+  return matrix[left.length][right.length];
+}
+
+function findHodaTypoCandidates(text) {
+  const candidates = [];
+  const matches = [...(text || '').matchAll(/\b[A-Za-z][A-Za-z'-]*\b/g)];
+
+  for (let index = 0; index < matches.length; index += 1) {
+    const word = matches[index][0];
+    const lowerWord = word.toLowerCase();
+
+    if (lowerWord === HODA_TARGET || HODA_FUZZY_EXCLUSIONS.has(lowerWord)) {
+      continue;
+    }
+
+    if (levenshteinDistance(lowerWord, HODA_TARGET) !== 1) {
+      continue;
+    }
+
+    const previousWord = matches[index - 1]?.[0]?.toLowerCase() || '';
+    const nextWord = matches[index + 1]?.[0]?.toLowerCase() || '';
+    const isLikelyContext = HODA_CONTEXT_WORDS.has(previousWord) || HODA_FOLLOWING_WORDS.has(nextWord);
+
+    if (!isLikelyContext) {
+      continue;
+    }
+
+    candidates.push(word);
+  }
+
+  return [...new Set(candidates)];
+}
+
+function buildHodaCandidateSuggestion(word) {
+  if (word.toLowerCase() === 'hodas') {
+    return "Hoda's";
+  }
+
+  return 'Hoda';
+}
+
+function buildHodaCandidateSnippet(text, candidateWord) {
+  const index = text.indexOf(candidateWord);
+  if (index === -1) {
+    return text.slice(0, 80);
+  }
+
+  const start = Math.max(0, index - 30);
+  const end = Math.min(text.length, index + candidateWord.length + 30);
+  return text.slice(start, end);
+}
+
+function normalizeGoogleReview(review, context, typoFixes) {
   const starRatingMap = {
     ONE: 1,
     TWO: 2,
@@ -249,7 +390,7 @@ function normalizeGoogleReview(review, context) {
   return {
     name: review.reviewer?.displayName || 'Anonymous',
     rating,
-    text: normalizeHodaNameTypos(review.comment || ''),
+    text: normalizeHodaNameTypos(review.comment || '', typoFixes),
     date: review.createTime || review.updateTime || '',
     source: 'google',
     profilePic: null,
@@ -264,11 +405,11 @@ function normalizeGoogleReview(review, context) {
   };
 }
 
-function normalizeFacebookReview(review) {
+function normalizeFacebookReview(review, typoFixes) {
   return {
     name: review.name || 'Anonymous',
     rating: review.rating || 5,
-    text: normalizeHodaNameTypos(review.text || ''),
+    text: normalizeHodaNameTypos(review.text || '', typoFixes),
     date: review.date || '',
     source: 'facebook',
     profilePic: review.profilePic || null,
@@ -298,6 +439,8 @@ function shouldReplaceGoogleReview(currentReview, candidateReview) {
 function mergeGoogleReviews() {
   const mergedById = new Map();
   const sources = collectGoogleSources();
+  const typoFixes = loadHodaTypoFixes();
+  const fuzzyCandidates = [];
 
   for (const source of sources) {
     for (const filePath of source.files) {
@@ -310,10 +453,25 @@ function mergeGoogleReviews() {
         const normalizedReview = normalizeGoogleReview(rawReview, {
           snapshotId: source.snapshotId,
           sourceFile: path.relative(__dirname, filePath)
-        });
+        }, typoFixes);
 
         if (!normalizedReview || !normalizedReview.originalId) {
           continue;
+        }
+
+        const hodaCandidates = findHodaTypoCandidates(normalizedReview.text);
+        if (hodaCandidates.length > 0) {
+          for (const candidateWord of hodaCandidates) {
+            fuzzyCandidates.push({
+              candidateWord,
+              suggestedReplacement: buildHodaCandidateSuggestion(candidateWord),
+              name: normalizedReview.name,
+              date: normalizedReview.date,
+              originalId: normalizedReview.originalId,
+              sourceFile: normalizedReview.lastSeenFile,
+              snippet: buildHodaCandidateSnippet(normalizedReview.text, candidateWord)
+            });
+          }
         }
 
         const existingReview = mergedById.get(normalizedReview.originalId);
@@ -340,13 +498,19 @@ function mergeGoogleReviews() {
 
   fs.writeFileSync(googleMasterFile, JSON.stringify(masterOutput, null, 2), 'utf8');
   console.log(`Merged ${mergedReviews.length} Google reviews into ${path.relative(__dirname, googleMasterFile)}`);
+  if (fuzzyCandidates.length > 0) {
+    console.log('Potential Hoda-name typo candidates:');
+    for (const candidate of fuzzyCandidates) {
+      console.log(`- ${candidate.candidateWord} -> ${candidate.suggestedReplacement} | ${candidate.name} | ${candidate.date} | ${candidate.sourceFile}`);
+    }
+  }
 
-  return masterOutput;
+  return { masterOutput, fuzzyCandidates };
 }
 
 function loadGoogleMasterReviews() {
   if (!fs.existsSync(googleMasterFile)) {
-    return mergeGoogleReviews();
+    return mergeGoogleReviews().masterOutput;
   }
 
   return JSON.parse(fs.readFileSync(googleMasterFile, 'utf8'));
@@ -354,6 +518,7 @@ function loadGoogleMasterReviews() {
 
 function buildSiteReviews() {
   const googleMaster = loadGoogleMasterReviews();
+  const typoFixes = loadHodaTypoFixes();
   let allReviews = [...googleMaster.reviews];
 
   if (fs.existsSync(facebookReviewsPath)) {
@@ -362,7 +527,7 @@ function buildSiteReviews() {
       const filteredFacebookReviews = facebookData.reviews.filter(review =>
         review.rating >= 4 && review.name && review.text
       );
-      allReviews = allReviews.concat(filteredFacebookReviews.map(normalizeFacebookReview));
+      allReviews = allReviews.concat(filteredFacebookReviews.map(review => normalizeFacebookReview(review, typoFixes)));
     }
   }
 
@@ -405,15 +570,115 @@ function buildSiteReviews() {
   return output;
 }
 
-function main() {
+function buildCandidateMenu(fuzzyCandidates, typoFixes) {
+  const groupedCandidates = new Map();
+
+  for (const candidate of fuzzyCandidates) {
+    if (typoFixes.replacements[candidate.candidateWord]) {
+      continue;
+    }
+
+    if (!groupedCandidates.has(candidate.candidateWord)) {
+      groupedCandidates.set(candidate.candidateWord, {
+        candidateWord: candidate.candidateWord,
+        suggestedReplacement: candidate.suggestedReplacement,
+        count: 0,
+        examples: []
+      });
+    }
+
+    const group = groupedCandidates.get(candidate.candidateWord);
+    group.count += 1;
+    if (group.examples.length < 2) {
+      group.examples.push(candidate);
+    }
+  }
+
+  return [...groupedCandidates.values()].sort((a, b) => a.candidateWord.localeCompare(b.candidateWord));
+}
+
+async function reviewHodaCandidates(fuzzyCandidates, preselectedIndexes = []) {
+  const typoFixes = loadHodaTypoFixes();
+  const candidateMenu = buildCandidateMenu(fuzzyCandidates, typoFixes);
+
+  if (candidateMenu.length === 0) {
+    console.log('No new Hoda typo candidates to review.');
+    return false;
+  }
+
+  console.log('Review Hoda typo candidates:');
+  candidateMenu.forEach((candidate, index) => {
+    console.log(`[${index + 1}] ${candidate.candidateWord} -> ${candidate.suggestedReplacement} (${candidate.count} match${candidate.count === 1 ? '' : 'es'})`);
+    for (const example of candidate.examples) {
+      console.log(`    ${example.name} | ${example.date} | ${example.snippet}`);
+    }
+  });
+
+  let selectedIndexes = [...new Set(
+    preselectedIndexes
+      .filter(Number.isInteger)
+      .filter(value => value >= 1 && value <= candidateMenu.length)
+  )];
+
+  if (selectedIndexes.length === 0) {
+    if (!process.stdin.isTTY || !process.stdout.isTTY) {
+      throw new Error('The --review-hoda-candidates mode requires an interactive terminal, or pass --accept-hoda-candidates.');
+    }
+
+    const rl = readline.createInterface({
+      input: process.stdin,
+      output: process.stdout
+    });
+
+    try {
+      const answer = await rl.question('Enter candidate numbers to add to hoda-typo-fixes.json (comma-separated), or press Enter to skip: ');
+      selectedIndexes = [...new Set(
+        answer
+          .split(',')
+          .map(value => Number.parseInt(value.trim(), 10))
+          .filter(Number.isInteger)
+          .filter(value => value >= 1 && value <= candidateMenu.length)
+      )];
+    } finally {
+      rl.close();
+    }
+  }
+
+  if (selectedIndexes.length === 0) {
+    console.log('No Hoda typo candidates were added.');
+    return false;
+  }
+
+  for (const selectedIndex of selectedIndexes) {
+    const candidate = candidateMenu[selectedIndex - 1];
+    typoFixes.replacements[candidate.candidateWord] = candidate.suggestedReplacement;
+  }
+
+  fs.writeFileSync(hodaTypoFixesFile, JSON.stringify(typoFixes, null, 2), 'utf8');
+  console.log(`Updated ${path.relative(__dirname, hodaTypoFixesFile)} with ${selectedIndexes.length} replacement${selectedIndexes.length === 1 ? '' : 's'}.`);
+  return true;
+}
+
+async function main() {
   const options = parseArgs(process.argv.slice(2));
 
   if (options.googleTakeoutZip) {
     importGoogleTakeoutZip(options.googleTakeoutZip);
   }
 
-  mergeGoogleReviews();
+  let mergeResult = mergeGoogleReviews();
+
+  if (options.reviewHodaCandidates || options.acceptHodaCandidates.length > 0) {
+    const updatedFixes = await reviewHodaCandidates(mergeResult.fuzzyCandidates, options.acceptHodaCandidates);
+    if (updatedFixes) {
+      mergeResult = mergeGoogleReviews();
+    }
+  }
+
   buildSiteReviews();
 }
 
-main();
+main().catch(error => {
+  console.error(error.message);
+  process.exit(1);
+});
