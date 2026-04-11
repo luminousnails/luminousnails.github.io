@@ -18,6 +18,14 @@ Whenever the flyer is changed and exported:
 2. Commit the updated files to git in the same task.
 3. Update `FLYER.md` with the export date and any notable design changes.
 
+## Export Command
+
+Use the local helper script from the repo root or from this folder:
+
+- `flyer/export_flyer.sh`
+
+It regenerates the canonical PDF, PNG, and JPG from `luminous-nails-pricelist.svg` using `rsvg-convert` and `magick`.
+
 ## Notes
 
 - The PDF is the print version.
