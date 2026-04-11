@@ -12,6 +12,7 @@ const googleMasterFile = path.join(googleBaseDir, 'master-reviews.json');
 const facebookReviewsPath = path.join(__dirname, 'data', 'facebook', 'reviews.json');
 const SNAPSHOT_DIR_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
 const LEGACY_SNAPSHOT_ID = '0000-00-00-legacy-root';
+const HODA_NAME_TYPO_PATTERN = /\b(Honda|Hodah)\b/g;
 
 function listReviewFiles(dir, options = {}) {
   const { includeRootReviewsJson = true } = options;
@@ -227,6 +228,10 @@ function importGoogleTakeoutZip(zipPath) {
   return snapshotDir;
 }
 
+function normalizeHodaNameTypos(text) {
+  return (text || '').replace(HODA_NAME_TYPO_PATTERN, 'Hoda');
+}
+
 function normalizeGoogleReview(review, context) {
   const starRatingMap = {
     ONE: 1,
@@ -244,7 +249,7 @@ function normalizeGoogleReview(review, context) {
   return {
     name: review.reviewer?.displayName || 'Anonymous',
     rating,
-    text: review.comment || '',
+    text: normalizeHodaNameTypos(review.comment || ''),
     date: review.createTime || review.updateTime || '',
     source: 'google',
     profilePic: null,
@@ -263,7 +268,7 @@ function normalizeFacebookReview(review) {
   return {
     name: review.name || 'Anonymous',
     rating: review.rating || 5,
-    text: review.text || '',
+    text: normalizeHodaNameTypos(review.text || ''),
     date: review.date || '',
     source: 'facebook',
     profilePic: review.profilePic || null,
