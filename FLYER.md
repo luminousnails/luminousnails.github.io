@@ -350,6 +350,6 @@ The SVG should remain the canonical working source unless the flyer is deliberat
 
 ## Latest Synced Export
 
-- Export date: `2026-04-12`
-- Notable change: removed `Express manicure with gel polish` so the flyer service list matches the live website manicure section.
-- Follow-up adjustment: moved the `Other Services` subsection up to preserve the same inter-section whitespace used elsewhere in the right-hand card.
+- Export date: `2026-05-07`
+- Notable change: updated Acrylic `Full set with gel polish` to `$65` and `Infill with gel polish` to `$55` so the flyer matches the live website services section.
+- Prior adjustment: moved the `Other Services` subsection up to preserve the same inter-section whitespace used elsewhere in the right-hand card.
