@@ -346,3 +346,5 @@ The full street addresses remain website content, not flyer copy.
   - `flyer/logo-full.png`
 
 The SVG should remain the canonical working source unless the flyer is deliberately re-authored into a different approved master format later.
+
+The current exports were refreshed after the May 2026 Acrylic price update, with no visual design changes.
