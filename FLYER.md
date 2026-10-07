@@ -350,7 +350,6 @@ The SVG should remain the canonical working source unless the flyer is deliberat
 
 ## Latest Synced Export
 
-- Export date: `2026-06-21`
-- Notable change: updated Builder Organic Gel `Full set extension with gel polish` to `$95` and `Full set on natural length nails with gel polish` to `$70` so the flyer matches the live website services section.
-- Prior change: updated Acrylic `Full set with gel polish` to `$65` and `Infill with gel polish` to `$55` so the flyer matches the live website services section.
+- Export date: `2026-10-07`
+- Notable change: synced current website pricing, renamed the deluxe manicure to builder gel, and split the combined Ombré/chrome row into separate Chrome and Ombre prices.
 - Prior adjustment: moved the `Other Services` subsection up to preserve the same inter-section whitespace used elsewhere in the right-hand card.
