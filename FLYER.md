@@ -350,6 +350,6 @@ The SVG should remain the canonical working source unless the flyer is deliberat
 
 ## Latest Synced Export
 
-- Export date: `2026-10-07`
-- Notable change: synced current website pricing, renamed the deluxe manicure to builder gel, and split the combined Ombré/chrome row into separate Chrome and Ombre prices.
+- Export date: `2026-10-20`
+- Notable change: updated Acrylic Full set with gel polish to $80 to match the website.
 - Prior adjustment: moved the `Other Services` subsection up to preserve the same inter-section whitespace used elsewhere in the right-hand card.
